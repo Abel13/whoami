@@ -9,6 +9,8 @@ import {
 } from "react-native";
 import { categories } from "../hooks/useCategoryOptions";
 import { useRouter } from "expo-router";
+import { Feather } from "@expo/vector-icons";
+import { Pressable } from "react-native-gesture-handler";
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -27,6 +29,13 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.menuContainer}>
+        <View style={styles.menu}>
+          <Pressable onPress={() => router.push("/settings")}>
+            <Feather name="settings" size={24} color={"#FFF"} />
+          </Pressable>
+        </View>
+      </View>
       <FlatList
         data={groupedCategories}
         renderItem={({ item }) => (
@@ -76,12 +85,26 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginVertical: 1,
     marginHorizontal: 1,
-    backgroundColor: "#62aaea",
+    backgroundColor: "#0a7ea4",
   },
   buttonText: {
     color: "#FFF",
     fontSize: 24,
     fontWeight: "bold",
     textAlign: "center",
+  },
+  menuContainer: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    zIndex: 1000,
+  },
+  menu: {
+    backgroundColor: "#00000033",
+    flexDirection: "row",
+    paddingTop: 20,
+    paddingLeft: 20,
+    padding: 10,
+    borderBottomEndRadius: 10,
   },
 });

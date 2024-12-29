@@ -1,16 +1,35 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  Button,
+  Vibration,
+  Pressable,
+} from "react-native";
 import { Gyroscope, GyroscopeMeasurement } from "expo-sensors";
 import { Audio } from "expo-av";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { categories, useCategoryOptions } from "../hooks/useCategoryOptions";
+import { useKeepAwake } from "expo-keep-awake";
+import { useSettingsStore } from "@/hooks/useSettingsStore";
+import { Feather } from "@expo/vector-icons";
 
 export default function GameScreen() {
   const { category } = useLocalSearchParams();
+  const {
+    gameDuration,
+    soundEnabled,
+    vibrationEnabled,
+    touchEnabled,
+    gyroscopeEnabled,
+  } = useSettingsStore((state) => state);
   const router = useRouter();
 
+  useKeepAwake();
+
   const [preCountdown, setPreCountdown] = useState(5);
-  const [timeLeft, setTimeLeft] = useState(60);
+  const [timeLeft, setTimeLeft] = useState(gameDuration);
   const [currentWord, setCurrentWord] = useState<string | null>(null);
   const [lastAction, setLastAction] = useState<number>(0);
   const [gyroscopeData, setGyroscopeData] =
@@ -41,7 +60,7 @@ export default function GameScreen() {
   }, [preCountdown]);
 
   useEffect(() => {
-    if (preCountdown === 0) {
+    if (preCountdown === 0 && gyroscopeEnabled) {
       const subscription = Gyroscope.addListener((data) => {
         setGyroscopeData(data);
       });
@@ -55,9 +74,9 @@ export default function GameScreen() {
     if (gyroscopeData && preCountdown === 0 && timeLeft > 0) {
       const { y } = gyroscopeData;
 
-      if (y > 2) {
+      if (y > 4) {
         handleNextWord("correct");
-      } else if (y < -2) {
+      } else if (y < -4) {
         handleNextWord("pass");
       }
     }
@@ -78,7 +97,7 @@ export default function GameScreen() {
         setTimeLeft((prev) => {
           if (prev <= 1) {
             clearInterval(gameTimer);
-            setShouldNavigate(true); // Sinaliza para navegar
+            setShouldNavigate(true);
             return 0;
           }
           return prev - 1;
@@ -90,10 +109,16 @@ export default function GameScreen() {
   }, [preCountdown]);
 
   useEffect(() => {
+    if (timeLeft === 0) handleVibration();
+  }, [timeLeft]);
+
+  useEffect(() => {
     resetRound();
   }, []);
 
   const handleSound = async (type: "pass" | "correct" | "start") => {
+    if (!soundEnabled) return;
+
     let file;
     switch (type) {
       case "pass":
@@ -109,6 +134,10 @@ export default function GameScreen() {
 
     const sound = await Audio.Sound.createAsync(file);
     await sound.sound.playAsync();
+  };
+
+  const handleVibration = () => {
+    if (vibrationEnabled) Vibration.vibrate(200);
   };
 
   const handleNextWord = async (action: "pass" | "correct") => {
@@ -129,6 +158,10 @@ export default function GameScreen() {
     setCurrentWord(nextWord);
   };
 
+  const handleEndGame = () => {
+    setShouldNavigate(true);
+  };
+
   return (
     <View style={styles.container}>
       {preCountdown > 0 ? (
@@ -137,17 +170,34 @@ export default function GameScreen() {
         </Text>
       ) : (
         <View style={styles.container}>
+          {touchEnabled && (
+            <View style={styles.screenButton}>
+              <Pressable
+                style={{ flex: 1 }}
+                onPress={() => handleNextWord("correct")}
+              />
+              <Pressable
+                style={{ flex: 1 }}
+                onPress={() => handleNextWord("pass")}
+              />
+            </View>
+          )}
           <View style={styles.content}>
             <View style={styles.header}>
               <View style={styles.timerContainer}>
                 <Text style={styles.timer}>
-                  {timeLeft.toString().padStart(2, "0")}
+                  {timeLeft
+                    .toString()
+                    .padStart(gameDuration.toString().length, "0")}
                 </Text>
               </View>
               <View style={styles.counters}>
                 <Text style={styles.counter}>Correto: {correctCount}</Text>
                 <Text style={styles.counter}>Passou: {passCount}</Text>
               </View>
+              <Pressable onPress={handleEndGame}>
+                <Feather name="pause" size={35} color={"#FFF"} />
+              </Pressable>
             </View>
 
             <View style={styles.wordContainer}>
@@ -167,6 +217,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "space-around",
     backgroundColor: "#060",
+  },
+  screenButton: {
+    position: "absolute",
+    flex: 1,
+    top: 80,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    flexDirection: "row",
+    zIndex: 1000,
   },
   preTimer: {
     fontSize: 32,
@@ -189,12 +249,12 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     backgroundColor: "#FFF",
-    borderRadius: "50%",
+    borderRadius: 25,
     justifyContent: "center",
     alignItems: "center",
   },
   timer: {
-    fontSize: 26,
+    fontSize: 24,
   },
   wordContainer: {
     flex: 1,

@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  View,
-  Text,
-  FlatList,
-  StyleSheet,
-  Button,
-  Pressable,
-} from "react-native";
+import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 
 export default function ResultScreen() {
@@ -66,6 +59,7 @@ export default function ResultScreen() {
 const styles = StyleSheet.create({
   buttonContainer: {
     height: 50,
+    width: 200,
     backgroundColor: "#0a7ea4",
     borderRadius: 10,
     justifyContent: "center",
@@ -81,7 +75,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 50,
     flexDirection: "row",
     gap: 30,
-    backgroundColor: "#115",
+    backgroundColor: "#123",
   },
   statsContainer: {
     flexDirection: "row",
