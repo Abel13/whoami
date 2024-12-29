@@ -66,7 +66,7 @@ export default function ResultScreen() {
 const styles = StyleSheet.create({
   buttonContainer: {
     height: 50,
-    backgroundColor: "#62aaea",
+    backgroundColor: "#0a7ea4",
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   container: {
+    flex: 1,
     paddingHorizontal: 50,
     flexDirection: "row",
     gap: 30,
