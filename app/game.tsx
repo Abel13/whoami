@@ -8,7 +8,12 @@ import {
   Pressable,
 } from "react-native";
 import { Gyroscope, GyroscopeMeasurement } from "expo-sensors";
-import { Audio } from "expo-av";
+import {
+  Audio,
+  AudioMode,
+  InterruptionModeAndroid,
+  InterruptionModeIOS,
+} from "expo-av";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { categories, useCategoryOptions } from "../hooks/useCategoryOptions";
 import { useKeepAwake } from "expo-keep-awake";
@@ -113,8 +118,27 @@ export default function GameScreen() {
   }, [timeLeft]);
 
   useEffect(() => {
+    configureAudio();
     resetRound();
   }, []);
+
+  async function configureAudio() {
+    try {
+      const defaultMode: AudioMode = {
+        allowsRecordingIOS: false,
+        interruptionModeIOS: InterruptionModeIOS.MixWithOthers,
+        playsInSilentModeIOS: true,
+        staysActiveInBackground: false,
+        interruptionModeAndroid: InterruptionModeAndroid.DuckOthers,
+        shouldDuckAndroid: true,
+        playThroughEarpieceAndroid: true,
+      };
+
+      await Audio.setAudioModeAsync(defaultMode);
+    } catch (error) {
+      // ignore error
+    }
+  }
 
   const handleSound = async (type: "pass" | "correct" | "start") => {
     if (!soundEnabled) return;

@@ -11,12 +11,13 @@ import { categories } from "../hooks/useCategoryOptions";
 import { useRouter } from "expo-router";
 import { Feather } from "@expo/vector-icons";
 import { Pressable } from "react-native-gesture-handler";
+import { useAnalytics } from "@/hooks/useAnalytics";
 
 export default function HomeScreen() {
   const router = useRouter();
   const { width, height } = Dimensions.get("window");
+  const { logEvent } = useAnalytics();
 
-  // Função para agrupar itens em pares
   const groupItems = (data) => {
     const grouped = [];
     for (let i = 0; i < data.length; i += 2) {
@@ -47,12 +48,16 @@ export default function HomeScreen() {
                   styles.button,
                   { width: width * 0.4, height: height * 0.5 },
                 ]}
-                onPress={() =>
+                onPress={() => {
+                  logEvent("button_click", {
+                    button_name: "StartGame",
+                    item: subItem,
+                  });
                   router.push({
                     pathname: "/game",
                     params: { category: subItem },
-                  })
-                }
+                  });
+                }}
               >
                 <Text style={styles.buttonText}>{subItem}</Text>
               </TouchableOpacity>
@@ -60,7 +65,7 @@ export default function HomeScreen() {
           </View>
         )}
         keyExtractor={(_, index) => `group-${index}`}
-        horizontal // Habilita o scroll horizontal
+        horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.flatListContent}
       />
