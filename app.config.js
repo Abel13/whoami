@@ -26,8 +26,8 @@ module.exports = () => {
         adaptiveIcon: {
           foregroundImage: "./assets/images/adaptive-icon.png",
           backgroundColor: "#ffffff",
-          googleServicesFile: GOOGLE_SERVICES_JSON,
         },
+        googleServicesFile: GOOGLE_SERVICES_JSON,
         package: "com.abelb13.whoami",
       },
       web: {
