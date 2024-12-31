@@ -3,6 +3,7 @@ const { GOOGLE_SERVICES_JSON, GOOGLE_SERVICES_PLIST } = process.env;
 module.exports = () => {
   return {
     expo: {
+      owner: "abelb13",
       name: "whoami",
       slug: "whoami",
       version: "1.0.0",
