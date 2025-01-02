@@ -4,7 +4,7 @@ module.exports = () => {
   return {
     expo: {
       owner: "abelb13",
-      name: "whoami",
+      name: "Quem sou eu?",
       slug: "whoami",
       version: "1.0.0",
       orientation: "landscape",
