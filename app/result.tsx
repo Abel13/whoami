@@ -50,6 +50,9 @@ export default function ResultScreen() {
         renderItem={({ item }) => (
           <Text style={[styles.item, styles[item.status]]}>{item.word}</Text>
         )}
+        ListFooterComponent={() => {
+          return <View style={{ height: 50 }} />;
+        }}
         keyExtractor={(item, index) => index.toString()}
       />
     </View>
