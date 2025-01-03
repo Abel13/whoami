@@ -35,7 +35,7 @@ module.exports = () => {
         },
         googleServicesFile: GOOGLE_SERVICES_JSON,
         package: "com.abelb13.whoami",
-        blockedPermissions: ["ACTIVITY_RECOGNITION"],
+        blockedPermissions: ["android.permission.ACTIVITY_RECOGNITION"],
       },
       web: {
         bundler: "metro",

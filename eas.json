@@ -16,6 +16,15 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "abel.o.d@outlook.com",
+        "appleTeamId": "4NQ8JC26HJ",
+        "ascAppId": "6740008221"
+      },
+      "android": {
+        "track": "beta"
+      }
+    }
   }
 }
