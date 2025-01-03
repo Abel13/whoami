@@ -13,6 +13,9 @@ module.exports = () => {
       userInterfaceStyle: "automatic",
       newArchEnabled: true,
       ios: {
+        config: {
+          usesNonExemptEncryption: false,
+        },
         supportsTablet: true,
         bundleIdentifier: "com.abelb13.whoami",
         googleServicesFile: GOOGLE_SERVICES_PLIST,
@@ -20,6 +23,9 @@ module.exports = () => {
           UIBackgroundModes: ["audio"],
           NSMicrophoneUsageDescription:
             "Este aplicativo precisa acessar o microfone para reprodução de áudio.",
+        },
+        entitlements: {
+          "com.apple.developer.game-center": true,
         },
       },
       android: {
@@ -29,6 +35,7 @@ module.exports = () => {
         },
         googleServicesFile: GOOGLE_SERVICES_JSON,
         package: "com.abelb13.whoami",
+        blockedPermissions: ["ACTIVITY_RECOGNITION"],
       },
       web: {
         bundler: "metro",
