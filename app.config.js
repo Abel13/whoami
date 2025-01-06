@@ -6,7 +6,7 @@ module.exports = () => {
       owner: "abelb13",
       name: "Quem sou eu?",
       slug: "whoami",
-      version: "1.0.0",
+      version: "1.0.1",
       orientation: "landscape",
       icon: "./assets/images/icon.png",
       scheme: "whoami",
@@ -20,7 +20,7 @@ module.exports = () => {
         bundleIdentifier: "com.abelb13.whoami",
         googleServicesFile: GOOGLE_SERVICES_PLIST,
         infoPlist: {
-          UIBackgroundModes: ["audio"],
+          UIBackgroundModes: [],
           NSMicrophoneUsageDescription:
             "Este aplicativo precisa acessar o microfone para reprodução de áudio.",
         },
@@ -29,13 +29,13 @@ module.exports = () => {
         },
       },
       android: {
+        blockedPermissions: ["android.permission.ACTIVITY_RECOGNITION"],
         adaptiveIcon: {
           foregroundImage: "./assets/images/adaptive-icon.png",
           backgroundColor: "#ffffff",
         },
         googleServicesFile: GOOGLE_SERVICES_JSON,
         package: "com.abelb13.whoami",
-        blockedPermissions: ["android.permission.ACTIVITY_RECOGNITION"],
       },
       web: {
         bundler: "metro",
