@@ -6,6 +6,8 @@ import {
   Button,
   Vibration,
   Pressable,
+  Animated,
+  useWindowDimensions,
 } from "react-native";
 import { Gyroscope, GyroscopeMeasurement } from "expo-sensors";
 import {
@@ -31,8 +33,11 @@ export default function GameScreen() {
   } = useSettingsStore((state) => state);
   const router = useRouter();
 
+  const window = useWindowDimensions();
   useKeepAwake();
 
+  const [direction, setDirection] = useState(600);
+  const [animation] = useState(new Animated.Value(0));
   const [preCountdown, setPreCountdown] = useState(5);
   const [timeLeft, setTimeLeft] = useState(gameDuration);
   const [currentWord, setCurrentWord] = useState<string | null>(null);
@@ -45,7 +50,9 @@ export default function GameScreen() {
     { word: string; status: string }[]
   >([]);
   const [shouldNavigate, setShouldNavigate] = useState(false);
-
+  const [currentCardColor, setCurrentCardColor] = useState(
+    getRandomDarkColor()
+  );
   const { getNextOption, resetRound } = useCategoryOptions(
     category as keyof typeof categories
   );
@@ -122,6 +129,11 @@ export default function GameScreen() {
     resetRound();
   }, []);
 
+  function getRandomDarkColor() {
+    const randomValue = () => Math.floor(Math.random() * 128); // Gera valores de 0 a 127 para tons escuros
+    return `rgb(${randomValue()}, ${randomValue()}, ${randomValue()})`;
+  }
+
   async function configureAudio() {
     try {
       const defaultMode: AudioMode = {
@@ -164,13 +176,41 @@ export default function GameScreen() {
     if (vibrationEnabled) Vibration.vibrate(200);
   };
 
+  const cardStyle = {
+    transform: [
+      {
+        translateY: animation.interpolate({
+          inputRange: [0, 1],
+          outputRange: [0, direction], // Usa a direção dinâmica definida na lógica
+        }),
+      },
+    ],
+  };
+
   const handleNextWord = async (action: "pass" | "correct") => {
     const now = Date.now();
     if (now - lastAction < 500) return;
     setLastAction(now);
 
+    setDirection(action === "correct" ? -window.height : window.height);
+
+    Animated.sequence([
+      Animated.timing(animation, {
+        toValue: 1,
+        duration: 200,
+        useNativeDriver: true,
+      }),
+      Animated.timing(animation, {
+        toValue: 0,
+        duration: 0,
+        useNativeDriver: true,
+      }),
+    ]).start();
+
     await handleSound(action);
     setPassedWords((prev) => [...prev, { word: currentWord!, status: action }]);
+
+    setCurrentCardColor(getRandomDarkColor());
 
     if (action === "correct") {
       setCorrectCount((prev) => prev + 1);
@@ -216,19 +256,29 @@ export default function GameScreen() {
                 </Text>
               </View>
               <View style={styles.counters}>
-                <Text style={styles.counter}>Correto: {correctCount}</Text>
-                <Text style={styles.counter}>Passou: {passCount}</Text>
+                <Text style={styles.counter}>
+                  Correta: {correctCount.toString().padStart(2, "0")}
+                </Text>
+                <Text style={styles.counter}>
+                  Passa: {passCount.toString().padStart(2, "0")}
+                </Text>
               </View>
               <Pressable onPress={handleEndGame}>
                 <Feather name="pause" size={35} color={"#FFF"} />
               </Pressable>
             </View>
 
-            <View style={styles.wordContainer}>
+            <Animated.View
+              style={[
+                styles.wordCard,
+                cardStyle,
+                { backgroundColor: currentCardColor },
+              ]}
+            >
               <Text style={styles.word}>
                 {currentWord || "Acabou minha criatividade"}
               </Text>
-            </View>
+            </Animated.View>
           </View>
         </View>
       )}
@@ -240,7 +290,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "space-around",
-    backgroundColor: "#060",
+    backgroundColor: "#121212",
   },
   screenButton: {
     position: "absolute",
@@ -260,9 +310,8 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    backgroundColor: "#e32",
     paddingHorizontal: 50,
-    paddingVertical: 20,
+    paddingVertical: 50,
   },
   header: {
     flexDirection: "row",
@@ -280,10 +329,19 @@ const styles = StyleSheet.create({
   timer: {
     fontSize: 24,
   },
-  wordContainer: {
+  wordCard: {
     flex: 1,
-    justifyContent: "center",
+    backgroundColor: "#FFF",
+    padding: 20,
+    borderRadius: 10,
+    elevation: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
     alignItems: "center",
+    marginVertical: 20,
+    justifyContent: "center",
   },
   word: {
     fontSize: 50,
