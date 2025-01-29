@@ -6,7 +6,7 @@ module.exports = () => {
       owner: "abelb13",
       name: "Quem sou eu?",
       slug: "whoami",
-      version: "1.0.1",
+      version: "1.0.2",
       orientation: "landscape",
       icon: "./assets/images/icon.png",
       scheme: "whoami",

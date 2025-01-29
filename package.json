@@ -1,7 +1,7 @@
 {
   "name": "whoami",
   "main": "expo-router/entry",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scheme": "hwoami",
   "scripts": {
     "start": "expo start",
