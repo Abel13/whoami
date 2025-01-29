@@ -85,7 +85,7 @@ export default function GameScreen() {
     if (shouldNavigate) {
       router.dismissTo({
         pathname: "/result",
-        params: { passedWords: JSON.stringify(passedWords) },
+        params: { words: JSON.stringify(passedWords), category },
       });
     }
   }, [shouldNavigate]);

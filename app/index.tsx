@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   Dimensions,
+  TextInput,
 } from "react-native";
 import { categories } from "../hooks/useCategoryOptions";
 import { useRouter } from "expo-router";
@@ -34,6 +35,9 @@ export default function HomeScreen() {
         <View style={styles.menu}>
           <Pressable onPress={() => router.push("/settings")}>
             <Feather name="settings" size={24} color={"#FFF"} />
+          </Pressable>
+          <Pressable onPress={() => router.push("/history")}>
+            <Feather name="list" size={24} color={"#FFF"} />
           </Pressable>
         </View>
       </View>
@@ -76,6 +80,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingVertical: 5,
+    backgroundColor: "#123",
   },
   flatListContent: {
     alignItems: "center",
@@ -88,9 +94,15 @@ const styles = StyleSheet.create({
   button: {
     justifyContent: "center",
     alignItems: "center",
-    marginVertical: 1,
-    marginHorizontal: 1,
+    marginVertical: 5,
+    marginHorizontal: 5,
+    borderRadius: 5,
     backgroundColor: "#0a7ea4",
+    elevation: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
   },
   buttonText: {
     color: "#FFF",
@@ -105,11 +117,21 @@ const styles = StyleSheet.create({
     zIndex: 1000,
   },
   menu: {
-    backgroundColor: "#00000033",
+    gap: 20,
+    backgroundColor: "#A01040",
     flexDirection: "row",
     paddingTop: 20,
     paddingLeft: 20,
     padding: 10,
     borderBottomEndRadius: 10,
+    elevation: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+  },
+  row: {
+    flexDirection: "row",
+    alignItems: "flex-end",
   },
 });

@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useId } from "react";
 import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { useHistoryStore } from "@/hooks/useHistoryStore";
 
 export default function ResultScreen() {
-  const { passedWords } = useLocalSearchParams();
-  const results = JSON.parse(passedWords as string);
+  const { words, category, id } = useLocalSearchParams();
+  const newId = useId();
+
+  const { saveGame } = useHistoryStore((state) => state);
+  const results = JSON.parse(words as string);
 
   const router = useRouter();
 
@@ -19,6 +23,19 @@ export default function ResultScreen() {
   const passPercentage = ((passedWordsCount / totalWords) * 100 || 0).toFixed(
     0
   );
+
+  useEffect(() => {
+    if (words?.length > 0 && !id) {
+      saveGame({
+        id: newId,
+        category: category as string,
+        correctWords: correctWords,
+        passedWords: passedWordsCount,
+        date: new Date(),
+        words: results.map((item) => item),
+      });
+    }
+  }, [words]);
 
   return (
     <View style={styles.container}>
