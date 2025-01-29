@@ -56,7 +56,8 @@ export default function HistoryScreen() {
               padding: 10,
               borderRadius: 4,
               borderWidth: 1,
-              borderColor: "#FFF",
+              borderColor: "#222",
+              backgroundColor: "#2a88",
               alignItems: "center",
               justifyContent: "space-between",
             }}
