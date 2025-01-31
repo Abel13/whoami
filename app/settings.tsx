@@ -31,46 +31,48 @@ export default function SettingsScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Configurações</Text>
 
-      <View style={styles.content}>
-        <View style={styles.setting}>
-          <Text style={styles.label}>Som</Text>
-          <Switch value={soundEnabled} onValueChange={toggleSound} />
-        </View>
+      <View style={{ alignItems: "center", gap: 20 }}>
+        <View style={styles.content}>
+          <View style={styles.setting}>
+            <Text style={styles.label}>Som</Text>
+            <Switch value={soundEnabled} onValueChange={toggleSound} />
+          </View>
 
-        <View style={styles.setting}>
-          <Text style={styles.label}>Vibração</Text>
-          <Switch value={vibrationEnabled} onValueChange={toggleVibration} />
-        </View>
+          <View style={styles.setting}>
+            <Text style={styles.label}>Vibração</Text>
+            <Switch value={vibrationEnabled} onValueChange={toggleVibration} />
+          </View>
 
-        <View style={styles.setting}>
-          <Text style={styles.label}>Giroscópio</Text>
-          <Switch value={gyroscopeEnabled} onValueChange={toggleGyroscope} />
-        </View>
+          <View style={styles.setting}>
+            <Text style={styles.label}>Giroscópio</Text>
+            <Switch value={gyroscopeEnabled} onValueChange={toggleGyroscope} />
+          </View>
 
-        <View style={styles.setting}>
-          <Text style={styles.label}>Toque</Text>
-          <Switch value={touchEnabled} onValueChange={toggleTouch} />
+          <View style={styles.setting}>
+            <Text style={styles.label}>Toque</Text>
+            <Switch value={touchEnabled} onValueChange={toggleTouch} />
+          </View>
         </View>
+        <View style={styles.content}>
+          <View style={styles.setting}>
+            <Text style={styles.label}>
+              Tempo de Duração do Jogo: {gameDuration} segundos
+            </Text>
+            <Slider
+              style={styles.slider}
+              minimumValue={30}
+              maximumValue={300}
+              step={30}
+              value={gameDuration}
+              onValueChange={(value) => setGameDuration(value)}
+            />
+          </View>
+        </View>
+        <View />
+        <Pressable style={styles.buttonContainer} onPress={router.back}>
+          <Text style={styles.buttonText}>Voltar</Text>
+        </Pressable>
       </View>
-      <View style={styles.content}>
-        <View style={styles.setting}>
-          <Text style={styles.label}>
-            Tempo de Duração do Jogo: {gameDuration} segundos
-          </Text>
-          <Slider
-            style={styles.slider}
-            minimumValue={30}
-            maximumValue={300}
-            step={30}
-            value={gameDuration}
-            onValueChange={(value) => setGameDuration(value)}
-          />
-        </View>
-      </View>
-      <View />
-      <Pressable style={styles.buttonContainer} onPress={router.back}>
-        <Text style={styles.buttonText}>Voltar</Text>
-      </Pressable>
     </View>
   );
 }
@@ -79,6 +81,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 50,
+    paddingVertical: 50,
     backgroundColor: "#123",
     gap: 20,
   },

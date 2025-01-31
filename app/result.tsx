@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect, useId } from "react";
 import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { useHistoryStore } from "@/hooks/useHistoryStore";
 
 export default function ResultScreen() {
-  const { passedWords } = useLocalSearchParams();
-  const results = JSON.parse(passedWords as string);
+  const { words, category, id } = useLocalSearchParams();
+  const newId = useId();
+
+  const { saveGame } = useHistoryStore((state) => state);
+  const results = JSON.parse(words as string);
 
   const router = useRouter();
 
-  // Calcula estatísticas
   const totalWords = results.length;
   const correctWords = results.filter(
     (item) => item.status === "correct"
@@ -16,12 +19,27 @@ export default function ResultScreen() {
   const passedWordsCount = results.filter(
     (item) => item.status === "pass"
   ).length;
-  const correctPercentage = ((correctWords / totalWords) * 100).toFixed(1);
-  const passPercentage = ((passedWordsCount / totalWords) * 100).toFixed(1);
+  const correctPercentage = ((correctWords / totalWords) * 100 || 0).toFixed(0);
+  const passPercentage = ((passedWordsCount / totalWords) * 100 || 0).toFixed(
+    0
+  );
+
+  useEffect(() => {
+    if (words?.length > 0 && !id) {
+      saveGame({
+        id: newId,
+        category: category as string,
+        correctWords: correctWords,
+        passedWords: passedWordsCount,
+        date: new Date(),
+        words: results.map((item) => item),
+      });
+    }
+  }, [words]);
 
   return (
     <View style={styles.container}>
-      <View>
+      <View style={{ alignItems: "center" }}>
         <View style={styles.statsContainer}>
           <View style={[styles.statCard, { backgroundColor: "#d4edda" }]}>
             <Text style={styles.statTitle}>Acertos</Text>
@@ -76,6 +94,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 50,
+    paddingVertical: 50,
     flexDirection: "row",
     gap: 30,
     backgroundColor: "#123",
