@@ -20,6 +20,7 @@ module.exports = () => {
         bundleIdentifier: "com.abelb13.whoami",
         googleServicesFile: GOOGLE_SERVICES_PLIST,
         infoPlist: {
+          ITSAppUsesNonExemptEncryption: false,
           UIBackgroundModes: [],
           NSMicrophoneUsageDescription:
             "Este aplicativo precisa acessar o microfone para reprodução de áudio.",
