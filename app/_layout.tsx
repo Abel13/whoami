@@ -73,7 +73,7 @@ export default function RootLayout() {
         />
         <Stack.Screen name="+not-found" />
       </Stack>
-      <StatusBar style="auto" hidden={true} />
+      <StatusBar style="auto" hidden />
     </GestureHandlerRootView>
   );
 }

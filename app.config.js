@@ -1,7 +1,7 @@
 export default {
-  name: "whoami",
+  name: "Quem sou eu?",
   slug: "whoami",
-  version: "1.0.0",
+  version: "1.0.3",
   orientation: "landscape",
   icon: "./assets/images/icon.png",
   scheme: "whoami",
@@ -14,11 +14,10 @@ export default {
   assetBundlePatterns: ["**/*"],
   ios: {
     supportsTablet: true,
-    bundleIdentifier: "com.whoami.app",
+    bundleIdentifier: "com.abelb13.whoami",
     config: {
       usesNonExemptEncryption: false,
     },
-    googleServicesFile: process.env.GOOGLE_SERVICES_PLIST,
     infoPlist: {
       ITSAppUsesNonExemptEncryption: false,
       UIViewControllerBasedStatusBarAppearance: true,
@@ -31,13 +30,13 @@ export default {
     },
   },
   android: {
+    edgeToEdgeEnabled: true,
     blockedPermissions: ["android.permission.ACTIVITY_RECOGNITION"],
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#ffffff",
     },
-    googleServicesFile: process.env.GOOGLE_SERVICES_JSON,
-    package: "com.whoami.app",
+    package: "com.abelb13.whoami",
   },
   web: {
     bundler: "metro",
@@ -45,6 +44,15 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
   plugins: [
+    [
+      "react-native-edge-to-edge",
+      {
+        android: {
+          parentTheme: "Default",
+          enforceNavigationBarContrast: false,
+        },
+      },
+    ],
     "expo-router",
     [
       "expo-build-properties",
