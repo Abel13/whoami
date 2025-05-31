@@ -37,62 +37,64 @@ export default function SettingsScreen() {
         <Text style={styles.title}>Configurações</Text>
       </View>
       <View style={styles.card}>
-        <View style={styles.option}>
-          <Text style={styles.label}>🔊 Som</Text>
-          <Switch
-            value={soundEnabled}
-            onValueChange={toggleSound}
-            trackColor={{ true: "#f5a623", false: "#ccc" }}
-            thumbColor="#fff"
-          />
-        </View>
+        <ScrollView>
+          <View style={styles.option}>
+            <Text style={styles.label}>🔊 Som</Text>
+            <Switch
+              value={soundEnabled}
+              onValueChange={toggleSound}
+              trackColor={{ true: "#f5a623", false: "#ccc" }}
+              thumbColor="#fff"
+            />
+          </View>
 
-        <View style={styles.option}>
-          <Text style={styles.label}>📳 Vibração</Text>
-          <Switch
-            value={vibrationEnabled}
-            onValueChange={toggleVibration}
-            trackColor={{ true: "#f5a623", false: "#ccc" }}
-            thumbColor="#fff"
-          />
-        </View>
+          <View style={styles.option}>
+            <Text style={styles.label}>📳 Vibração</Text>
+            <Switch
+              value={vibrationEnabled}
+              onValueChange={toggleVibration}
+              trackColor={{ true: "#f5a623", false: "#ccc" }}
+              thumbColor="#fff"
+            />
+          </View>
 
-        <View style={styles.option}>
-          <Text style={styles.label}>🧭 Giroscópio</Text>
-          <Switch
-            value={gyroscopeEnabled}
-            onValueChange={toggleGyroscope}
-            trackColor={{ true: "#f5a623", false: "#ccc" }}
-            thumbColor="#fff"
-          />
-        </View>
+          <View style={styles.option}>
+            <Text style={styles.label}>🧭 Giroscópio</Text>
+            <Switch
+              value={gyroscopeEnabled}
+              onValueChange={toggleGyroscope}
+              trackColor={{ true: "#f5a623", false: "#ccc" }}
+              thumbColor="#fff"
+            />
+          </View>
 
-        <View style={styles.option}>
-          <Text style={styles.label}>👆 Toque</Text>
-          <Switch
-            value={touchEnabled}
-            onValueChange={toggleTouch}
-            trackColor={{ true: "#f5a623", false: "#ccc" }}
-            thumbColor="#fff"
-          />
-        </View>
+          <View style={styles.option}>
+            <Text style={styles.label}>👆 Toque</Text>
+            <Switch
+              value={touchEnabled}
+              onValueChange={toggleTouch}
+              trackColor={{ true: "#f5a623", false: "#ccc" }}
+              thumbColor="#fff"
+            />
+          </View>
 
-        <View style={{ marginTop: 24 }}>
-          <Text style={styles.label}>
-            ⏱ Tempo de Jogo: {gameDuration} segundos
-          </Text>
-          <Slider
-            style={styles.slider}
-            minimumValue={30}
-            maximumValue={300}
-            step={10}
-            value={gameDuration}
-            onValueChange={setGameDuration}
-            minimumTrackTintColor="#f5a623"
-            maximumTrackTintColor="#ddd"
-            thumbTintColor="#f5a623"
-          />
-        </View>
+          <View style={{ marginTop: 24 }}>
+            <Text style={styles.label}>
+              ⏱ Tempo de Jogo: {gameDuration} segundos
+            </Text>
+            <Slider
+              style={styles.slider}
+              minimumValue={30}
+              maximumValue={300}
+              step={10}
+              value={gameDuration}
+              onValueChange={setGameDuration}
+              minimumTrackTintColor="#f5a623"
+              maximumTrackTintColor="#ddd"
+              thumbTintColor="#f5a623"
+            />
+          </View>
+        </ScrollView>
       </View>
     </View>
   );
