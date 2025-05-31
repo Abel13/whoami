@@ -15,22 +15,42 @@ import { FlatList } from "react-native-gesture-handler";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingVertical: 20,
-    paddingHorizontal: 50,
-    backgroundColor: "#123",
-    gap: 10,
-  },
-  buttonContainer: {
-    height: 50,
-    width: 200,
-    backgroundColor: "#0a7ea4",
-    borderRadius: 10,
-    justifyContent: "center",
+    backgroundColor: "#d0ebff55",
     alignItems: "center",
+    justifyContent: "center",
+    padding: 10,
   },
-  buttonText: {
-    color: "#FFF",
+  card: {
+    flex: 1,
+    backgroundColor: "#fff",
+
+    width: "100%",
+    maxWidth: 360,
+    shadowColor: "#000",
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 8 },
+    shadowRadius: 10,
+    elevation: 10,
+    gap: 20,
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10,
+  },
+  titleContainer: {
+    width: "100%",
+    maxWidth: 360,
+    flexDirection: "row",
+    padding: 10,
+    gap: 20,
+    backgroundColor: "#3478f6",
+    borderTopEndRadius: 10,
+    borderTopStartRadius: 10,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: "bold",
     textAlign: "center",
+    fontFamily: "Montserrat",
+    color: "#FFF",
   },
 });
 
@@ -41,63 +61,80 @@ export default function HistoryScreen() {
 
   return (
     <View style={styles.container}>
-      <Pressable style={styles.buttonContainer} onPress={router.back}>
-        <Text style={styles.buttonText}>Voltar</Text>
-      </Pressable>
+      <View style={styles.titleContainer}>
+        <Pressable onPress={router.back}>
+          <Feather name="chevron-left" size={24} color="#FFF" />
+        </Pressable>
+        <Text style={styles.title}>Histórico</Text>
+      </View>
+      <View style={styles.card}>
+        <FlatList
+          data={gamesHistory}
+          renderItem={({ item }) => (
+            <TouchableOpacity
+              key={item.id}
+              style={{
+                flex: 1,
+                flexDirection: "row",
+                padding: 10,
+                margin: 10,
+                borderRadius: 4,
+                backgroundColor: "#FFF",
+                alignItems: "center",
+                justifyContent: "space-between",
 
-      <FlatList
-        data={gamesHistory}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            key={item.id}
-            style={{
-              flex: 1,
-              flexDirection: "row",
-              padding: 10,
-              borderRadius: 4,
-              borderWidth: 1,
-              borderColor: "#222",
-              backgroundColor: "#2a88",
-              alignItems: "center",
-              justifyContent: "space-between",
-            }}
-            onPress={() =>
-              router.push({
-                pathname: "/result",
-                params: {
-                  words: JSON.stringify(item.words),
-                  category: item.category,
-                  id: item.id,
-                },
-              })
-            }
-          >
-            <View>
-              <Text
-                style={{ color: "#FFF", fontWeight: "700", marginBottom: 5 }}
-              >
-                {item.category}
-              </Text>
-              <Text style={{ color: "#aaa" }}>
-                {format(item.date, "dd-MMM HH:mm", {
-                  locale: ptBR,
-                })}
-              </Text>
-            </View>
-            <Text style={{ color: "#FFF" }}>{item.words.length} palavras</Text>
-            <Text style={{ color: "#FFF" }}>{item.correctWords} certas</Text>
-            <Text style={{ color: "#FFF" }}>{item.passedWords} passadas</Text>
-            <Feather
-              name="trash-2"
-              size={24}
-              onPress={() => deleteGame(item)}
-              color={"#FFF"}
-            />
-          </TouchableOpacity>
-        )}
-        ItemSeparatorComponent={() => <View style={{ height: 5 }} />}
-        keyExtractor={(_, index) => `game-${index}`}
-      />
+                shadowColor: "#aaa",
+                shadowOpacity: 0.3,
+                shadowOffset: { width: 0, height: 2 },
+                shadowRadius: 2,
+                elevation: 2,
+              }}
+              onPress={() =>
+                router.push({
+                  pathname: "/result",
+                  params: {
+                    words: JSON.stringify(item.words),
+                    category: item.category,
+                    id: item.id,
+                  },
+                })
+              }
+            >
+              <View>
+                <Text
+                  style={{ color: "#333", fontWeight: "700", marginBottom: 5 }}
+                >
+                  {item.category}
+                </Text>
+                <Text style={{ color: "#555" }}>
+                  {format(item.date, "dd-MMM HH:mm", {
+                    locale: ptBR,
+                  })}
+                </Text>
+              </View>
+              <View>
+                <Text style={{ color: "#888" }}>
+                  {item.words.length} palavras
+                </Text>
+                <Text style={{ color: "#888" }}>
+                  {item.correctWords} certas
+                </Text>
+                <Text style={{ color: "#888" }}>
+                  {item.passedWords} passadas
+                </Text>
+              </View>
+              <Feather
+                name="trash-2"
+                size={24}
+                onPress={() => deleteGame(item)}
+                color={"#a33a4a"}
+              />
+            </TouchableOpacity>
+          )}
+          ItemSeparatorComponent={() => <View style={{ height: 5 }} />}
+          keyExtractor={(_, index) => `game-${index}`}
+        />
+      </View>
     </View>
   );
 }

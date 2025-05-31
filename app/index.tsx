@@ -1,69 +1,70 @@
 import React from "react";
+import { router } from "expo-router";
+
 import {
   View,
-  Text,
   FlatList,
   TouchableOpacity,
   StyleSheet,
+  Text,
   Dimensions,
-  TextInput,
 } from "react-native";
-import { categories } from "../hooks/useCategoryOptions";
-import { useRouter } from "expo-router";
-import { Feather } from "@expo/vector-icons";
-import { Pressable } from "react-native-gesture-handler";
-import { useAnalytics } from "@/hooks/useAnalytics";
+import { categories, CategoryOptions } from "../hooks/useCategoryOptions";
+import { MenuSlideIn } from "@/components/MenuSlideIn";
+import { Image } from "expo-image";
+import { useAmplitude } from "@/hooks/useAmplitude";
 
 export default function HomeScreen() {
-  const router = useRouter();
-  const { width, height } = Dimensions.get("window");
-  const { logEvent } = useAnalytics();
-
+  const { height } = Dimensions.get("window");
+  const { gameStarted } = useAmplitude();
   const groupItems = (data) => {
-    const grouped = [];
-    for (let i = 0; i < data.length; i += 2) {
-      grouped.push(data.slice(i, i + 2));
+    const grouped: CategoryOptions[][] = [];
+    for (let i = 0; i < data.length; i += 3) {
+      grouped.push(data.slice(i, i + 3));
     }
     return grouped;
   };
 
-  const groupedCategories = groupItems(Object.keys(categories));
+  const groupedCategories = groupItems(categories);
 
   return (
     <View style={styles.container}>
-      <View style={styles.menuContainer}>
-        <View style={styles.menu}>
-          <Pressable onPress={() => router.push("/settings")}>
-            <Feather name="settings" size={24} color={"#FFF"} />
-          </Pressable>
-          <Pressable onPress={() => router.push("/history")}>
-            <Feather name="list" size={24} color={"#FFF"} />
-          </Pressable>
-        </View>
-      </View>
+      <MenuSlideIn />
       <FlatList
         data={groupedCategories}
         renderItem={({ item }) => (
           <View style={styles.column}>
-            {item.map((subItem, index) => (
+            {item.map((subItem) => (
               <TouchableOpacity
-                key={index}
+                key={subItem.key}
                 style={[
                   styles.button,
-                  { width: width * 0.4, height: height * 0.5 },
+                  {
+                    width: height / 3,
+                    height: height * 0.35,
+                    backgroundColor: subItem.background,
+                  },
                 ]}
                 onPress={() => {
-                  logEvent("button_click", {
-                    button_name: "StartGame",
-                    item: subItem,
-                  });
-                  router.push({
-                    pathname: "/game",
-                    params: { category: subItem },
-                  });
+                  if (subItem.items.length > 0) {
+                    gameStarted(subItem.key);
+                    router.navigate({
+                      pathname: "game",
+                      params: { category: subItem.key },
+                    });
+                  }
                 }}
               >
-                <Text style={styles.buttonText}>{subItem}</Text>
+                {subItem.items.length === 0 && (
+                  <View style={styles.soonContainer}>
+                    <Text style={styles.soonText}>EM BREVE</Text>
+                  </View>
+                )}
+                <Image
+                  source={subItem.image}
+                  style={{ width: 70, height: 70 }}
+                />
+                <Text style={styles.buttonText}>{subItem.name}</Text>
               </TouchableOpacity>
             ))}
           </View>
@@ -80,8 +81,6 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingVertical: 5,
-    backgroundColor: "#123",
   },
   flatListContent: {
     alignItems: "center",
@@ -92,46 +91,35 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   button: {
+    padding: 10,
     justifyContent: "center",
     alignItems: "center",
-    marginVertical: 5,
-    marginHorizontal: 5,
-    borderRadius: 5,
-    backgroundColor: "#0a7ea4",
-    elevation: 5,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 5 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
   },
   buttonText: {
     color: "#FFF",
-    fontSize: 24,
-    fontWeight: "bold",
     textAlign: "center",
-  },
-  menuContainer: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    zIndex: 1000,
-  },
-  menu: {
-    gap: 20,
-    backgroundColor: "#A01040",
-    flexDirection: "row",
-    paddingTop: 20,
-    paddingLeft: 20,
-    padding: 10,
-    borderBottomEndRadius: 10,
-    elevation: 5,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 5 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
+    fontSize: 12,
+    fontFamily: "Montserrat",
+    fontWeight: 600,
+    textShadowColor: "#555",
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
   row: {
     flexDirection: "row",
     alignItems: "flex-end",
   },
+  soonContainer: {
+    backgroundColor: "#f44",
+    paddingHorizontal: 5,
+    paddingVertical: 2,
+    borderRadius: 4,
+    alignSelf: "flex-end",
+    shadowColor: "#000",
+    shadowOpacity: 0.3,
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  soonText: { fontSize: 8, fontWeight: 600, color: "#fcc" },
 });
