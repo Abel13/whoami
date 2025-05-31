@@ -1,37 +1,28 @@
-import {
-  DarkTheme,
-  DefaultTheme,
-  ThemeProvider,
-} from "@react-navigation/native";
 import { useFonts } from "expo-font";
-import { Stack, useRootNavigationState } from "expo-router";
+import { Stack, usePathname, useGlobalSearchParams, Slot } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
 import "react-native-reanimated";
 
-import { useColorScheme } from "@/hooks/useColorScheme";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { useAnalytics } from "@/hooks/useAnalytics";
+import { Platform } from "react-native";
+import { init } from "@amplitude/analytics-react-native";
 
 SplashScreen.preventAutoHideAsync();
+init(process.env.EXPO_PUBLIC_AMPLITUDE_API_KEY || "");
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    SpaceMono: require("../assets/fonts/Montserrat.ttf"),
   });
-
-  const { logScreenView } = useAnalytics();
-
-  const { routes } = useRootNavigationState();
-
-  useEffect(() => {
-    if (routes) {
-      logScreenView(routes[routes.length - 1].name);
-    }
-  }, [routes]);
+  const screenOptions =
+    Platform.OS === "android"
+      ? {
+          statusBarHidden: true,
+        }
+      : {};
 
   useEffect(() => {
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
@@ -49,16 +40,40 @@ export default function RootLayout() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-        <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index" />
-          <Stack.Screen name="game" />
-          <Stack.Screen name="result" />
-          <Stack.Screen name="settings" />
-          <Stack.Screen name="+not-found" />
-        </Stack>
-        <StatusBar style="auto" />
-      </ThemeProvider>
+      <Stack
+        screenOptions={{
+          ...screenOptions,
+          headerShown: false,
+          navigationBarHidden: true,
+          autoHideHomeIndicator: true,
+        }}
+      >
+        <Stack.Screen name="index" />
+        <Stack.Screen name="game" />
+        <Stack.Screen
+          name="result"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "transparentModal",
+          }}
+        />
+        <Stack.Screen
+          name="history"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "transparentModal",
+          }}
+        />
+        <Stack.Screen
+          name="settings"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "transparentModal",
+          }}
+        />
+        <Stack.Screen name="+not-found" />
+      </Stack>
+      <StatusBar style="auto" hidden={true} />
     </GestureHandlerRootView>
   );
 }

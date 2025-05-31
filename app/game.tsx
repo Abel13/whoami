@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useId } from "react";
+import { router, usePathname, useGlobalSearchParams, Slot } from "expo-router";
 import { View, Text, StyleSheet, Vibration, Pressable } from "react-native";
 import { Gyroscope, GyroscopeMeasurement } from "expo-sensors";
-import { useLocalSearchParams, useRouter } from "expo-router";
-import { categories, useCategoryOptions } from "../hooks/useCategoryOptions";
+import { useCategoryOptions } from "../hooks/useCategoryOptions";
 import { useKeepAwake } from "expo-keep-awake";
 import { useSettingsStore } from "@/hooks/useSettingsStore";
 import { Feather } from "@expo/vector-icons";
@@ -12,7 +12,8 @@ import { useAudioConfig, useSound } from "@/hooks/useAudioConfig";
 import { useCardAnimation } from "@/hooks/useCardAnimation";
 
 export default function GameScreen() {
-  const { category } = useLocalSearchParams();
+  const params = useGlobalSearchParams();
+  const category: string = params.category;
   const {
     gameDuration,
     soundEnabled,
@@ -21,7 +22,6 @@ export default function GameScreen() {
     gyroscopeEnabled,
   } = useSettingsStore((state) => state);
 
-  const router = useRouter();
   const { animateCard, getCardStyle, currentCardColor } = useCardAnimation();
 
   useAudioConfig();
@@ -40,9 +40,7 @@ export default function GameScreen() {
     { word: string; status: string }[]
   >([]);
   const [shouldNavigate, setShouldNavigate] = useState(false);
-  const { getNextOption, resetRound } = useCategoryOptions(
-    category as keyof typeof categories
-  );
+  const { getNextOption, resetRound } = useCategoryOptions(category);
 
   useEffect(() => {
     if (preCountdown === 3) playSound("start");
@@ -84,8 +82,11 @@ export default function GameScreen() {
   useEffect(() => {
     if (shouldNavigate) {
       router.dismissTo({
-        pathname: "/result",
-        params: { words: JSON.stringify(passedWords), category },
+        pathname: "result",
+        params: {
+          words: JSON.stringify(passedWords),
+          category,
+        },
       });
     }
   }, [shouldNavigate]);
