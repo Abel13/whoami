@@ -6,7 +6,6 @@ import "react-native-reanimated";
 
 import * as ScreenOrientation from "expo-screen-orientation";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { Platform } from "react-native";
 import { init } from "@amplitude/analytics-react-native";
 
 SplashScreen.preventAutoHideAsync();
