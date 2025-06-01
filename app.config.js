@@ -6,13 +6,9 @@ export default {
   icon: "./assets/images/icon.png",
   scheme: "whoami",
   userInterfaceStyle: "automatic",
-  splash: {
-    image: "./assets/images/splash.png",
-    resizeMode: "contain",
-    backgroundColor: "#ffffff",
-  },
   assetBundlePatterns: ["**/*"],
   ios: {
+    requireFullScreen: true,
     supportsTablet: true,
     bundleIdentifier: "com.abelb13.whoami",
     config: {
@@ -44,6 +40,19 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
   plugins: [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        backgroundColor: "#FFF",
+        image: "./assets/images/splash.png",
+        dark: {
+          image: "./assets/images/splash.png",
+          backgroundColor: "#000000",
+        },
+        imageWidth: 200,
+      },
+    ],
     [
       "react-native-edge-to-edge",
       {
@@ -53,7 +62,12 @@ export default {
         },
       },
     ],
-    "expo-router",
+    [
+      "expo-screen-orientation",
+      {
+        initialOrientation: "LANDSCAPE_RIGHT",
+      },
+    ],
     [
       "expo-build-properties",
       {

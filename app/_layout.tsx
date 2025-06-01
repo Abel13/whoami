@@ -1,5 +1,5 @@
 import { useFonts } from "expo-font";
-import { Stack, usePathname, useGlobalSearchParams, Slot } from "expo-router";
+import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
@@ -24,15 +24,21 @@ export default function RootLayout() {
         }
       : {};
 
-  useEffect(() => {
-    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
-  }, []);
+  async function changeScreenOrientation() {
+    await ScreenOrientation.lockAsync(
+      ScreenOrientation.OrientationLock.LANDSCAPE_RIGHT
+    );
+  }
 
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
     }
   }, [loaded]);
+
+  useEffect(() => {
+    changeScreenOrientation();
+  }, []);
 
   if (!loaded) {
     return null;
@@ -46,6 +52,8 @@ export default function RootLayout() {
           headerShown: false,
           navigationBarHidden: true,
           autoHideHomeIndicator: true,
+          statusBarHidden: true,
+          orientation: "landscape_right",
         }}
       >
         <Stack.Screen name="index" />
@@ -73,8 +81,6 @@ export default function RootLayout() {
         />
         <Stack.Screen name="+not-found" />
       </Stack>
-
-      <StatusBar style="auto" hidden />
     </GestureHandlerRootView>
   );
 }
