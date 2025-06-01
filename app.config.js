@@ -40,6 +40,15 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
   plugins: [
+    [
+      "react-native-edge-to-edge",
+      {
+        android: {
+          parentTheme: "Default",
+          enforceNavigationBarContrast: false,
+        },
+      },
+    ],
     "expo-router",
     [
       "expo-splash-screen",
