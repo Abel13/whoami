@@ -1,7 +1,7 @@
 export default {
   name: "Quem sou eu?",
   slug: "whoami",
-  version: "1.0.3",
+  version: "1.0.4",
   orientation: "landscape",
   icon: "./assets/images/icon.png",
   scheme: "whoami",
@@ -74,7 +74,7 @@ export default {
     [
       "expo-screen-orientation",
       {
-        initialOrientation: "LANDSCAPE_RIGHT",
+        initialOrientation: "LANDSCAPE_LEFT",
       },
     ],
     [

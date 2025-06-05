@@ -7,18 +7,21 @@ import "react-native-reanimated";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { init } from "@amplitude/analytics-react-native";
+import { useAmplitude } from "@/hooks/useAmplitude";
 
 SplashScreen.preventAutoHideAsync();
 init(process.env.EXPO_PUBLIC_AMPLITUDE_API_KEY || "");
 
 export default function RootLayout() {
+  const { appOpen } = useAmplitude();
+
   const [loaded] = useFonts({
     SpaceMono: require("../assets/fonts/Montserrat.ttf"),
   });
 
   async function changeScreenOrientation() {
     await ScreenOrientation.lockAsync(
-      ScreenOrientation.OrientationLock.LANDSCAPE_RIGHT
+      ScreenOrientation.OrientationLock.LANDSCAPE_LEFT
     );
   }
 
@@ -29,6 +32,7 @@ export default function RootLayout() {
   }, [loaded]);
 
   useEffect(() => {
+    appOpen();
     changeScreenOrientation();
   }, []);
 
@@ -44,7 +48,7 @@ export default function RootLayout() {
           navigationBarHidden: true,
           autoHideHomeIndicator: true,
           statusBarHidden: true,
-          orientation: "landscape_right",
+          orientation: "landscape_left",
         }}
       >
         <Stack.Screen name="index" />
@@ -65,6 +69,13 @@ export default function RootLayout() {
         />
         <Stack.Screen
           name="settings"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "transparentModal",
+          }}
+        />
+        <Stack.Screen
+          name="about"
           options={{
             animation: "slide_from_bottom",
             presentation: "transparentModal",

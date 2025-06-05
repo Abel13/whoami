@@ -7,12 +7,12 @@ import { useRouter } from "expo-router";
 
 export function MenuSlideIn() {
   const [menuVisible, setMenuVisible] = useState(false);
-  const menuAnimation = useRef(new Animated.Value(-90)).current;
+  const menuAnimation = useRef(new Animated.Value(-130)).current;
   const router = useRouter();
 
   const toggleMenu = () => {
     Animated.timing(menuAnimation, {
-      toValue: menuVisible ? -90 : 0,
+      toValue: menuVisible ? -130 : 0,
       duration: 300,
       useNativeDriver: false,
     }).start();
@@ -23,14 +23,35 @@ export function MenuSlideIn() {
     <Animated.View style={[styles.menuContainer, { left: menuAnimation }]}>
       <View style={[styles.menu, styles.row]}>
         <View style={styles.row}>
-          <Pressable onPress={() => router.push("/settings")}>
+          <Pressable
+            style={styles.pressable}
+            onPress={() => {
+              router.push("/settings");
+              toggleMenu();
+            }}
+          >
             <Feather name="settings" size={24} color={"#FFF"} />
           </Pressable>
-          <Pressable onPress={() => router.push("/history")}>
+          <Pressable
+            style={styles.pressable}
+            onPress={() => {
+              router.push("/history");
+              toggleMenu();
+            }}
+          >
             <Feather name="list" size={24} color={"#FFF"} />
           </Pressable>
+          <Pressable
+            style={styles.pressable}
+            onPress={() => {
+              router.push("/about");
+              toggleMenu();
+            }}
+          >
+            <Feather name="info" size={24} color={"#FFF"} />
+          </Pressable>
         </View>
-        <Pressable onPress={toggleMenu}>
+        <Pressable style={styles.pressable} onPress={toggleMenu}>
           <Feather
             name={menuVisible ? "chevron-left" : "chevron-right"}
             size={24}
@@ -52,12 +73,15 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     gap: 10,
   },
+  pressable: {
+    padding: 10,
+    paddingInline: 2,
+  },
   menu: {
     alignItems: "center",
     backgroundColor: "#095040cc",
     paddingHorizontal: 10,
     paddingLeft: 30,
-    padding: 10,
     borderBottomEndRadius: 10,
     borderTopEndRadius: 10,
     elevation: 5,
