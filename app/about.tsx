@@ -1,4 +1,8 @@
+import ModalView from "@/components/templates/ModalView";
 import { useAmplitude } from "@/hooks/useAmplitude";
+import { useAptabase } from "@/hooks/useAptabase";
+import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
+import { useVexo } from "@/hooks/useVexo";
 import { Feather } from "@expo/vector-icons";
 import { nativeApplicationVersion } from "expo-application";
 import { router } from "expo-router";
@@ -13,96 +17,73 @@ import {
 } from "react-native";
 
 export default function AboutScreen() {
-  const { bmc } = useAmplitude();
+  const { bmc: bmcAmplitude } = useAmplitude();
+  const { bmc: bmcAptabase } = useAptabase();
+  const { bmc: bmcPostHog } = usePostHogAnalytics();
+  const { bmc: bmcVexo } = useVexo();
 
   return (
-    <View style={styles.container}>
-      <View style={styles.titleContainer}>
-        <Pressable style={{ padding: 10 }} onPress={router.back}>
-          <Feather name="chevron-left" size={24} color="#FFF" />
-        </Pressable>
-        <Text style={styles.title}>Sobre</Text>
-      </View>
-      <View style={styles.card}>
-        <ScrollView>
-          <View style={styles.scrollContent}>
-            <View style={styles.imageContainer}>
-              <Image
-                style={{
-                  borderRadius: 10,
-                  width: 100,
-                  height: 100,
-                }}
-                source={require("@/assets/images/icon.png")}
-                width={100}
-                height={100}
-                resizeMode="cover"
-              />
-            </View>
-            <View style={styles.itemContainer}>
-              <Text style={styles.itemTitle}>Quem sou eu?</Text>
-            </View>
-            <View style={styles.itemContainer}>
-              <Text style={styles.itemTitle}>Versão:</Text>
-              <Text style={styles.itemValue}>{nativeApplicationVersion}</Text>
-            </View>
-            <View />
-            <View />
-            <Text style={styles.itemValue}>
-              Apoie meu trabalho com um café ☕ (opcional)
-            </Text>
-            <Pressable
-              onPress={() => {
-                bmc();
-                Linking.openURL("https://www.buymeacoffee.com/abeldutraui");
+    <ModalView title="Sobre">
+      <ScrollView>
+        <View style={styles.scrollContent}>
+          <View style={styles.imageContainer}>
+            <Image
+              style={{
+                borderRadius: 10,
+                width: 100,
+                height: 100,
               }}
-            >
-              <Image
-                source={{
-                  uri: "https://cdn.buymeacoffee.com/buttons/v2/default-blue.png",
-                }}
-                style={{ width: 125, height: 40 }}
-                width={145}
-                resizeMode="contain"
-              />
-            </Pressable>
-            <View />
-            <View />
-            <View style={styles.itemContainer}>
-              <Text style={styles.itemValue}>{"contact@abeldutraui.me"}</Text>
-            </View>
-            <View style={styles.itemContainer}>
-              <Text style={styles.itemValue}>{"Copyright © 2025"}</Text>
-            </View>
+              source={require("@/assets/images/icon.png")}
+              width={100}
+              height={100}
+              resizeMode="cover"
+            />
           </View>
-        </ScrollView>
-      </View>
-    </View>
+          <View style={styles.itemContainer}>
+            <Text style={styles.itemTitle}>Quem sou eu?</Text>
+          </View>
+          <View style={styles.itemContainer}>
+            <Text style={styles.itemTitle}>Versão:</Text>
+            <Text style={styles.itemValue}>{nativeApplicationVersion}</Text>
+          </View>
+          <View />
+          <View />
+          <Text style={styles.itemValue}>
+            Apoie meu trabalho com um café ☕ (opcional)
+          </Text>
+          <Pressable
+            onPress={() => {
+              bmcAmplitude();
+              bmcVexo();
+              bmcAptabase();
+              bmcPostHog();
+              Linking.openURL("https://www.buymeacoffee.com/abeldutraui");
+            }}
+          >
+            <Image
+              source={{
+                uri: "https://cdn.buymeacoffee.com/buttons/v2/default-blue.png",
+              }}
+              style={{ width: 125, height: 40 }}
+              width={145}
+              resizeMode="contain"
+            />
+          </Pressable>
+          <View />
+          <View />
+          <View style={styles.itemContainer}>
+            <Text style={styles.itemValue}>{"contact@abeldutraui.me"}</Text>
+          </View>
+          <View style={styles.itemContainer}>
+            <Text style={styles.itemValue}>{"Copyright © 2025"}</Text>
+          </View>
+        </View>
+      </ScrollView>
+    </ModalView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#d0ebff55",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 10,
-  },
-  card: {
-    flex: 1,
-    backgroundColor: "#fff",
-    width: "100%",
-    maxWidth: 360,
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 8 },
-    shadowRadius: 10,
-    elevation: 10,
-    gap: 5,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
-  },
   scrollContent: { alignItems: "center", gap: 5, margin: 10 },
   imageContainer: {
     shadowColor: "#707070",

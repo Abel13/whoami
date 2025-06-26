@@ -1,0 +1,1213 @@
+{
+  "key": "harry-potter",
+  "emoji": "🧙",
+  "name": "Harry Potter",
+  "background": "#33a2b5",
+  "image": "@/assets/images/modules/harry-potter.png",
+  "items": [
+    {
+      "name": "Expelliarmus",
+      "hint": "Feitiço para desarmar o oponente",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lumos",
+      "hint": "Cria luz na ponta da varinha",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Nox",
+      "hint": "Apaga a luz da varinha",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wingardium Leviosa",
+      "hint": "Faz objetos levitarem",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Alohomora",
+      "hint": "Abre portas trancadas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Accio",
+      "hint": "Atrai objetos de longe",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Avada Kedavra",
+      "hint": "Feitiço da morte instantânea",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Crucio",
+      "hint": "Causa dor extrema à vítima",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Imperio",
+      "hint": "Controla as ações de outra pessoa",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Obliviate",
+      "hint": "Apaga memórias",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Petrificus Totalus",
+      "hint": "Paralisa completamente o corpo",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rictusempra",
+      "hint": "Causa cócegas intensas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Stupefy",
+      "hint": "Atordoa o alvo com um raio de energia",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Protego",
+      "hint": "Cria um escudo de proteção",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sectumsempra",
+      "hint": "Causa cortes profundos e invisíveis",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Diffindo",
+      "hint": "Corta objetos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Aguamenti",
+      "hint": "Produz um jato de água",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Reducto",
+      "hint": "Explode ou destrói objetos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Incendio",
+      "hint": "Cria fogo",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Portus",
+      "hint": "Transforma objetos em chaves de portal",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Engorgio",
+      "hint": "Faz objetos crescerem",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Reducio",
+      "hint": "Encolhe objetos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Silencio",
+      "hint": "Silencia o alvo",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Reparo",
+      "hint": "Conserta objetos quebrados",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rennervate",
+      "hint": "Reanima alguém desmaiado",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ferula",
+      "hint": "Cria talas para imobilizar membros feridos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Alvo Dumbledore",
+      "hint": "Diretor de Hogwarts e um dos bruxos mais poderosos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Severo Snape",
+      "hint": "Professor de Poções com passado misterioso",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Voldemort",
+      "hint": "O bruxo das trevas que teme a morte",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Draco Malfoy",
+      "hint": "Aluno da Sonserina e rival de Harry",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Neville Longbottom",
+      "hint": "Aluno atrapalhado que se torna um herói em Hogwarts",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ginny Weasley",
+      "hint": "Irmã mais nova dos Weasley e futura esposa de Harry",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rubeus Hagrid",
+      "hint": "Guarda-caça de Hogwarts com amor por criaturas mágicas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Minerva McGonagall",
+      "hint": "Professora de Transfiguração e vice-diretora de Hogwarts",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sirius Black",
+      "hint": "Padrinho de Harry e ex-prisioneiro de Azkaban",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Remo Lupin",
+      "hint": "Professor de Defesa Contra as Artes das Trevas e lobisomem",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Luna Lovegood",
+      "hint": "Aluna excêntrica e sonhadora da Corvinal",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bellatrix Lestrange",
+      "hint": "Seguidora fiel de Voldemort e perigosa bruxa das trevas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Lucius Malfoy",
+      "hint": "Pai de Draco e influente bruxo da Sonserina",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Narcisa Malfoy",
+      "hint": "Mãe de Draco e irmã de Bellatrix",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Dobby",
+      "hint": "Elfo doméstico que se liberta e ajuda Harry",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dolores Umbridge",
+      "hint": "Professora cruel e rígida do Ministério da Magia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Fred Weasley",
+      "hint": "Gêmeo brincalhão dono da loja de logros com o irmão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "George Weasley",
+      "hint": "Gêmeo brincalhão e inseparável de Fred",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Arthur Weasley",
+      "hint": "Pai da família Weasley, fascinado por objetos trouxas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Molly Weasley",
+      "hint": "Mãe carinhosa da família Weasley",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Percy Weasley",
+      "hint": "Irmão certinho dos Weasley que trabalha no Ministério",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Fleur Delacour",
+      "hint": "Bruxa francesa e campeã de Beauxbatons no Torneio Tribruxo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cho Chang",
+      "hint": "Primeira paixão de Harry, da Corvinal",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cedrico Diggory",
+      "hint": "Aluno da Lufa-Lufa e participante do Torneio Tribruxo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Vítor Krum",
+      "hint": "Apanhador da Bulgária e campeão de Durmstrang",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pedro Pettigrew",
+      "hint": "Traidor dos Potter e servo de Voldemort",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ninfadora Tonks",
+      "hint": "Auror metamorfomaga que muda de aparência",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hogwarts",
+      "hint": "Escola de magia onde Harry e seus amigos estudam",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Beco Diagonal",
+      "hint": "Rua onde bruxos fazem compras antes das aulas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hogsmeade",
+      "hint": "A única vila totalmente bruxa da Grã-Bretanha",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Floresta Proibida",
+      "hint": "Floresta sombria perto de Hogwarts onde muitos segredos se escondem",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Salão Principal",
+      "hint": "Grande refeitório de Hogwarts com velas flutuantes",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Casa dos Gritos",
+      "hint": "Lugar abandonado em Hogsmeade conhecido por barulhos estranhos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lago Negro",
+      "hint": "Lago de Hogwarts que abriga sereianos e lulas gigantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Torre de Astronomia",
+      "hint": "Ponto mais alto de Hogwarts, usado para estudar os astros",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Salão Comunal da Grifinória",
+      "hint": "Espaço onde os alunos corajosos de Hogwarts descansam",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Salão Comunal da Sonserina",
+      "hint": "Sala secreta sob o lago onde ficam os alunos mais ambiciosos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Salão Comunal da Lufa-Lufa",
+      "hint": "Sala acolhedora e próxima das cozinhas de Hogwarts",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Salão Comunal da Corvinal",
+      "hint": "Sala alta acessada com enigmas, dos estudantes mais sábios",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Aula de Poções",
+      "hint": "Aula ministrada no subsolo, onde se prepara poções mágicas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Aula de Defesa Contra as Artes das Trevas",
+      "hint": "Aula onde os alunos aprendem a se proteger de feitiços perigosos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Campo de Quadribol",
+      "hint": "Local onde acontecem os jogos do esporte mais famoso dos bruxos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Toca dos Weasley",
+      "hint": "Casa mágica e desorganizada onde mora a família Weasley",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ministério da Magia",
+      "hint": "Centro de governo do mundo bruxo britânico",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Banco Gringotes",
+      "hint": "Banco dos bruxos, protegido por duendes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caverna do Medalhão",
+      "hint": "Esconderijo de uma Horcrux visitado por Harry e Dumbledore",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Godric's Hollow",
+      "hint": "Cidade onde Harry nasceu e seus pais foram mortos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cemitério de Little Hangleton",
+      "hint": "Local onde Voldemort renasce em O Cálice de Fogo",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Azkaban",
+      "hint": "Temida prisão dos bruxos, guardada por dementadores",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Expecto Patronum",
+      "hint": "Cria um Patrono para afastar Dementadores",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Legilimens",
+      "hint": "Permite ler os pensamentos de outra pessoa",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Occlumens",
+      "hint": "Bloqueia a mente contra invasões mágicas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Muffliato",
+      "hint": "Impede que conversas sejam ouvidas por outros",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Harry Potter",
+      "hint": "O menino que sobreviveu e protagonista da saga",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hermione Granger",
+      "hint": "Brilhante bruxa nascida trouxa e melhor amiga de Harry",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ron Weasley",
+      "hint": "Melhor amigo de Harry e membro da grande família ruiva",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Privet Drive",
+      "hint": "Rua onde Harry morava com os tios trouxas",
+      "difficulty": "hard",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cabana de Hagrid",
+      "hint": "Casa perto da floresta onde vive o guarda-caça de Hogwarts",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "King's Cross",
+      "hint": "Estação onde fica a plataforma 9¾",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bicuço",
+      "hint": "Hipogrifo orgulhoso e inteligente que exige respeito para se aproximar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Testrálio",
+      "hint": "Criatura esquelética alada visível apenas para quem viu a morte",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Dementador",
+      "hint": "Ser sombrio que suga a felicidade e guarda a prisão de Azkaban",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Elfo Doméstico",
+      "hint": "Criatura mágica ligada a famílias bruxas, como Dobby",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Basilisco",
+      "hint": "Serpente gigante que mata com o olhar",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Acromântula",
+      "hint": "Aranha gigante e inteligente, como Aragogue",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Fênix",
+      "hint": "Ave mágica que renasce das cinzas e cura com lágrimas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Diabretes da Cornualha",
+      "hint": "Criaturinhas azuis travessas e difíceis de controlar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bicho-papão",
+      "hint": "Muda de forma para se tornar o maior medo da pessoa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cervo Patronus",
+      "hint": "Forma do Patrono de Harry, representa seu pai",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lobisomem",
+      "hint": "Bruxo que se transforma em fera nas noites de lua cheia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Grindylow",
+      "hint": "Criatura aquática agressiva encontrada em lagos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Nundu",
+      "hint": "Criatura extremamente perigosa que solta hálito venenoso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Explosivins",
+      "hint": "Criaturas mágicas instáveis que explodem com facilidade",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Varinha de Sabugueiro",
+      "hint": "Uma das Relíquias da Morte, considerada a mais poderosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mapa do Maroto",
+      "hint": "Mostra todos os corredores de Hogwarts e quem está neles",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Capa da Invisibilidade",
+      "hint": "Permite que o usuário desapareça completamente",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pedra Filosofal",
+      "hint": "Objeto lendário que produz o elixir da vida",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Diadema de Ravenclaw",
+      "hint": "Um dos objetos transformados em Horcrux por Voldemort",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Espelho de Ojesed",
+      "hint": "Mostra o desejo mais profundo do coração de quem o vê",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Horcruxes",
+      "hint": "Objetos usados por Voldemort para dividir sua alma",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Diário de Tom Riddle",
+      "hint": "Primeira Horcrux destruída por Harry",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Anel de Gaunt",
+      "hint": "Continha parte da alma de Voldemort e amaldiçoava quem o usava",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Medalhão de Slytherin",
+      "hint": "Horcrux escondida no fundo de uma caverna",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Taça de Hufflepuff",
+      "hint": "Horcrux escondida por Bellatrix no cofre de Gringotes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Nagini",
+      "hint": "Serpente de Voldemort e uma de suas Horcruxes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Relíquias da Morte",
+      "hint": "Conjunto de três poderosos artefatos mágicos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pomo de Ouro",
+      "hint": "Bola alada usada no jogo de Quadribol",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vassoura Nimbus 2000",
+      "hint": "Primeira vassoura voadora de Harry em Hogwarts",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vassoura Nimbus 2001",
+      "hint": "Vassoura usada pelo time da Sonserina",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Firebolt",
+      "hint": "Vassoura veloz e moderna, presente de Sirius para Harry",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caldeirão",
+      "hint": "Objeto usado nas aulas de Poções para preparar receitas mágicas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pena de Aparição",
+      "hint": "Instrumento usado para testar candidatos a aparatar",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pena de Fênix",
+      "hint": "Elemento raro usado no núcleo de varinhas poderosas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pensador",
+      "hint": "Recipiente onde se visualizam memórias em forma líquida",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bebedouro Mágico",
+      "hint": "Fonte de água encantada em Hogwarts",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Galeões de Ouro",
+      "hint": "Moeda bruxa de maior valor no mundo mágico",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sicles de Prata",
+      "hint": "Moeda intermediária usada por bruxos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Knuts de Bronze",
+      "hint": "Menor valor monetário no sistema bruxo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave de Portal",
+      "hint": "Objeto encantado que transporta bruxos de um lugar a outro",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Espelho de Dois Lados",
+      "hint": "Permite comunicação visual entre duas pessoas à distância",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Livro Monstruoso dos Monstros",
+      "hint": "Livro que ataca quem tenta abri-lo sem cuidado",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Determinador",
+      "hint": "Dispositivo que mostra a localização de pessoas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Profeta Diário",
+      "hint": "Principal jornal do mundo bruxo",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Relojoeiro de Poções",
+      "hint": "Instrumento usado para controlar o tempo em poções complexas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Varinha do Harry",
+      "hint": "Feita com pena de fênix, irmã da varinha de Voldemort",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Varinha do Voldemort",
+      "hint": "Varinha de teixo que causava medo em muitos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Relógio dos Weasley",
+      "hint": "Relógio mágico que mostra onde está cada membro da família",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pó de Flu",
+      "hint": "Pó mágico que permite viajar entre lareiras",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pomo de Ouro",
+      "hint": "Pequena bola dourada alada que o apanhador precisa capturar",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Balaço",
+      "hint": "Bola usada para derrubar jogadores em partidas de Quadribol",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Goles",
+      "hint": "Bola usada pelos artilheiros para marcar pontos no Quadribol",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Vassoura Voadora",
+      "hint": "Principal meio de transporte e item essencial no Quadribol",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Campo de Quadribol",
+      "hint": "Área oval onde acontecem os jogos entre as casas de Hogwarts",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Artilheiro",
+      "hint": "Jogador responsável por marcar pontos com o goles",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Apanhador",
+      "hint": "Função mais importante: deve capturar o pomo de ouro",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Batedor",
+      "hint": "Defende sua equipe desviando os balaços com um bastão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Goleiro",
+      "hint": "Defende os aros da sua equipe contra os artilheiros",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Alvo Dumbledore",
+      "hint": "Diretor de Hogwarts, sábio e poderoso",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Minerva McGonagall",
+      "hint": "Professora de Transfiguração e vice-diretora",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Severo Snape",
+      "hint": "Professor de Poções com passado misterioso",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Gilderoy Lockhart",
+      "hint": "Vaidoso ex-professor de Defesa Contra as Artes das Trevas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Remo Lupin",
+      "hint": "Professor justo e querido, também um lobisomem",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dolores Umbridge",
+      "hint": "Professora cruel enviada pelo Ministério",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Firenze",
+      "hint": "Centauro que ensina Adivinhação em Hogwarts",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Horace Slughorn",
+      "hint": "Professor de Poções e caçador de alunos promissores",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pomona Sprout",
+      "hint": "Professora de Herbologia e diretora da Lufa-Lufa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sybil Trelawney",
+      "hint": "Professora excêntrica que ensina Adivinhação",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Quirinus Quirrell",
+      "hint": "Primeiro professor de Defesa, escondia um segredo sombrio",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Rubeus Hagrid",
+      "hint": "Professor de Trato das Criaturas Mágicas e ex-guarda-caça",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Aurora Sinistra",
+      "hint": "Professora de Astronomia, pouco vista nos livros",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Filius Flitwick",
+      "hint": "Pequeno professor de Feitiços e diretor da Corvinal",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Madame Hooch",
+      "hint": "Instrutora de voo e árbitra das partidas de Quadribol",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chapéu Seletor",
+      "hint": "Objeto mágico que escolhe a casa dos alunos de Hogwarts",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Homenzinho do Tempo",
+      "hint": "Boneco encantado que reflete o clima no Profeta Diário",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Retratos Mágicos",
+      "hint": "Quadros com figuras que falam e se movem",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Corujas",
+      "hint": "Responsáveis por entregar cartas no mundo bruxo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cachorro de Três Cabeças",
+      "hint": "Criatura que guarda um segredo escondido em Hogwarts",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tri-Bruxo",
+      "hint": "Torneio entre três escolas de magia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Torneio de Feitiçaria",
+      "hint": "Competição de magia de alto risco entre estudantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Varinha do Dragão",
+      "hint": "Varinha com núcleo feito de coração de dragão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Escudo Protego",
+      "hint": "Feitiço defensivo que bloqueia ataques",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Maroto Mapa",
+      "hint": "Mapa que mostra todos em Hogwarts em tempo real",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sapo de Chocolate",
+      "hint": "Doce bruxo que se move e traz figurinhas colecionáveis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Feijãozinho de Todos os Sabores",
+      "hint": "Doce com sabores surpreendentes, até desagradáveis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cerveja Amanteigada",
+      "hint": "Bebida doce e famosa entre os bruxos de Hogsmeade",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Suco de Abóbora",
+      "hint": "Bebida comum servida nas refeições em Hogwarts",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    }
+  ]
+}

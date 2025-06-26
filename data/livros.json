@@ -1,0 +1,773 @@
+{
+  "key": "livros",
+  "emoji": "📚",
+  "name": "Livros",
+  "background": "#8A2BE2",
+  "image": "@/assets/images/modules/livros.png",
+  "items": [
+    {
+      "name": "O Pequeno Príncipe",
+      "hint": "Garoto de outro planeta que viaja por asteroides",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dom Quixote",
+      "hint": "Cavaleiro que confunde moinhos com gigantes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Diário de um Banana",
+      "hint": "Histórias engraçadas de um garoto no colégio",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Orgulho e Preconceito",
+      "hint": "Romance clássico com Elizabeth Bennet e Sr. Darcy",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "1984",
+      "hint": "Sociedade vigiada por um Grande Irmão",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Código Da Vinci",
+      "hint": "Professor de simbologia investiga mistérios históricos",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Menina que Roubava Livros",
+      "hint": "Garota encontra consolo nos livros durante a guerra",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Percy Jackson",
+      "hint": "Filho de Poseidon que vive aventuras com deuses gregos",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Jane Eyre",
+      "hint": "Jovem órfã enfrenta desafios até encontrar amor e liberdade",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Morro dos Ventos Uivantes",
+      "hint": "Paixão intensa e vingança nas charnecas inglesas",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Os Miseráveis",
+      "hint": "Ex-prisioneiro tenta recomeçar enquanto é perseguido",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Crime e Castigo",
+      "hint": "Estudante comete assassinato e entra em crise moral",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Guerra e Paz",
+      "hint": "História épica na Rússia durante a era napoleônica",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Grande Gatsby",
+      "hint": "Milionário misterioso e festas nos anos 20",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Admirável Mundo Novo",
+      "hint": "Futuro onde a liberdade foi trocada por estabilidade",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Moby Dick",
+      "hint": "Capitão obcecado em caçar uma baleia gigante",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Drácula",
+      "hint": "Conde sombrio vindo da Transilvânia",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Frankenstein",
+      "hint": "Criatura feita a partir de partes humanas ganha vida",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Retrato de Dorian Gray",
+      "hint": "Homem que não envelhece, mas seu quadro sim",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Grandes Esperanças",
+      "hint": "Jovem pobre sonha em se tornar um cavalheiro",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Oliver Twist",
+      "hint": "Garoto órfão tenta sobreviver nas ruas de Londres",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "David Copperfield",
+      "hint": "Romance de formação de um jovem escritor inglês",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Letra Escarlate",
+      "hint": "Mulher é punida por adultério na América puritana",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Ilha do Tesouro",
+      "hint": "Caça ao tesouro com piratas e aventuras no mar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dom Casmurro",
+      "hint": "Narrador duvidoso e a eterna dúvida sobre traição",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Memórias Póstumas de Brás Cubas",
+      "hint": "História contada por um defunto autor",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Alienista",
+      "hint": "Médico que transforma uma cidade em um manicômio",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Iracema",
+      "hint": "A virgem dos lábios de mel e a colonização do Ceará",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Guarani",
+      "hint": "Romance indianista com amor e bravura no Brasil colonial",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Senhora",
+      "hint": "Mulher rica compra um marido para se vingar do passado",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Grande Sertão: Veredas",
+      "hint": "Uma travessia épica pelo sertão e pela alma humana",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Capitães da Areia",
+      "hint": "Garotos de rua vivendo aventuras e miséria em Salvador",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Sítio do Pica-Pau Amarelo",
+      "hint": "Lugares mágicos com Dona Benta e seus netos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "O Quinze",
+      "hint": "A seca de 1915 e seus impactos no sertão nordestino",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Vidas Secas",
+      "hint": "Família sertaneja em fuga da seca e da fome",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Auto da Compadecida",
+      "hint": "Dois nordestinos em confusões com cangaceiros e o diabo",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Moreninha",
+      "hint": "Primeiro romance brasileiro com promessa de amor juvenil",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Cortiço",
+      "hint": "A vida num conjunto de habitações populares do Rio",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Macunaíma",
+      "hint": "Herói sem caráter numa viagem fantástica pelo Brasil",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Duna",
+      "hint": "Conflitos políticos e ecológicos em um planeta desértico",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Fundação",
+      "hint": "Uma ciência prevê o futuro e tenta salvar a civilização",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Eu, Robô",
+      "hint": "Contos sobre inteligência artificial e suas leis",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Neuromancer",
+      "hint": "Hackers, megacorporações e realidade virtual",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Snow Crash",
+      "hint": "Metaverso, pizza e samurais digitais",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "2001: Uma Odisseia no Espaço",
+      "hint": "Jornada interplanetária guiada por uma inteligência artificial",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Jogador Número 1",
+      "hint": "Uma caça ao tesouro em um universo virtual cheio de referências",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "O Homem do Castelo Alto",
+      "hint": "E se os nazistas tivessem vencido a Segunda Guerra Mundial?",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Androides Sonham com Ovelhas Elétricas?",
+      "hint": "Caçadores de robôs em um mundo pós-apocalíptico",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Harry Potter",
+      "hint": "O menino que sobreviveu e estuda em uma escola de magia",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "O Senhor dos Anéis",
+      "hint": "Uma jornada épica para destruir um anel poderoso",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "O Hobbit",
+      "hint": "Um hobbit embarca em uma jornada inesperada com anões",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "As Crônicas de Nárnia",
+      "hint": "Crianças descobrem um mundo mágico atrás de um guarda-roupa",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Eragon",
+      "hint": "Um jovem encontra um ovo de dragão e seu destino muda",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Percy Jackson",
+      "hint": "Um semideus moderno enfrenta monstros da mitologia grega",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "O Morro dos Ventos Uivantes",
+      "hint": "Uma paixão sombria em meio aos campos ingleses",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Sol é para Todos",
+      "hint": "Uma história de justiça e inocência no sul dos EUA",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Culpa é das Estrelas",
+      "hint": "Adolescentes se apaixonam enquanto enfrentam uma doença",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Se Eu Ficar",
+      "hint": "Uma jovem entre a vida e a morte após um acidente",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Última Música",
+      "hint": "Uma adolescente descobre o amor e a reconciliação com o pai",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Querido John",
+      "hint": "Um amor posto à prova pela distância e pela guerra",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "P.S. Eu Te Amo",
+      "hint": "Cartas póstumas ajudam uma mulher a recomeçar a vida",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Um Dia",
+      "hint": "Um reencontro anual revela a evolução de duas vidas",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Cinquenta Tons de Cinza",
+      "hint": "Um romance com contratos e jogos de poder emocional",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Orgulho e Preconceito",
+      "hint": "Uma mulher independente desafia convenções em busca do amor",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Emma",
+      "hint": "Uma jovem rica tenta bancar a casamenteira",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Persuasão",
+      "hint": "Um amor perdido que pode ter uma segunda chance",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Razão e Sensibilidade",
+      "hint": "Duas irmãs enfrentam o amor e as dificuldades com atitudes opostas",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Casa dos Espíritos",
+      "hint": "Gerações marcadas por segredos e poderes sobrenaturais",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Código Da Vinci",
+      "hint": "Uma investigação que revela segredos religiosos ocultos",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Anjos e Demônios",
+      "hint": "Uma ameaça secreta vinda do Vaticano e da ciência",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Inferno",
+      "hint": "Um símbolo misterioso leva a uma corrida contra o tempo",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Símbolo Perdido",
+      "hint": "Sociedades secretas e enigmas em Washington D.C.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Mulher na Janela",
+      "hint": "Ela observa os vizinhos... mas será que viu o que pensa?",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Garota Exemplar",
+      "hint": "Um desaparecimento que esconde mais do que aparenta",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Silêncio dos Inocentes",
+      "hint": "Um prisioneiro muito inteligente ajuda a capturar outro",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Colecionador de Ossos",
+      "hint": "Um assassino em série deixa pistas macabras em Nova York",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Os Homens que Não Amavam as Mulheres",
+      "hint": "Uma hacker brilhante ajuda a desvendar um mistério antigo",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Menina que Brincava com Fogo",
+      "hint": "Segredos de um passado sombrio começam a emergir",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Rainha do Castelo de Ar",
+      "hint": "A batalha final por justiça e sobrevivência",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Iluminado",
+      "hint": "Um hotel isolado guarda uma presença aterrorizante",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "It: A Coisa",
+      "hint": "Uma criatura milenar se disfarça de palhaço",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Carrie, a Estranha",
+      "hint": "Uma jovem com poderes especiais é levada ao limite",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Doutor Sono",
+      "hint": "O menino do hotel cresceu e enfrenta novos horrores",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Sapiens",
+      "hint": "Uma jornada pela história da espécie humana",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Homo Deus",
+      "hint": "Reflexões sobre o futuro da humanidade e da tecnologia",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "21 Lições para o Século 21",
+      "hint": "Desafios contemporâneos explicados por um historiador",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Poder do Hábito",
+      "hint": "Como padrões inconscientes moldam nossas ações",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Os Segredos da Mente Milionária",
+      "hint": "Mudanças de mentalidade que levam à prosperidade",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Pai Rico, Pai Pobre",
+      "hint": "Contrastes entre visões sobre dinheiro e sucesso",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Arte da Guerra",
+      "hint": "Estratégias milenares para conflitos e liderança",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Príncipe",
+      "hint": "Manual político sobre poder e influência do século XVI",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Como Fazer Amigos e Influenciar Pessoas",
+      "hint": "Técnicas clássicas de comunicação e persuasão",
+      "difficulty": "easy",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Mindset",
+      "hint": "A diferença entre mentalidade fixa e de crescimento",
+      "difficulty": "medium",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Alice no País das Maravilhas",
+      "hint": "Uma menina curiosa cai em um mundo cheio de absurdos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "A Fantástica Fábrica de Chocolate",
+      "hint": "Um menino ganha um bilhete dourado para visitar um lugar doce e mágico",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Matilda",
+      "hint": "Garotinha muito inteligente com poderes especiais",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "O Grúfalo",
+      "hint": "Criatura imaginária criada por um ratinho esperto",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Harry, o Cão Sujo",
+      "hint": "Um cachorrinho fujão que muda de aparência",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Pedro Coelho",
+      "hint": "Um coelhinho travesso foge para a horta do Sr. McGregor",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "O Gato de Botas",
+      "hint": "Felino esperto que usa calçados e ajuda seu dono a enriquecer",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "A Revolução dos Bichos",
+      "hint": "Animais tomam o poder em uma fazenda com promessas de igualdade",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Metamorfose",
+      "hint": "Homem acorda e se vê transformado em algo inesperado",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Processo",
+      "hint": "Homem é acusado por um sistema que nunca se explica",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Castelo",
+      "hint": "Homem tenta acessar uma autoridade inalcançável",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Fahrenheit 451",
+      "hint": "Num futuro distópico, os livros viram cinzas",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Apanhador no Campo de Centeio",
+      "hint": "Adolescente crítico foge da escola e divaga pela cidade",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Sangue Frio",
+      "hint": "Investigação real e profunda sobre um crime brutal",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Nome da Rosa",
+      "hint": "Assassinatos em um mosteiro levam a investigações com livros proibidos",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Montanha Mágica",
+      "hint": "Jovem vai visitar um sanatório e acaba mergulhando na filosofia",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    }
+  ]
+}

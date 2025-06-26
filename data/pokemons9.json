@@ -1,0 +1,730 @@
+{
+  "key": "pokemons9",
+  "emoji": "🌈",
+  "name": "Pokémons 9ª geração (Paldea)",
+  "background": "#FF69B4",
+  "image": "@/assets/images/modules/pokemons9.png",
+  "items": [
+    {
+      "name": "Sprigatito",
+      "hint": "Gatinho verde que brinca com folhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Floragato",
+      "hint": "Evolução felina que usa folhas afiadas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Meowscarada",
+      "hint": "Gato elegante que manipula sombras",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Fuecoco",
+      "hint": "Crocodilo vermelho que adora fogo e comida",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Crocalor",
+      "hint": "Crocodyla flamejante com casca dura",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Skeledirge",
+      "hint": "Crocodilo flamejante com aspecto esquelético",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Quaxly",
+      "hint": "Pato iniciante que adora arrumar penas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Quaxwell",
+      "hint": "Pato elegante com roupas molhadas brilhantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Quaquaval",
+      "hint": "Pato dançarino que dispara jatos de água",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lechonk",
+      "hint": "Porquinho rechonchudo que adora rolinhos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Oinkologne",
+      "hint": "Porco barítono que canta nos cinco tons",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tarountula",
+      "hint": "Aranha grande com pernas listradas e postura feroz",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Spidops",
+      "hint": "Aranha mecânica que usa cinto de ferramentas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Nymble",
+      "hint": "Inseto rápido e escapista com cara tímida",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lokix",
+      "hint": "Inseto ágil e feroz com patas afiadas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pawmi",
+      "hint": "Roedor elétrico pequeno com bochechas fofas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pawmo",
+      "hint": "Roedor jovem que luta ao lado dos amigos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pawmot",
+      "hint": "Roedor mestre marcial elétrico e ágil",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tandemaus",
+      "hint": "Dupla de ratinhos que sempre andam juntos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Maushold",
+      "hint": "Família de ratos organizada em time de três",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fidough",
+      "hint": "Biscoito vivo e macio com formato de cachorro",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dachsbun",
+      "hint": "Salsicha fofinha estilo hot‑dog com carinho",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Smoliv",
+      "hint": "Azeitona pequena que balança nas folhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dolliv",
+      "hint": "Evolução de Smoliv com caule maior em forma de azeitona",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Arboliva",
+      "hint": "Grande árvore de azeitonas com caules firmes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Squawkabilly",
+      "hint": "Pássaro punk colorido com moicano estiloso",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Nacli",
+      "hint": "Pequeno cristal salino que vive na superfície",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Naclstack",
+      "hint": "Pilhas cristalinas que brilham ao sol",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Garganacl",
+      "hint": "Golem de sal com braços fortes e corpo robusto",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Charcadet",
+      "hint": "Pequeno guerreiro flamejante com espada de fogo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Armarouge",
+      "hint": "Cavaleiro flamejante com armadura brilhante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ceruledge",
+      "hint": "Espadachim espectral envolto em chamas azuis",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tadbulb",
+      "hint": "Pequeno girino elétrico que solta faíscas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bellibolt",
+      "hint": "Girino elétrico que guarda energia em bochechas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wattrel",
+      "hint": "Pássaro pequeno que gera eletricidade com penas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Kilowattrel",
+      "hint": "Pássaro maior com asas que conduzem energia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Maschiff",
+      "hint": "Cachorro de treino leal com coleira resistente",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mabosstiff",
+      "hint": "Cachorro grande e protetor com porte marcial",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Shroodle",
+      "hint": "Roedor arteiro com mancha de tinta no rosto",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Grafaiai",
+      "hint": "Mico malandro que usa tinta para marcar território",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bramblin",
+      "hint": "Fruta média envolta em espinhos rastejantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Brambleghast",
+      "hint": "Espírito de videira com frutos maliciosos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Toedscool",
+      "hint": "Lagarto de três dedos que vive em areia quente",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Toedscruel",
+      "hint": "Lagarto mais robusto que guarda profundos desertos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Klawf",
+      "hint": "Caranguejo de pedra com garra forte",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Capsakid",
+      "hint": "Pimentinha ambulante que dança no calor",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Scovillain",
+      "hint": "Pimenta maligna que lança chamas poderosas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rellor",
+      "hint": "Inseto lendário que vive em troncos antigos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rabsca",
+      "hint": "Aranha venenosa com corpo ornamentado",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Flittle",
+      "hint": "Pequeno mamífero alado com penas suaves",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Espathra",
+      "hint": "Morcego elegante com olhos sutis e cauda fina",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tinkatink",
+      "hint": "Pequena fada com martelo de brinquedo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Tinkatuff",
+      "hint": "Fada aprimorada com martelo reforçado",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tinkaton",
+      "hint": "Fada poderosa com martelo gigante cromado",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Wiglett",
+      "hint": "Tubarão subaquático que mais parece minhoca",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Wugtrio",
+      "hint": "Trio de tubarões-mínimos saindo da areia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bombirdier",
+      "hint": "Pombo explosivo que usa bombas como defesa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Finizen",
+      "hint": "Golfinho brincalhão com pintura azul clara",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Palafin",
+      "hint": "Herói marinho que se transforma em golfinho forte",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Varoom",
+      "hint": "Mini carro mecânico pronto para corridas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Revavroom",
+      "hint": "Carro robô veloz com velocidade máxima",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cyclizar",
+      "hint": "Dragão que anda em rastro de vento como bicicleta",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Orthworm",
+      "hint": "Minhoca metálica que perfura rochas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Glimmet",
+      "hint": "Pedra cintilante com brilho suave",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Glimmora",
+      "hint": "Formação de cristal luminosa que brilha forte",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Greavard",
+      "hint": "Cão espectral triste com coleira enferrujada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Houndstone",
+      "hint": "Caçador canino fantasma que vigia o cemitério",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Flamigo",
+      "hint": "Pássaro flamingo elegante com penas cor-de-rosa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cetoddle",
+      "hint": "Baleia de gelo pequena que nada em águas frias",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cetitan",
+      "hint": "Baleia gelada gigante com corpo forte",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Veluza",
+      "hint": "Ser marinho elegante com tentáculos vibrantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dondozo",
+      "hint": "Peixe gigantesco de escamas azuis robustas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tatsugiri",
+      "hint": "Dragão aquático que se une em trio de diferentes cores",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Annihilape",
+      "hint": "Macaco fantasma furioso com aura escarlate",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Clodsire",
+      "hint": "Amphíbio gigante que se esconde na lama de pântanos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Farigiraf",
+      "hint": "Giraffe única com pescoço de pedra e braços longos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dudunsparce",
+      "hint": "Serpente voadora com olhos de lampião e cauda longa",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Kingambit",
+      "hint": "Cavaleiro lobisomem com armadura pesada de metal",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Great Tusk",
+      "hint": "Mamute ancestral com presas gigantes e guerreiros",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Scream Tail",
+      "hint": "Fada de cristal que assusta com sua cauda ecoante",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Brute Bonnet",
+      "hint": "Cogumelo agressivo com chapéu venenoso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Flutter Mane",
+      "hint": "Espírito fantasma com longos cabelos flutuantes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Slither Wing",
+      "hint": "Inseto divino de voo silencioso e asas afiadas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Sandy Shocks",
+      "hint": "Roedor elétrico que manipula areia em tempestades",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Treads",
+      "hint": "Tartaruga de aço que corre sobre trilhos metálicos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Bundle",
+      "hint": "Pequeno congelador ambulante de gelo metálico",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Hands",
+      "hint": "Mutante elétrico com braços de metal gigantes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Jugulis",
+      "hint": "Pássaro escuro com corpo tecnológico e asas afiadas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Moth",
+      "hint": "Mariposa flamejante com asas metálicas incandescentes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Thorns",
+      "hint": "Espinho vivo de aço com explosões elétricas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Frigibax",
+      "hint": "Filhote de dragão de gelo com olhar feroz",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Arctibax",
+      "hint": "Dragão gelado adolescente com escamas duras",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Baxcalibur",
+      "hint": "Dragão de gelo colossal com lâmina de cristal",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Gimmighoul",
+      "hint": "Pequena alma presa em baú de tesouro perdido",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Gholdengo",
+      "hint": "Tesouro animado com moeda dourada e aura fantasma",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Wo-Chien",
+      "hint": "Demônio canino escuro que espalha maldição",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Chien-Pao",
+      "hint": "Lobo veloz e gélido empunhando lâmina fria",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ting-Lu",
+      "hint": "Guardião sombrio que absorve a dor dos arredores",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Chi-Yu",
+      "hint": "Fogo místico contido em corpo diminuto e ardente",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Roaring Moon",
+      "hint": "Dragão noturno que clama sob o luar",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Iron Valiant",
+      "hint": "Guerreiro místico híbrido de fada e aço",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Koraidon",
+      "hint": "Dragão ancestral que corre veloz e sela com cicatrizes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Miraidon",
+      "hint": "Dragão tecnológico que voa em luz neon",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    }
+  ]
+}

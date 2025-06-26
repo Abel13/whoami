@@ -1,0 +1,492 @@
+{
+  "key": "pokemons8",
+  "emoji": "🔥",
+  "name": "Pokémons 8ª geração (Galar)",
+  "background": "#FF8C00",
+  "image": "@/assets/images/modules/pokemons8.png",
+  "items": [
+    {
+      "name": "Grookey",
+      "hint": "Macaco de grama que carrega energia verde",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Thwackey",
+      "hint": "Macaco músico que bate galhos como tambores",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rillaboom",
+      "hint": "Macaco baterista gigante com tambor vegetal",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Scorbunny",
+      "hint": "Coelho correndo com chamas nos pés",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Raboot",
+      "hint": "Coelho focado com atitude de lutador",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cinderace",
+      "hint": "Coelho-atleta que chuta bolas de fogo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sobble",
+      "hint": "Camaleão aquático que chora e some na água",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Drizzile",
+      "hint": "Camaleão furtivo com aparência aquática",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Inteleon",
+      "hint": "Agente camaleão com mira precisa de água",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Gossifleur",
+      "hint": "Flor voadora amarela que se balança com vento",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Eldegoss",
+      "hint": "Nuvem de algodão voadora que espalha sementes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wooloo",
+      "hint": "Ovelha peludinha que rola colinas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dubwool",
+      "hint": "Ovelha musculosa com lã volumosa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chewtle",
+      "hint": "Tartaruga de mandíbula forte que morde tudo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Drednaw",
+      "hint": "Tartaruga punk com mandíbulas de rocha",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Yamper",
+      "hint": "Cachorrinho elétrico que adora correr",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Boltund",
+      "hint": "Cão rápido e elétrico com faróis brilhantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rolycoly",
+      "hint": "Pedrinha rolante que vive em minas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Carkol",
+      "hint": "Carvão ambulante com rodas de pedra",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Coalossal",
+      "hint": "Gigante de pedra e carvão que cospe fogo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Applin",
+      "hint": "Pequena maçã com cabeça de dragão",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Flapple",
+      "hint": "Dragão que voa com asas de maçã verde",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Appletun",
+      "hint": "Dragão que virou torta de maçã pegajosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Silicobra",
+      "hint": "Cobra de areia com corpo cristalino",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Sandaconda",
+      "hint": "Cobra gigante que se enrola como montanha de areia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cramorant",
+      "hint": "Pato voador que engole peixe inteiro",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Arrokuda",
+      "hint": "Peixe espada afiado que ataca em rajadas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Barraskewda",
+      "hint": "Peixe veloz com mandíbula afiada como navalha",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Toxel",
+      "hint": "Pequeno rato elétrico que chacoalha veneno",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Toxtricity",
+      "hint": "Rato punk que gera eletricidade com guitarras",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sizzlipede",
+      "hint": "Centopéia de fogo com corpo incandescente",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Centiskorch",
+      "hint": "Centopéia gigante flamejante de corpo negro",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Clobbopus",
+      "hint": "Polvo que luta com fechos elásticos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Grapploct",
+      "hint": "Polvo musculoso que agarra com braços poderosos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sinistea",
+      "hint": "Chaleira de chá fantasma que exala vapor",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Polteageist",
+      "hint": "Fantasma que vive dentro de bule de chá quebrado",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hatenna",
+      "hint": "Menina psíquica com cabelo cor de névoa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hattrem",
+      "hint": "Evolução de Hatenna, energia psíquica intensa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hatterene",
+      "hint": "Psíquica poderosa com vestido e chapéu pontudo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Impidimp",
+      "hint": "Pequeno duende malandro com olhar travesso",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Morgrem",
+      "hint": "Duende evoluído com atitude maldosa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Grimmsnarl",
+      "hint": "Duende sombrio com cabelo preto que manipula sombras",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Obstagoon",
+      "hint": "Guarda urbano de punhos levantados, estilo rock’n’roll",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Perrserker",
+      "hint": "Gato bárbaro com latão na cabeça como capacete",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cursola",
+      "hint": "Coral fantasmagórico de cor branca em ruínas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sirfetch’d",
+      "hint": "Pato cavaleiro com lança de alho-poró",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mr. Rime",
+      "hint": "Pinguim mágico com cartola que dança no gelo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Runerigus",
+      "hint": "Fantasma rúnico que emerge de pedra antiga",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Falinks",
+      "hint": "Formações de soldados em fileira bem alinhada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pincurchin",
+      "hint": "Ouriço-do-mar elétrico coberto de espinhos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Snom",
+      "hint": "Larva de gelo coberta de flocos brilhantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Frosmoth",
+      "hint": "Mariposa de gelo luminosa e elegante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Stonjourner",
+      "hint": "Pedras empilhadas como um guerreiro de pedra",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Eiscue",
+      "hint": "Pinguim com bloco de gelo no rosto, faz pose gelada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Indeedee",
+      "hint": "Humanoide simpático com aparência de psicólogo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Morpeko",
+      "hint": "Roedor elétrico com humor oscilante entre feliz e zangado",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cufant",
+      "hint": "Elefante de metal amarelo com casco de estrada",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Copperajah",
+      "hint": "Elefante gigante de ferro com tromba poderosa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dracozolt",
+      "hint": "Criatura híbrida elétrica-dragão desmontada",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Arctozolt",
+      "hint": "Dragão-elétrico com corpo de gelo e patas descoordenadas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Dracovish",
+      "hint": "Peixe pré-histórico com cabeça de dragão fora do lugar",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Arctovish",
+      "hint": "Mistura de peixe e gelo, corpo desarmônico mas poderoso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Duraludon",
+      "hint": "Dragão de aço com estrutura de arranha-céu",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dreepy",
+      "hint": "Filhote de dragão fantasma com asas minúsculas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Drakloak",
+      "hint": "Dragão fantasma de meia-idade com capuz sombrio",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dragapult",
+      "hint": "Dragão fantasma veloz que lança Dreepy do corpo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Zacian",
+      "hint": "Herói canino lendário com espada na boca",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Zamazenta",
+      "hint": "Canino lendário com escudo no corpo de armadura",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Eternatus",
+      "hint": "Ser colossal do espaço com corpo retorcido de energia",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    }
+  ]
+}

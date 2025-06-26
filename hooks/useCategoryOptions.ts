@@ -1,10 +1,17 @@
 import { useState } from "react";
 
+export interface Item {
+  name: string;
+  difficulty: "easy" | "medium" | "hard";
+  minAge: number;
+  maxAge: number;
+}
+
 export interface CategoryOptions {
   key: string;
   emoji: string;
   name: string;
-  items: string[];
+  items: Item[];
   image?: string;
   background?: string;
 }

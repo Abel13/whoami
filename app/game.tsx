@@ -10,10 +10,15 @@ import { Timer } from "@/components/Timer";
 import { WordCard } from "@/components/Card";
 import { useAudioConfig, useSound } from "@/hooks/useAudioConfig";
 import { useCardAnimation } from "@/hooks/useCardAnimation";
+import { useAmplitude } from "@/hooks/useAmplitude";
+import { useVexo } from "@/hooks/useVexo";
+import { useAptabase } from "@/hooks/useAptabase";
+import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
 
 export default function GameScreen() {
   const params = useGlobalSearchParams();
-  const category: string = params.category;
+
+  const category: string = params.category as string;
   const {
     gameDuration,
     soundEnabled,
@@ -23,6 +28,10 @@ export default function GameScreen() {
   } = useSettingsStore((state) => state);
 
   const { animateCard, getCardStyle, currentCardColor } = useCardAnimation();
+  const { gameStarted: gsAmplitude } = useAmplitude();
+  const { gameStarted: gsAptabase } = useAptabase();
+  const { gameStarted: gsPostHog } = usePostHogAnalytics();
+  const { gameStarted: gsVexo } = useVexo();
 
   useAudioConfig();
   useKeepAwake();
@@ -82,7 +91,7 @@ export default function GameScreen() {
   useEffect(() => {
     if (shouldNavigate) {
       router.dismissTo({
-        pathname: "result",
+        pathname: "/result",
         params: {
           words: JSON.stringify(passedWords),
           category,
@@ -107,6 +116,15 @@ export default function GameScreen() {
       return () => clearInterval(gameTimer);
     }
   }, [preCountdown]);
+
+  useEffect(() => {
+    if (gameDuration) {
+      gsAmplitude(category, gameDuration);
+      gsVexo(category, gameDuration);
+      gsAptabase(category, gameDuration);
+      gsPostHog(category, gameDuration);
+    }
+  }, [gameDuration]);
 
   useEffect(() => {
     if (timeLeft === 0) handleVibration();

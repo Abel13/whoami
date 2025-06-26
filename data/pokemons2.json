@@ -1,0 +1,709 @@
+{
+  "key": "pokemons2",
+  "emoji": "🌿",
+  "name": "Pokémons 2ª geração (Johto)",
+  "background": "#90EE90",
+  "image": "@/assets/images/modules/pokemons2.png",
+  "items": [
+    {
+      "name": "Chikorita",
+      "hint": "Um Pokémon de planta com uma folha na cabeça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bayleef",
+      "hint": "Evolução da Chikorita, com folhas no pescoço",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Meganium",
+      "hint": "Terceira evolução da Chikorita, parece um dinossauro com flor",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cyndaquil",
+      "hint": "Um Pokémon de fogo com chamas nas costas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Quilava",
+      "hint": "Evolução do Cyndaquil com chamas mais fortes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Typhlosion",
+      "hint": "Evolução final do Cyndaquil, poderosa e em chamas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Totodile",
+      "hint": "Pokémon azul de água, parecido com um jacaré",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Croconaw",
+      "hint": "Evolução do Totodile com dentes grandes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Feraligatr",
+      "hint": "Grande Pokémon de água, evolução final do Totodile",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sentret",
+      "hint": "Pequeno Pokémon marrom que fica em pé como uma sentinela",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Furret",
+      "hint": "Pokémon comprido e fofinho, evolução do Sentret",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hoothoot",
+      "hint": "Pokémon coruja com um olho sempre fechado",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Noctowl",
+      "hint": "Coruja noturna, evolução do Hoothoot",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ledyba",
+      "hint": "Pokémon joaninha com várias manchas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ledian",
+      "hint": "Pokémon joaninha com aparência de super-herói, evolução do Ledyba",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Spinarak",
+      "hint": "Pokémon aranha verde com rosto nas costas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ariados",
+      "hint": "Grande aranha vermelha, evolução do Spinarak",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Crobat",
+      "hint": "Morcego com quatro asas, evolução do Golbat",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Chinchou",
+      "hint": "Peixe elétrico com antenas luminosas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lanturn",
+      "hint": "Peixe com luz, evolução do Chinchou",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pichu",
+      "hint": "Bebê Pikachu, menor e mais fofo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cleffa",
+      "hint": "Pequeno Pokémon rosa em forma de estrela, bebê da Clefairy",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Igglybuff",
+      "hint": "Bebê rosa redondinho, pré-evolução do Jigglypuff",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Togepi",
+      "hint": "Pokémon de ovo com carinha fofa, famoso no anime",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Togetic",
+      "hint": "Evolução do Togepi com asas pequenas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Natu",
+      "hint": "Pequeno pássaro verde com olhos grandes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Xatu",
+      "hint": "Pássaro místico que parece uma estátua",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mareep",
+      "hint": "Pokémon ovelha com lã amarela e azul",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Flaaffy",
+      "hint": "Evolução da Mareep com aparência rosada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ampharos",
+      "hint": "Pokémon elétrico de corpo liso, última evolução da Mareep",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bellossom",
+      "hint": "Pokémon planta com saia de pétalas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Marill",
+      "hint": "Pokémon azul com rabo em espiral, parece um rato d'água",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Azumarill",
+      "hint": "Evolução do Marill com corpo oval azul e orelhas grandes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sudowoodo",
+      "hint": "Parece uma árvore, mas é do tipo pedra",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Politoed",
+      "hint": "Sapo verde com caracol na cabeça, evolução alternativa do Poliwhirl",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Hoppip",
+      "hint": "Pokémon rosa que flutua com folhas na cabeça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Skiploom",
+      "hint": "Evolução do Hoppip com aparência de flor flutuante",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jumpluff",
+      "hint": "Pokémon com algodões voadores, evolução final do Hoppip",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Aipom",
+      "hint": "Macaco roxo com uma mão na ponta do rabo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sunkern",
+      "hint": "Pequena semente com rosto triste",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sunflora",
+      "hint": "Pokémon girassol sorridente",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Yanma",
+      "hint": "Libélula vermelha com asas transparentes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Wooper",
+      "hint": "Pokémon azul sem braços com anteninhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Quagsire",
+      "hint": "Evolução do Wooper, azul, lento e simpático",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Espeon",
+      "hint": "Evolução do Eevee com poderes psíquicos e cor lilás",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Umbreon",
+      "hint": "Evolução do Eevee com corpo preto e anéis amarelos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Murkrow",
+      "hint": "Pokémon corvo com chapéu de bruxa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Slowking",
+      "hint": "Evolução do Slowpoke com coroa de concha",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Misdreavus",
+      "hint": "Pokémon fantasma flutuante com colar de pérolas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Unown",
+      "hint": "Pokémon que parece uma letra do alfabeto",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Wobbuffet",
+      "hint": "Pokémon azul que se defende sem atacar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Girafarig",
+      "hint": "Girafa com duas cabeças, uma delas no rabo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pineco",
+      "hint": "Pokémon que parece um pinheiro e explode",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Forretress",
+      "hint": "Casulo metálico que se fecha como uma armadura",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Dunsparce",
+      "hint": "Pokémon serpente com asas pequenas e corpo estranho",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Gligar",
+      "hint": "Morcego escorpião com asas e cauda pontuda",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Steelix",
+      "hint": "Cobra gigante de metal, evolução do Onix",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Snubbull",
+      "hint": "Cachorro rosa de cara brava que usa um vestidinho",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Granbull",
+      "hint": "Cão bravo de mandíbula forte, evolução do Snubbull",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Qwilfish",
+      "hint": "Peixe redondo com espinhos e expressão irritada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Scizor",
+      "hint": "Inseto metálico vermelho com garras poderosas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Shuckle",
+      "hint": "Pokémon com casco vermelho e corpo amarelo, vive escondido",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Heracross",
+      "hint": "Besouro azul com um grande chifre na cabeça",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sneasel",
+      "hint": "Gato ninja escuro com penas vermelhas na orelha",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Teddiursa",
+      "hint": "Ursinho fofo que gosta de mel",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ursaring",
+      "hint": "Urso grande e bravo com marca circular no peito",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Slugma",
+      "hint": "Pokémon de magma, parece uma lesma de lava",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Magcargo",
+      "hint": "Lesma de fogo com uma concha de pedra derretida",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Swinub",
+      "hint": "Pokémon porquinho peludo que vive na neve",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Piloswine",
+      "hint": "Grande mamute peludo com presas, evolução do Swinub",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Corsola",
+      "hint": "Pokémon rosa que parece um coral do mar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Remoraid",
+      "hint": "Peixinho de água que parece uma arma de brinquedo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Octillery",
+      "hint": "Polvo vermelho com boca de canhão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Delibird",
+      "hint": "Pássaro vermelho que carrega um saco como o Papai Noel",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mantine",
+      "hint": "Pokémon arraia que voa pela água",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Skarmory",
+      "hint": "Ave metálica com asas afiadas como lâminas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Houndour",
+      "hint": "Cachorro preto com chamas, do tipo fogo e sombrio",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Houndoom",
+      "hint": "Cão infernal com chifres e cauda pontuda",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Kingdra",
+      "hint": "Cavalo-marinho poderoso, evolução do Seadra",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Phanpy",
+      "hint": "Elefantinho azul fofo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Donphan",
+      "hint": "Elefante com armadura, evolução do Phanpy",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Porygon2",
+      "hint": "Versão mais arredondada e moderna do Porygon",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Stantler",
+      "hint": "Cervo marrom com chifres misteriosos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Smeargle",
+      "hint": "Cachorro artista que pinta com o rabo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tyrogue",
+      "hint": "Pequeno lutador que evolui em vários caminhos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hitmontop",
+      "hint": "Gira como um pião enquanto luta",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Smoochum",
+      "hint": "Bebê do Jynx com cabelo loiro e lábios grandes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Elekid",
+      "hint": "Bebê elétrico com cabeça em forma de plugue",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Magby",
+      "hint": "Bebê Pokémon de fogo com cabeça de chaminé",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Miltank",
+      "hint": "Vaca rosa que produz leite nos jogos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Blissey",
+      "hint": "Evolução da Chansey, muito usada para curar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Raikou",
+      "hint": "Tigre elétrico lendário com nuvem nas costas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Entei",
+      "hint": "Leão lendário de fogo com juba imponente",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Suicune",
+      "hint": "Lobo de gelo com crina azul, lendário elegante",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Larvitar",
+      "hint": "Pequeno dinossauro verde que vive em cavernas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pupitar",
+      "hint": "Casulo azul resistente, evolução do Larvitar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tyranitar",
+      "hint": "Monstro verde poderoso, evolução final do Larvitar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lugia",
+      "hint": "Pokémon guardião do mar, com asas que parecem mãos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ho-Oh",
+      "hint": "Ave lendária com penas coloridas, símbolo de esperança",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Celebi",
+      "hint": "Guardião do tempo, parece uma fada com antenas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

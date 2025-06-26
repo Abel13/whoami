@@ -1,3 +1,4 @@
+import ModalView from "@/components/templates/ModalView";
 import { useHistoryStore } from "@/hooks/useHistoryStore";
 import { Feather } from "@expo/vector-icons";
 import { format } from "date-fns";
@@ -60,81 +61,69 @@ export default function HistoryScreen() {
   const { gamesHistory, deleteGame } = useHistoryStore((state) => state);
 
   return (
-    <View style={styles.container}>
-      <View style={styles.titleContainer}>
-        <Pressable onPress={router.back}>
-          <Feather name="chevron-left" size={24} color="#FFF" />
-        </Pressable>
-        <Text style={styles.title}>Histórico</Text>
-      </View>
-      <View style={styles.card}>
-        <FlatList
-          data={gamesHistory}
-          renderItem={({ item }) => (
-            <TouchableOpacity
-              key={item.id}
-              style={{
-                flex: 1,
-                flexDirection: "row",
-                padding: 10,
-                margin: 10,
-                borderRadius: 4,
-                backgroundColor: "#FFF",
-                alignItems: "center",
-                justifyContent: "space-between",
+    <ModalView title="Histórico">
+      <FlatList
+        data={gamesHistory}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            key={item.id}
+            style={{
+              flex: 1,
+              flexDirection: "row",
+              padding: 10,
+              margin: 10,
+              borderRadius: 4,
+              backgroundColor: "#FFF",
+              alignItems: "center",
+              justifyContent: "space-between",
 
-                shadowColor: "#aaa",
-                shadowOpacity: 0.3,
-                shadowOffset: { width: 0, height: 2 },
-                shadowRadius: 2,
-                elevation: 2,
-              }}
-              onPress={() =>
-                router.push({
-                  pathname: "/result",
-                  params: {
-                    words: JSON.stringify(item.words),
-                    category: item.category,
-                    id: item.id,
-                  },
-                })
-              }
-            >
-              <View>
-                <Text
-                  style={{ color: "#333", fontWeight: "700", marginBottom: 5 }}
-                >
-                  {item.category}
-                </Text>
-                <Text style={{ color: "#555" }}>
-                  {format(item.date, "dd-MMM HH:mm", {
-                    locale: ptBR,
-                  })}
-                </Text>
-              </View>
-              <View>
-                <Text style={{ color: "#888" }}>
-                  {item.words.length} palavras
-                </Text>
-                <Text style={{ color: "#888" }}>
-                  {item.correctWords} certas
-                </Text>
-                <Text style={{ color: "#888" }}>
-                  {item.passedWords} passadas
-                </Text>
-              </View>
-              <Feather
-                name="trash-2"
-                size={24}
-                onPress={() => deleteGame(item)}
-                color={"#a33a4a"}
-              />
-            </TouchableOpacity>
-          )}
-          ItemSeparatorComponent={() => <View style={{ height: 5 }} />}
-          keyExtractor={(_, index) => `game-${index}`}
-        />
-      </View>
-    </View>
+              shadowColor: "#aaa",
+              shadowOpacity: 0.3,
+              shadowOffset: { width: 0, height: 2 },
+              shadowRadius: 2,
+              elevation: 2,
+            }}
+            onPress={() =>
+              router.push({
+                pathname: "/result",
+                params: {
+                  words: JSON.stringify(item.words),
+                  category: item.category,
+                  id: item.id,
+                },
+              })
+            }
+          >
+            <View>
+              <Text
+                style={{ color: "#333", fontWeight: "700", marginBottom: 5 }}
+              >
+                {item.category}
+              </Text>
+              <Text style={{ color: "#555" }}>
+                {format(item.date, "dd-MMM HH:mm", {
+                  locale: ptBR,
+                })}
+              </Text>
+            </View>
+            <View>
+              <Text style={{ color: "#888" }}>
+                {item.words.length} palavras
+              </Text>
+              <Text style={{ color: "#888" }}>{item.correctWords} certas</Text>
+              <Text style={{ color: "#888" }}>{item.passedWords} passadas</Text>
+            </View>
+            <Feather
+              name="trash-2"
+              size={24}
+              onPress={() => deleteGame(item)}
+              color={"#a33a4a"}
+            />
+          </TouchableOpacity>
+        )}
+        ItemSeparatorComponent={() => <View style={{ height: 5 }} />}
+        keyExtractor={(_, index) => `game-${index}`}
+      />
+    </ModalView>
   );
 }

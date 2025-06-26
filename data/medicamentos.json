@@ -1,0 +1,283 @@
+{
+  "key": "medicamentos",
+  "emoji": "💊",
+  "name": "Medicamentos",
+  "background": "#B22222",
+  "image": "@/assets/images/modules/medicamentos.png",
+  "items": [
+    {
+      "name": "Paracetamol",
+      "hint": "Usado para dor e febre, também chamado de acetaminofeno",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Ibuprofeno",
+      "hint": "Anti-inflamatório popular para dores e febres",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Dipirona",
+      "hint": "Analgésico e antitérmico muito usado em países lusófonos",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Omeprazol",
+      "hint": "Protege o estômago de ácidos e inflamações",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Loratadina",
+      "hint": "Antialérgico que não dá sono",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Amoxicilina",
+      "hint": "Antibiótico comum para infecções respiratórias",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Rivotril",
+      "hint": "Ansiolítico bastante prescrito para insônia e ansiedade",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Fluoxetina",
+      "hint": "Antidepressivo da família dos inibidores de serotonina",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Losartana",
+      "hint": "Controla a pressão arterial",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Metformina",
+      "hint": "Usado para tratar diabetes tipo 2",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Cetirizina",
+      "hint": "Antialérgico de uso comum, alivia sintomas respiratórios",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Dexametasona",
+      "hint": "Corticoide potente indicado em inflamações intensas",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Prednisona",
+      "hint": "Substância anti-inflamatória com múltiplas indicações",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Azitromicina",
+      "hint": "Antibiótico com posologia geralmente curta",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Clavulin",
+      "hint": "Combinação antibiótica para infecções resistentes",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Sinvastatina",
+      "hint": "Ajuda no controle do colesterol",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Rosuvastatina",
+      "hint": "Reduz gorduras no sangue, especialmente o LDL",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Pantoprazol",
+      "hint": "Inibe a produção de ácido gástrico",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Alprazolam",
+      "hint": "Ansiolítico de curta ação, exige prescrição controlada",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Diazepam",
+      "hint": "Indicado para ansiedade, espasmos e insônia",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Sertralina",
+      "hint": "Regulador do humor, prescrito para uso contínuo",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Clonazepam",
+      "hint": "Usado em crises epilépticas e distúrbios ansiosos",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Citalopram",
+      "hint": "Pertence ao grupo dos inibidores seletivos de serotonina",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Carbamazepina",
+      "hint": "Atua em convulsões e alterações de humor",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Lítio",
+      "hint": "Indicado para estabilização do humor em transtornos mentais",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Propranolol",
+      "hint": "Reduz batimentos cardíacos e tensão arterial",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Hidroclorotiazida",
+      "hint": "Diurético usado para controlar a pressão e edemas",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Valsartana",
+      "hint": "Anti-hipertensivo que protege o sistema cardiovascular",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Captopril",
+      "hint": "Atua no controle da pressão e insuficiência cardíaca",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Levotiroxina",
+      "hint": "Reposição hormonal para funcionamento da tireoide",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Insulina",
+      "hint": "Essencial para regular a glicose no sangue",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Gliclazida",
+      "hint": "Usada no controle do diabetes tipo 2",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Cetoconazol",
+      "hint": "Trata infecções fúngicas da pele e couro cabeludo",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Nistatina",
+      "hint": "Usado em infecções por fungos na pele e mucosas",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Diclofenaco",
+      "hint": "Ajuda em dores musculares e inflamações",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Nimesulida",
+      "hint": "Anti-inflamatório que exige moderação",
+      "difficulty": "medium",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Isotretinoína",
+      "hint": "Usado em acne severa, requer acompanhamento médico",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Bromazepam",
+      "hint": "Ansiolítico de uso controlado em tratamentos psiquiátricos",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Risperidona",
+      "hint": "Antipsicótico utilizado em transtornos mentais",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    }
+  ]
+}

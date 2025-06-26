@@ -4,15 +4,23 @@ import { useGlobalSearchParams, useRouter } from "expo-router";
 import { useHistoryStore } from "@/hooks/useHistoryStore";
 import { Feather } from "@expo/vector-icons";
 import { useAmplitude } from "@/hooks/useAmplitude";
+import { useVexo } from "@/hooks/useVexo";
+import { useAptabase } from "@/hooks/useAptabase";
+import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
+import ModalView from "@/components/templates/ModalView";
 
 export default function ResultScreen() {
   const params = useGlobalSearchParams();
-  const { gameEnd } = useAmplitude();
+  const { gameEnd: geAmplitude } = useAmplitude();
+  const { gameEnd: geAptabase } = useAptabase();
+  const { gameEnd: gePostHog } = usePostHogAnalytics();
+  const { gameEnd: geVexo } = useVexo();
+
   const {
     words,
     category,
     id,
-  }: { words: string; category: string; id?: string } = params;
+  }: { words: string; category: string; id?: string } = params as any;
 
   const newId = useId();
 
@@ -35,7 +43,10 @@ export default function ResultScreen() {
 
   useEffect(() => {
     if (words?.length > 0 && !id) {
-      gameEnd(category, passedWordsCount, correctWords);
+      geAmplitude(category, passedWordsCount, correctWords);
+      geVexo(category, passedWordsCount, correctWords);
+      geAptabase(category, passedWordsCount, correctWords);
+      gePostHog(category, passedWordsCount, correctWords);
       saveGame({
         id: newId,
         category: category as string,
@@ -48,14 +59,8 @@ export default function ResultScreen() {
   }, [words]);
 
   return (
-    <View style={styles.container}>
-      <View style={styles.titleContainer}>
-        <Pressable onPress={router.back}>
-          <Feather name="chevron-left" size={24} color="#FFF" />
-        </Pressable>
-        <Text style={styles.title}>Resultado</Text>
-      </View>
-      <View style={styles.card}>
+    <ModalView title="Resultado">
+      <View style={{ flex: 1 }}>
         <View style={{ alignItems: "center" }}>
           <View style={styles.statsContainer}>
             <View style={[styles.statCard, { backgroundColor: "#d4edda" }]}>
@@ -66,29 +71,25 @@ export default function ResultScreen() {
             <View style={[styles.statCard, { backgroundColor: "#f8d7da" }]}>
               <Text style={styles.statTitle}>Passadas</Text>
               <Text style={styles.statNumber}>{passedWordsCount}</Text>
+
               <Text style={styles.statPercentage}>{passPercentage}%</Text>
             </View>
           </View>
         </View>
+        <Text style={styles.title}>Histórico</Text>
         <FlatList
           data={results}
-          ListHeaderComponent={() => {
-            return (
-              <View>
-                <Text style={styles.title}>Histórico</Text>
-              </View>
-            );
-          }}
+          showsVerticalScrollIndicator={false}
           renderItem={({ item }) => (
             <Text style={[styles.item, styles[item.status]]}>{item.word}</Text>
           )}
           ListFooterComponent={() => {
-            return <View style={{ height: 50 }} />;
+            return <View style={{ height: 30 }} />;
           }}
           keyExtractor={(item, index) => index.toString()}
         />
       </View>
-    </View>
+    </ModalView>
   );
 }
 
@@ -138,16 +139,16 @@ const styles = StyleSheet.create({
     borderTopStartRadius: 10,
   },
   title: {
-    fontSize: 18,
-    fontWeight: "bold",
-    textAlign: "center",
+    fontSize: 16,
+    fontWeight: "600",
+    paddingInline: 10,
     fontFamily: "Montserrat",
-    color: "#FFF",
+    color: "#a1a1a1",
   },
   statsContainer: {
     flexDirection: "row",
     justifyContent: "space-around",
-    marginVertical: 20,
+    marginTop: 20,
     gap: 20,
   },
   statCard: {
@@ -161,7 +162,16 @@ const styles = StyleSheet.create({
   statTitle: { fontSize: 16, fontWeight: "bold", marginBottom: 10 },
   statNumber: { fontSize: 28, fontWeight: "bold" },
   statPercentage: { fontSize: 18, fontWeight: "600", color: "#555" },
-  item: { fontSize: 14, marginVertical: 5 },
-  pass: { color: "orange", opacity: 0.6 },
+  item: {
+    flex: 1,
+    paddingInline: 5,
+    paddingVertical: 5,
+    marginInline: 10,
+    marginVertical: 2,
+    borderBottomWidth: 1,
+    borderRadius: 5,
+    borderColor: "#e1e1e1",
+  },
+  pass: { color: "#f75360", fontWeight: 500 },
   correct: { color: "green", fontWeight: "bold" },
 });

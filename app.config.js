@@ -1,12 +1,17 @@
 export default {
   name: "Quem sou eu?",
   slug: "whoami",
-  version: "1.0.4",
+  version: "1.0.5",
   orientation: "landscape",
   icon: "./assets/images/icon.png",
   scheme: "whoami",
   userInterfaceStyle: "automatic",
   assetBundlePatterns: ["**/*"],
+  splash: {
+    backgroundColor: "#FFFFFF",
+    image: "./assets/images/splash.png",
+    resizeMode: "contain",
+  },
   ios: {
     requireFullScreen: true,
     supportsTablet: true,
@@ -40,6 +45,7 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
   plugins: [
+    "expo-localization",
     [
       "react-native-edge-to-edge",
       {
