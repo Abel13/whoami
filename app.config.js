@@ -20,8 +20,8 @@ export default {
       usesNonExemptEncryption: false,
     },
     infoPlist: {
-      ITSAppUsesNonExemptEncryption: false,
-      UIViewControllerBasedStatusBarAppearance: true,
+      ITSAppUsesNonExemptEncryption: true,
+      UIViewControllerBasedStatusBarAppearance: "NO",
       UIBackgroundModes: [],
       NSMicrophoneUsageDescription:
         "Este aplicativo precisa acessar o microfone para reprodução de áudio.",
@@ -45,6 +45,35 @@ export default {
     favicon: "./assets/images/favicon.png",
   },
   plugins: [
+    [
+      "expo-asset",
+      {
+        assets: [
+          "./assets/images/modules/animais.png",
+          "./assets/images/modules/carros.png",
+          "./assets/images/modules/disney.png",
+          "./assets/images/modules/famosos-mundiais.png",
+          "./assets/images/modules/filmes.png",
+          "./assets/images/modules/flores.png",
+          "./assets/images/modules/frutas.png",
+          "./assets/images/modules/harry-potter.png",
+          "./assets/images/modules/ai.png",
+          "./assets/images/modules/livros.png",
+          "./assets/images/modules/marcas.png",
+          "./assets/images/modules/objetos.png",
+          "./assets/images/modules/pokemons.png",
+          "./assets/images/modules/pokemons2.png",
+          "./assets/images/modules/pokemons3.png",
+          "./assets/images/modules/pokemons4.png",
+          "./assets/images/modules/pokemons5.png",
+          "./assets/images/modules/pokemons6.png",
+          "./assets/images/modules/pokemons7.png",
+          "./assets/images/modules/pokemons8.png",
+          "./assets/images/modules/pokemons9.png",
+          "./assets/images/modules/profissoes.png",
+        ],
+      },
+    ],
     "expo-localization",
     [
       "react-native-edge-to-edge",

@@ -3,7 +3,7 @@
   "emoji": "🌸",
   "name": "Flores",
   "background": "#FFB6C1",
-  "image": "@/assets/images/modules/flores.png",
+  "image": "flores",
   "items": [
     {
       "name": "Rosa",

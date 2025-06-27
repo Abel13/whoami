@@ -3,7 +3,7 @@
   "emoji": "🌺",
   "name": "Pokémons 7ª geração (Alola)",
   "background": "#FFB6C1",
-  "image": "@/assets/images/modules/pokemons7.png",
+  "image": "pokemons7",
   "items": [
     {
       "name": "Rowlet",

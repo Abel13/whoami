@@ -3,7 +3,7 @@
   "emoji": "🚗",
   "name": "Carros",
   "background": "#FF5733",
-  "image": "@/assets/images/modules/carros.png",
+  "image": "carros",
   "items": [
     {
       "name": "Fusca",

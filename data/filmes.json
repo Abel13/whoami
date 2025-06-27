@@ -3,7 +3,7 @@
   "emoji": "🎥",
   "name": "Filmes",
   "background": "#87CEEB",
-  "image": "@/assets/images/modules/filmes.png",
+  "image": "filmes",
   "items": [
     {
       "name": "Titanic",

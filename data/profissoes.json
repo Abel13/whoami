@@ -3,7 +3,7 @@
   "emoji": "💼",
   "name": "Profissões",
   "background": "#FF4500",
-  "image": "@/assets/images/modules/profissoes.png",
+  "image": "profissoes",
   "items": [
     {
       "name": "Professor",
@@ -736,7 +736,7 @@
     {
       "name": "Camareira",
       "hint": "Limpa e organiza os quartos de hotéis",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "minAge": 8,
       "maxAge": 100
     },

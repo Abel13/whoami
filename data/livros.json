@@ -3,7 +3,7 @@
   "emoji": "📚",
   "name": "Livros",
   "background": "#8A2BE2",
-  "image": "@/assets/images/modules/livros.png",
+  "image": "livros",
   "items": [
     {
       "name": "O Pequeno Príncipe",

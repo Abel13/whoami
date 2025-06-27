@@ -3,7 +3,7 @@
   "emoji": "🐉",
   "name": "Pokémons 1ª geração (Kanto)",
   "background": "#FF6347",
-  "image": "@/assets/images/modules/pokemons.png",
+  "image": "pokemons",
   "items": [
     {
       "name": "Bulbasaur",

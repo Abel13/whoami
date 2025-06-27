@@ -10,6 +10,47 @@ import { DifficultyCard } from "../molecules/DifficultyCard";
 import { BlurView } from "expo-blur";
 import { useState } from "react";
 
+export const difficulties: {
+  [key: string]: {
+    image: any;
+    title: string;
+    message: string;
+    next: boolean;
+    prev: boolean;
+    primaryColor: string;
+    secondaryColor: string;
+  };
+} = {
+  easy: {
+    image: require("@/assets/images/settings/easy.png"),
+    title: "Fácil",
+    message: "Ideal para crianças! Recomendado até 12 anos de idade.",
+    next: true,
+    prev: false,
+    primaryColor: "#90EE90",
+    secondaryColor: "#446644",
+  },
+  medium: {
+    next: true,
+    prev: true,
+    title: "Média",
+    image: require("@/assets/images/settings/medium.png"),
+    message: "Indicado para o público em geral. Desafios equilibrados.",
+    primaryColor: "#eeeb90",
+    secondaryColor: "#665d44",
+  },
+  hard: {
+    prev: true,
+    next: false,
+    title: "Difícil",
+    image: require("@/assets/images/settings/hard.png"),
+    message:
+      "Voltado para usuários experientes. Pode conter elementos mais complexos, específicos ou técnicos.",
+    primaryColor: "#ee9090",
+    secondaryColor: "#664444",
+  },
+};
+
 export const DifficultySelector = ({ visible = false, onSelect }) => {
   const { AnimatedPagerView, ref, ...rest } = usePagerView({ pagesAmount: 3 });
   const [position, setPosition] = useState<number>(0);
@@ -60,36 +101,18 @@ export const DifficultySelector = ({ visible = false, onSelect }) => {
           offscreenPageLimit={1}
           onPageSelected={handlePageSelected}
         >
-          <DifficultyCard
-            key={"easy"}
-            next
-            image={require("@/assets/images/settings/easy.png")}
-            title={"Fácil"}
-            message={"Ideal para crianças! Recomendado até 12 anos de idade."}
-            primaryColor="#90EE90"
-            secondaryColor="#446644"
-          />
-          <DifficultyCard
-            key={"medium"}
-            next
-            prev
-            title={"Média"}
-            image={require("@/assets/images/settings/medium.png")}
-            message={"Indicado para o público em geral. Desafios equilibrados."}
-            primaryColor="#eeeb90"
-            secondaryColor="#665d44"
-          />
-          <DifficultyCard
-            key={"hard"}
-            prev
-            title={"Difícil"}
-            image={require("@/assets/images/settings/hard.png")}
-            message={
-              "Voltado para usuários experientes. Pode conter elementos mais complexos, específicos ou técnicos."
-            }
-            primaryColor="#ee9090"
-            secondaryColor="#664444"
-          />
+          {Object.keys(difficulties).map((k) => (
+            <DifficultyCard
+              key={k}
+              next={difficulties[k].next}
+              prev={difficulties[k].prev}
+              image={difficulties[k].image}
+              title={difficulties[k].title}
+              message={difficulties[k].message}
+              primaryColor={difficulties[k].primaryColor}
+              secondaryColor={difficulties[k].secondaryColor}
+            />
+          ))}
         </AnimatedPagerView>
 
         <View

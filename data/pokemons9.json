@@ -3,7 +3,7 @@
   "emoji": "🌈",
   "name": "Pokémons 9ª geração (Paldea)",
   "background": "#FF69B4",
-  "image": "@/assets/images/modules/pokemons9.png",
+  "image": "pokemons9",
   "items": [
     {
       "name": "Sprigatito",

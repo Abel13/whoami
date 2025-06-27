@@ -3,7 +3,7 @@
   "emoji": "🛍️",
   "name": "Marcas",
   "background": "#FF8C00",
-  "image": "@/assets/images/modules/marcas.png",
+  "image": "marcas",
   "items": [
     {
       "name": "McDonald's",

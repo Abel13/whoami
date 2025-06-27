@@ -3,7 +3,7 @@
   "emoji": "🐾",
   "name": "Animais",
   "background": "#FFB6C1",
-  "image": "@/assets/images/modules/animais.png",
+  "image": "animais",
   "items": [
     {
       "name": "Leão",

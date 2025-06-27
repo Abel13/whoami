@@ -4,6 +4,8 @@ import { useSettingsStore } from "../hooks/useSettingsStore";
 import Slider from "@react-native-community/slider";
 import ModalView from "@/components/templates/ModalView";
 import { SectionView } from "@/components/Section";
+import { DifficultyCard } from "@/components/molecules/DifficultyCard";
+import { difficulties } from "@/components/organisms/DifficultySelector";
 
 // classificação
 // Fácil, Média, Difícil
@@ -27,7 +29,7 @@ export default function SettingsScreen() {
     touchEnabled,
   } = useSettingsStore((state) => state);
 
-  const difficulty = ["Fácil", "Média", "Difícil"];
+  const difficulty = ["easy", "medium", "hard"][gameDifficulty];
 
   return (
     <ModalView title="Configurações">
@@ -37,7 +39,7 @@ export default function SettingsScreen() {
       >
         <View style={{ gap: 20, marginBottom: 30 }}>
           <SectionView title="jogo">
-            <View>
+            <View style={styles.optionContainer}>
               <Text style={styles.label}>⏱ Tempo de Jogo:</Text>
               <Slider
                 style={styles.slider}
@@ -52,8 +54,16 @@ export default function SettingsScreen() {
               />
               <Text style={styles.value}>{gameDuration} segundos</Text>
             </View>
-            <View style={{ marginTop: 10 }}>
+            <View style={styles.optionContainer}>
               <Text style={styles.label}>🧠 Dificuldade</Text>
+              <DifficultyCard
+                key={difficulty}
+                image={difficulties[difficulty].image}
+                title={difficulties[difficulty].title}
+                message={difficulties[difficulty].message}
+                primaryColor="#fff"
+                secondaryColor={difficulties[difficulty].secondaryColor}
+              />
               <Slider
                 style={styles.slider}
                 minimumValue={0}
@@ -65,12 +75,12 @@ export default function SettingsScreen() {
                 maximumTrackTintColor="#ddd"
                 thumbTintColor="#f5a623"
               />
-              <Text style={styles.value}>{difficulty[gameDifficulty]}</Text>
+              <Text style={styles.value}>{difficulties[difficulty].title}</Text>
             </View>
           </SectionView>
 
           <SectionView title="hardware">
-            <View style={styles.option}>
+            <View style={[styles.option, styles.optionContainer]}>
               <Text style={styles.label}>🔊 Som</Text>
               <Switch
                 value={soundEnabled}
@@ -80,7 +90,7 @@ export default function SettingsScreen() {
               />
             </View>
 
-            <View style={styles.option}>
+            <View style={[styles.option, styles.optionContainer]}>
               <Text style={styles.label}>📳 Vibração</Text>
               <Switch
                 value={vibrationEnabled}
@@ -90,7 +100,7 @@ export default function SettingsScreen() {
               />
             </View>
 
-            <View style={styles.option}>
+            <View style={[styles.option, styles.optionContainer]}>
               <Text style={styles.label}>🧭 Giroscópio</Text>
               <Switch
                 value={gyroscopeEnabled}
@@ -100,7 +110,7 @@ export default function SettingsScreen() {
               />
             </View>
 
-            <View style={styles.option}>
+            <View style={[styles.option, styles.optionContainer]}>
               <Text style={styles.label}>👆 Toque</Text>
               <Switch
                 value={touchEnabled}
@@ -117,6 +127,12 @@ export default function SettingsScreen() {
 }
 
 const styles = StyleSheet.create({
+  optionContainer: {
+    borderWidth: 1,
+    padding: 10,
+    borderColor: "#3478f6",
+    borderRadius: 8,
+  },
   option: {
     flexDirection: "row",
     justifyContent: "space-between",

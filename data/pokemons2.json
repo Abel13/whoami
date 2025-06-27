@@ -3,7 +3,7 @@
   "emoji": "🌿",
   "name": "Pokémons 2ª geração (Johto)",
   "background": "#90EE90",
-  "image": "@/assets/images/modules/pokemons2.png",
+  "image": "pokemons2",
   "items": [
     {
       "name": "Chikorita",

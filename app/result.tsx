@@ -1,19 +1,16 @@
 import React, { useEffect, useId } from "react";
-import { View, Text, FlatList, StyleSheet, Pressable } from "react-native";
-import { useGlobalSearchParams, useRouter } from "expo-router";
+import { View, Text, FlatList, StyleSheet } from "react-native";
+import { useGlobalSearchParams } from "expo-router";
 import { useHistoryStore } from "@/hooks/useHistoryStore";
-import { Feather } from "@expo/vector-icons";
 import { useAmplitude } from "@/hooks/useAmplitude";
 import { useVexo } from "@/hooks/useVexo";
 import { useAptabase } from "@/hooks/useAptabase";
-import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
 import ModalView from "@/components/templates/ModalView";
 
 export default function ResultScreen() {
   const params = useGlobalSearchParams();
   const { gameEnd: geAmplitude } = useAmplitude();
   const { gameEnd: geAptabase } = useAptabase();
-  const { gameEnd: gePostHog } = usePostHogAnalytics();
   const { gameEnd: geVexo } = useVexo();
 
   const {
@@ -26,8 +23,6 @@ export default function ResultScreen() {
 
   const { saveGame } = useHistoryStore((state) => state);
   const results = JSON.parse(words as string);
-
-  const router = useRouter();
 
   const totalWords = results.length;
   const correctWords = results.filter(
@@ -46,7 +41,6 @@ export default function ResultScreen() {
       geAmplitude(category, passedWordsCount, correctWords);
       geVexo(category, passedWordsCount, correctWords);
       geAptabase(category, passedWordsCount, correctWords);
-      gePostHog(category, passedWordsCount, correctWords);
       saveGame({
         id: newId,
         category: category as string,

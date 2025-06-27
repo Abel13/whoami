@@ -3,7 +3,7 @@
   "emoji": "🎒",
   "name": "Objetos do Dia a Dia",
   "background": "#FFD700",
-  "image": "@/assets/images/modules/objetos.png",
+  "image": "objetos",
   "items": [
     {
       "name": "Escova de Dentes",

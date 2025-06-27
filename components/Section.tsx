@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
   container: {},
   title: { color: "#a1a1a1", paddingInline: 5 },
   content: {
+    gap: 5,
     paddingTop: 10,
     padding: 5,
     borderTopColor: "#a1a1a1",

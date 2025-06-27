@@ -13,7 +13,6 @@ import { useCardAnimation } from "@/hooks/useCardAnimation";
 import { useAmplitude } from "@/hooks/useAmplitude";
 import { useVexo } from "@/hooks/useVexo";
 import { useAptabase } from "@/hooks/useAptabase";
-import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
 
 export default function GameScreen() {
   const params = useGlobalSearchParams();
@@ -21,6 +20,7 @@ export default function GameScreen() {
   const category: string = params.category as string;
   const {
     gameDuration,
+    gameDifficulty,
     soundEnabled,
     vibrationEnabled,
     touchEnabled,
@@ -30,7 +30,6 @@ export default function GameScreen() {
   const { animateCard, getCardStyle, currentCardColor } = useCardAnimation();
   const { gameStarted: gsAmplitude } = useAmplitude();
   const { gameStarted: gsAptabase } = useAptabase();
-  const { gameStarted: gsPostHog } = usePostHogAnalytics();
   const { gameStarted: gsVexo } = useVexo();
 
   useAudioConfig();
@@ -49,7 +48,10 @@ export default function GameScreen() {
     { word: string; status: string }[]
   >([]);
   const [shouldNavigate, setShouldNavigate] = useState(false);
-  const { getNextOption, resetRound } = useCategoryOptions(category);
+  const { getNextOption, resetRound } = useCategoryOptions(
+    category,
+    ["easy", "medium", "hard"][gameDifficulty]
+  );
 
   useEffect(() => {
     if (preCountdown === 3) playSound("start");
@@ -122,7 +124,6 @@ export default function GameScreen() {
       gsAmplitude(category, gameDuration);
       gsVexo(category, gameDuration);
       gsAptabase(category, gameDuration);
-      gsPostHog(category, gameDuration);
     }
   }, [gameDuration]);
 

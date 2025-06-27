@@ -3,7 +3,7 @@
   "emoji": "🔥",
   "name": "Pokémons 3ª geração (Hoenn)",
   "background": "#FF4500",
-  "image": "@/assets/images/modules/pokemons3.png",
+  "image": "pokemons3",
   "items": [
     {
       "name": "Treecko",

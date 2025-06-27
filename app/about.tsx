@@ -1,11 +1,8 @@
 import ModalView from "@/components/templates/ModalView";
 import { useAmplitude } from "@/hooks/useAmplitude";
 import { useAptabase } from "@/hooks/useAptabase";
-import { usePostHogAnalytics } from "@/hooks/usePostHogAnalytics";
 import { useVexo } from "@/hooks/useVexo";
-import { Feather } from "@expo/vector-icons";
 import { nativeApplicationVersion } from "expo-application";
-import { router } from "expo-router";
 import {
   Image,
   Linking,
@@ -19,7 +16,6 @@ import {
 export default function AboutScreen() {
   const { bmc: bmcAmplitude } = useAmplitude();
   const { bmc: bmcAptabase } = useAptabase();
-  const { bmc: bmcPostHog } = usePostHogAnalytics();
   const { bmc: bmcVexo } = useVexo();
 
   return (
@@ -56,7 +52,6 @@ export default function AboutScreen() {
               bmcAmplitude();
               bmcVexo();
               bmcAptabase();
-              bmcPostHog();
               Linking.openURL("https://www.buymeacoffee.com/abeldutraui");
             }}
           >

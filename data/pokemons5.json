@@ -3,7 +3,7 @@
   "emoji": "🌍",
   "name": "Pokémons 5ª geração (Unova)",
   "background": "#32CD32",
-  "image": "@/assets/images/modules/pokemons5.png",
+  "image": "pokemons5",
   "items": [
     {
       "name": "Snivy",

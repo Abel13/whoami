@@ -3,6 +3,6 @@
   "emoji": "✨",
   "name": "Personalizado",
   "background": "#801040",
-  "image": "@/assets/images/modules/ai.png",
+  "image": "ai",
   "items": []
 }

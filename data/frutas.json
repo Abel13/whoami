@@ -3,7 +3,7 @@
   "emoji": "🍎",
   "name": "Frutas",
   "background": "#6B5B95",
-  "image": "@/assets/images/modules/frutas.png",
+  "image": "frutas",
   "items": [
     {
       "name": "Banana",
@@ -142,7 +142,7 @@
     {
       "name": "Carambola",
       "hint": "Fruta em formato de estrela quando cortada.",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "minAge": 7,
       "maxAge": 100
     },
@@ -187,13 +187,6 @@
       "hint": "Fruta amarela envolta por folhas, com sabor agridoce.",
       "difficulty": "hard",
       "minAge": 10,
-      "maxAge": 100
-    },
-    {
-      "name": "Uva passa",
-      "hint": "Fruta seca e doce, feita a partir da uva.",
-      "difficulty": "easy",
-      "minAge": 5,
       "maxAge": 100
     },
     {
@@ -530,7 +523,6 @@
       "minAge": 12,
       "maxAge": 100
     },
-
     {
       "name": "Pitomba",
       "hint": "Fruta pequena de casca dura, com polpa agridoce e bastante suculenta.",

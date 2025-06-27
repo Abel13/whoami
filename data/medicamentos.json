@@ -3,7 +3,7 @@
   "emoji": "💊",
   "name": "Medicamentos",
   "background": "#B22222",
-  "image": "@/assets/images/modules/medicamentos.png",
+  "image": "medicamentos",
   "items": [
     {
       "name": "Paracetamol",

@@ -3,7 +3,7 @@
   "emoji": "🔥",
   "name": "Pokémons 8ª geração (Galar)",
   "background": "#FF8C00",
-  "image": "@/assets/images/modules/pokemons8.png",
+  "image": "pokemons8",
   "items": [
     {
       "name": "Grookey",

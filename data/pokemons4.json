@@ -3,7 +3,7 @@
   "emoji": "🌊",
   "name": "Pokémons 4ª geração (Sinnoh)",
   "background": "#ADD8E6",
-  "image": "@/assets/images/modules/pokemons4.png",
+  "image": "pokemons4",
   "items": [
     {
       "name": "Turtwig",

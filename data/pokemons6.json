@@ -3,7 +3,7 @@
   "emoji": "🌟",
   "name": "Pokémons 6ª geração (Kalos)",
   "background": "#FFD700",
-  "image": "@/assets/images/modules/pokemons6.png",
+  "image": "pokemons6",
   "items": [
     {
       "name": "Chespin",

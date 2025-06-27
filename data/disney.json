@@ -3,7 +3,7 @@
   "emoji": "🏰",
   "name": "Disney",
   "background": "#FF69B4",
-  "image": "@/assets/images/modules/disney.png",
+  "image": "disney",
   "items": [
     {
       "name": "Mickey Mouse",

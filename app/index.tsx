@@ -23,7 +23,7 @@ export default function HomeScreen() {
 
   const groupItems = (data) => {
     const grouped: CategoryOptions[][] = [];
-    for (let i = 0; i < data.length; i += 3) {
+    for (let i = 0; i < data?.length; i += 3) {
       grouped.push(data.slice(i, i + 3));
     }
     return grouped;
@@ -64,7 +64,7 @@ export default function HomeScreen() {
                   </View>
                 )}
                 <Image
-                  source={subItem.image}
+                  source={{ uri: subItem.image }}
                   style={{ width: 70, height: 70 }}
                 />
                 <Text style={styles.buttonText}>{subItem.name}</Text>
