@@ -3,7 +3,7 @@
   "emoji": "🧙",
   "name": "Harry Potter",
   "background": "#33a2b5",
-  "image": "harry-potter",
+  "image": "harry_potter",
   "items": [
     {
       "name": "Expelliarmus",
