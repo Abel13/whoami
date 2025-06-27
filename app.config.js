@@ -74,7 +74,6 @@ export default {
         ],
       },
     ],
-    "expo-localization",
     [
       "react-native-edge-to-edge",
       {
