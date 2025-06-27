@@ -31,7 +31,7 @@ export default function RootLayout() {
 
   async function changeScreenOrientation() {
     await ScreenOrientation.lockAsync(
-      ScreenOrientation.OrientationLock.LANDSCAPE_LEFT
+      ScreenOrientation.OrientationLock.LANDSCAPE
     );
   }
 
@@ -59,7 +59,7 @@ export default function RootLayout() {
           headerShown: false,
           navigationBarHidden: true,
           autoHideHomeIndicator: true,
-          orientation: "landscape_left",
+          orientation: "landscape",
         }}
       >
         <Stack.Screen name="index" />

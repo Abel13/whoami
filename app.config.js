@@ -109,7 +109,7 @@ export default {
     [
       "expo-screen-orientation",
       {
-        initialOrientation: "LANDSCAPE_LEFT",
+        initialOrientation: "LANDSCAPE_RIGHT",
       },
     ],
     [

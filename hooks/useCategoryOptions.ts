@@ -62,7 +62,7 @@ export const categories: CategoryOptions[] = [
 ];
 
 export function useCategoryOptions(category: string, difficulty: string) {
-  const [options, setOptions] = useState([]);
+  const [options, setOptions] = useState<Item[]>([]);
 
   const getNextOption = (): string | null => {
     if (options.length === 0) {
@@ -72,7 +72,9 @@ export function useCategoryOptions(category: string, difficulty: string) {
     const randomIndex = Math.floor(Math.random() * options.length);
     const nextOption = options[randomIndex];
 
-    setOptions((prev) => prev.filter((_, index) => index !== randomIndex));
+    setOptions((prev) =>
+      prev.filter((option) => option.name !== nextOption.name)
+    );
 
     return nextOption.name;
   };

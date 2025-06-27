@@ -157,7 +157,8 @@ export default function GameScreen() {
 
     animateCard(direction, () => {
       const nextWord = getNextOption();
-      setCurrentWord(nextWord || "Game Over");
+      if (!nextWord) handleEndGame();
+      setCurrentWord(nextWord);
     });
   };
 
