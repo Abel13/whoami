@@ -13,6 +13,7 @@ import { useCardAnimation } from "@/hooks/useCardAnimation";
 import { useAmplitude } from "@/hooks/useAmplitude";
 import { useVexo } from "@/hooks/useVexo";
 import { useAptabase } from "@/hooks/useAptabase";
+import * as ScreenOrientation from "expo-screen-orientation";
 
 export default function GameScreen() {
   const params = useGlobalSearchParams();
@@ -53,6 +54,60 @@ export default function GameScreen() {
     ["easy", "medium", "hard"][gameDifficulty]
   );
 
+  const handleMovement = async () => {
+    if (!gyroscopeData || preCountdown !== 0 || timeLeft <= 0) return;
+
+    const { y } = gyroscopeData;
+    const orientation = await ScreenOrientation.getOrientationAsync();
+    const isRight = orientation === 3;
+
+    const shouldPass = y > 4;
+    const shouldCorrect = y < -4;
+
+    if (shouldPass || shouldCorrect) {
+      const action = isRight
+        ? shouldPass
+          ? "pass"
+          : "correct"
+        : shouldPass
+        ? "correct"
+        : "pass";
+
+      handleNextWord(action);
+    }
+  };
+
+  const handleVibration = () => {
+    if (vibrationEnabled) Vibration.vibrate(200);
+  };
+
+  const handleNextWord = async (action: "pass" | "correct") => {
+    const now = Date.now();
+    if (now - lastAction < 500) return;
+    setLastAction(now);
+
+    const direction = action === "correct" ? "up" : "down";
+
+    await playSound(action);
+    setPassedWords((prev) => [...prev, { word: currentWord!, status: action }]);
+
+    if (action === "correct") {
+      setCorrectCount((prev) => prev + 1);
+    } else if (action === "pass") {
+      setPassCount((prev) => prev + 1);
+    }
+
+    animateCard(direction, () => {
+      const nextWord = getNextOption();
+      if (!nextWord) handleEndGame();
+      setCurrentWord(nextWord);
+    });
+  };
+
+  const handleEndGame = () => {
+    setShouldNavigate(true);
+  };
+
   useEffect(() => {
     if (preCountdown === 3) playSound("start");
     if (preCountdown > 0) {
@@ -79,15 +134,7 @@ export default function GameScreen() {
   }, [preCountdown]);
 
   useEffect(() => {
-    if (gyroscopeData && preCountdown === 0 && timeLeft > 0) {
-      const { y } = gyroscopeData;
-
-      if (y > 4) {
-        handleNextWord("correct");
-      } else if (y < -4) {
-        handleNextWord("pass");
-      }
-    }
+    handleMovement();
   }, [gyroscopeData]);
 
   useEffect(() => {
@@ -134,37 +181,6 @@ export default function GameScreen() {
   useEffect(() => {
     resetRound();
   }, []);
-
-  const handleVibration = () => {
-    if (vibrationEnabled) Vibration.vibrate(200);
-  };
-
-  const handleNextWord = async (action: "pass" | "correct") => {
-    const now = Date.now();
-    if (now - lastAction < 500) return;
-    setLastAction(now);
-
-    const direction = action === "correct" ? "up" : "down";
-
-    await playSound(action);
-    setPassedWords((prev) => [...prev, { word: currentWord!, status: action }]);
-
-    if (action === "correct") {
-      setCorrectCount((prev) => prev + 1);
-    } else if (action === "pass") {
-      setPassCount((prev) => prev + 1);
-    }
-
-    animateCard(direction, () => {
-      const nextWord = getNextOption();
-      if (!nextWord) handleEndGame();
-      setCurrentWord(nextWord);
-    });
-  };
-
-  const handleEndGame = () => {
-    setShouldNavigate(true);
-  };
 
   return (
     <View style={styles.container}>
