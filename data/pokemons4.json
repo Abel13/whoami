@@ -1,0 +1,758 @@
+{
+  "key": "pokemons4",
+  "emoji": "🌊",
+  "name": "Pokémons 4ª geração (Sinnoh)",
+  "background": "#ADD8E6",
+  "image": "pokemons4",
+  "items": [
+    {
+      "name": "Turtwig",
+      "hint": "Tartaruguinha verde com uma folha na cabeça",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Grotle",
+      "hint": "Evolução do Turtwig com arbustos nas costas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Torterra",
+      "hint": "Tartaruga gigante com uma árvore nas costas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chimchar",
+      "hint": "Macaco de fogo com chama no rabo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Monferno",
+      "hint": "Evolução do Chimchar com aparência de lutador",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Infernape",
+      "hint": "Macaco de fogo veloz com armadura dourada",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Piplup",
+      "hint": "Pinguim azul orgulhoso, inicial de água",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Prinplup",
+      "hint": "Pinguim com aparência nobre, evolução do Piplup",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Empoleon",
+      "hint": "Pinguim com bico de tridente, rei dos mares",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Starly",
+      "hint": "Pequeno passarinho cinza comum em Sinnoh",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Staravia",
+      "hint": "Evolução do Starly, mais robusto e ágil",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Staraptor",
+      "hint": "Falcão bravo com topete e força nos ataques",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bidoof",
+      "hint": "Castor fofinho com dentes grandes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bibarel",
+      "hint": "Castor marronzinho com cauda larga de barragem",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Kricketot",
+      "hint": "Grilo que bate as antenas como se fossem instrumentos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Kricketune",
+      "hint": "Grilo com bigodes que toca melodia com as mãos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Shinx",
+      "hint": "Filhote de leão elétrico com olhos brilhantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Luxio",
+      "hint": "Leão jovem com eletricidade pulsante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Luxray",
+      "hint": "Leão negro com olhar penetrante, eletricidade intensa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Budew",
+      "hint": "Brotinho verde com flores por abrir",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Roserade",
+      "hint": "Flor dançarina com buquês nas mãos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cranidos",
+      "hint": "Dinossauro azul com cabeça dura para cabeçadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Rampardos",
+      "hint": "Evolução do Cranidos, usa a cabeça para destruir tudo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Shieldon",
+      "hint": "Dinossauro pequeno com escudo facial",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bastiodon",
+      "hint": "Parede ambulante com rosto de escudo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Burmy",
+      "hint": "Casulo com diferentes tipos de manto",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wormadam",
+      "hint": "Forma evoluída do Burmy, com trajes de ambiente",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mothim",
+      "hint": "Mariposa laranja, evolução do Burmy macho",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Combee",
+      "hint": "Abelha com três rostos em forma de colmeia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vespiquen",
+      "hint": "Rainha das abelhas, evolução da Combee fêmea",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pachirisu",
+      "hint": "Esquilo elétrico branco e azul",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Buizel",
+      "hint": "Lontra laranja com anel flutuador no pescoço",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Floatzel",
+      "hint": "Evolução do Buizel, nada com grande velocidade",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cherubi",
+      "hint": "Cereja dupla com rostinho alegre",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cherrim",
+      "hint": "Flor que se abre com o sol",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Shellos",
+      "hint": "Lesma colorida do mar, tem duas formas diferentes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gastrodon",
+      "hint": "Lesma maior, evolução do Shellos, escorregadia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ambipom",
+      "hint": "Macaco roxo com duas mãos caudas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Drifloon",
+      "hint": "Balão roxo fantasma com cordas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Drifblim",
+      "hint": "Balão gigante com olhos fantasmas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Buneary",
+      "hint": "Coelhinha marrom com orelhas fofas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lopunny",
+      "hint": "Coelha elegante com pernas longas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mismagius",
+      "hint": "Feiticeira fantasma com chapéu de bruxa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Honchkrow",
+      "hint": "Corvo mafioso com chapéu de chefe",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Glameow",
+      "hint": "Gata cinza vaidosa com cauda enrolada",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Purugly",
+      "hint": "Gatona com expressão rabugenta",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chingling",
+      "hint": "Sino com olhos que faz barulho psíquico",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Stunky",
+      "hint": "Gambá roxo com rabo levantado",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Skuntank",
+      "hint": "Gambá maior com ataque fedorento",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bronzor",
+      "hint": "Moeda azul metálica com olhos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bronzong",
+      "hint": "Sino metálico que controla o clima",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bonsly",
+      "hint": "Mini bonsai que chora como bebê",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mime Jr.",
+      "hint": "Palhacinho psíquico que imita os outros",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Happiny",
+      "hint": "Bebê que carrega um ovo como brinquedo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Chatot",
+      "hint": "Pássaro que imita vozes, tem cabeça de nota musical",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Spiritomb",
+      "hint": "Espírito preso numa pedra, tem olhos e aura roxa",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Gible",
+      "hint": "Pequeno dragão azul com grandes dentes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gabite",
+      "hint": "Evolução do Gible com asas nas costas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Garchomp",
+      "hint": "Dragão tubarão super veloz",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Munchlax",
+      "hint": "Glutão preguiçoso, pré-evolução do Snorlax",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Riolu",
+      "hint": "Filhote azul que sente emoções, pré-evolução do Lucario",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lucario",
+      "hint": "Lutador de aura com corpo azul e preto",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hippopotas",
+      "hint": "Hipopótamo marrom com areia nas costas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hippowdon",
+      "hint": "Hipopótamo gigante que solta areia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Skorupi",
+      "hint": "Escorpião roxo com cauda em formato de pinça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Drapion",
+      "hint": "Escorpião blindado com braços e cauda agressivos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Croagunk",
+      "hint": "Sapo azulado com bochechas venenosas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Toxicroak",
+      "hint": "Sapo venenoso de braços fortes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Carnivine",
+      "hint": "Planta carnívora que pendura e morde",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Finneon",
+      "hint": "Peixe colorido que brilha quando nada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lumineon",
+      "hint": "Evolução do Finneon, com padrões de neon",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mantyke",
+      "hint": "Filhote de arraia com vista fofa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Snover",
+      "hint": "Cereja de neve com galhos de árvore",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Abomasnow",
+      "hint": "Gigante de neve com barba de gelo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Weavile",
+      "hint": "Gato negro veloz com garras afiadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Magnezone",
+      "hint": "Robô magnético flutuante de três olhos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Lickilicky",
+      "hint": "Pokémon grande com língua comprida e poderosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Rhyperior",
+      "hint": "Rinoceronte blindado que esmagadora tudo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tangrowth",
+      "hint": "Planta gigante coberta de vinhas em movimento",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Electivire",
+      "hint": "Lutador elétrico com cabos nos braços",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Magmortar",
+      "hint": "Lutador de fogo com canhão no braço",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Togekiss",
+      "hint": "Ave branca com aura de paz, evolução do Togetic",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Yanmega",
+      "hint": "Libélula gigante verde com asas rápidas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Leafeon",
+      "hint": "Evolução verde do Eevee, com folhas no corpo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Glaceon",
+      "hint": "Evolução gelada do Eevee, com gelo no pelo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Gliscor",
+      "hint": "Dragão morcego acrobata com cauda de escorpião",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mamoswine",
+      "hint": "Mamut peludo com presas longas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Porygon-Z",
+      "hint": "Versão instável e glitchada do Porygon2",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Gallade",
+      "hint": "Lutador psíquico com lâminas nos braços",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Probopass",
+      "hint": "Moai magnético com nariz gigantesco",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dusknoir",
+      "hint": "Fantasma gigante com luz no olho",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Froslass",
+      "hint": "Espírito de gelo feminino com estilo de kimono",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Rotom",
+      "hint": "Fantasma elétrico que possui eletrodomésticos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Uxie",
+      "hint": "Guardião do conhecimento em forma de espírito",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mesprit",
+      "hint": "Guardião da emoção, flutua perto de lagos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Azelf",
+      "hint": "Guardião da vontade, vive no fundo dos lagos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Dialga",
+      "hint": "Dragão metálico que comanda o tempo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Palkia",
+      "hint": "Dragão rosa que controla o espaço",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Heatran",
+      "hint": "Criatura de magma que habita vulcões",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Regigigas",
+      "hint": "Gigante ancestral que move continentes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Giratina",
+      "hint": "Dragão fantasma que vive no mundo reverso",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cresselia",
+      "hint": "Pokémon lunar que traz bons sonhos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Phione",
+      "hint": "Pokémon aquático gerado a partir do Manaphy",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Manaphy",
+      "hint": "Pokémon do oceano com poderes especiais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Darkrai",
+      "hint": "Pokémon sombrio que causa pesadelos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Shaymin",
+      "hint": "Pokémon da gratidão com forma de flor",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Arceus",
+      "hint": "Criador do universo Pokémon",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

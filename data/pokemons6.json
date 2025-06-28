@@ -1,0 +1,513 @@
+{
+  "key": "pokemons6",
+  "emoji": "🌟",
+  "name": "Pokémons 6ª geração (Kalos)",
+  "background": "#FFD700",
+  "image": "pokemons6",
+  "items": [
+    {
+      "name": "Chespin",
+      "hint": "Ratinhos verde com casca protetora na cabeça",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Quilladin",
+      "hint": "Evolução do Chespin, com armadura de espinhos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chesnaught",
+      "hint": "Herói espinhoso com força de tanque",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Fennekin",
+      "hint": "Raposa de fogo com orelhas grandes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Braixen",
+      "hint": "Raposa com graveto chamejante na cauda",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Delphox",
+      "hint": "Feiticeira raposa que manipula fogo e fogo-fátuo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Froakie",
+      "hint": "Sapo azul com bolhas de sabão",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Frogadier",
+      "hint": "Sapo ninja com cachecol de espuma",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Greninja",
+      "hint": "Sapo ninja ágil com língua como cachecol",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bunnelby",
+      "hint": "Coelho escavador cinza com grandes orelhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Diggersby",
+      "hint": "Coelho cavador robusto com grandes mãos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fletchling",
+      "hint": "Passarinho vermelho e branco, comum no início do jogo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Fletchinder",
+      "hint": "Passarinho flamejante, evolução do Fletchling",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Talonflame",
+      "hint": "Falcão veloz com asas de fogo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Scatterbug",
+      "hint": "Pequena lagarta fofa e peluda",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Spewpa",
+      "hint": "Casulo de lagarta coberto de fios brancos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vivillon",
+      "hint": "Borboleta com asas estampadas de padrões variados",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Litleo",
+      "hint": "Filhote de leão com juba começando a crescer",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pyroar",
+      "hint": "Leão flamejante com juba imponente",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Flabébé",
+      "hint": "Pokémon flor que segura uma pétala como vara",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Floette",
+      "hint": "Evolução do Flabébé com pétalas flutuantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Florges",
+      "hint": "Flora elegante com vestido feito de flores",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Skiddo",
+      "hint": "Goatinho que carrega pessoas nas costas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gogoat",
+      "hint": "Cabra gigante com chifres onde os corredores escalam",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pancham",
+      "hint": "Urso pequeno com folha na boca e sininho na cabeça",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pangoro",
+      "hint": "Urso grande com corpo musculoso e máscara de panda",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Furfrou",
+      "hint": "Cão elegante que pode aparar o pelo em cerimônias",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Espurr",
+      "hint": "Gatinho cinza com olhar penetrante e orelhas grandes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Meowstic",
+      "hint": "Evolução misteriosa de Espurr, com poderes psíquicos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Honedge",
+      "hint": "Espada fantasma presa a um braço de armadura",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Doublade",
+      "hint": "Duas espadas gélidas empunhando o mesmo punho",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Aegislash",
+      "hint": "Espada e escudo possuídos por alma nobre",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Spritzee",
+      "hint": "Pequeno pássaro perfumado que carrega aroma doce",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Aromatisse",
+      "hint": "Ave elegante que exala fragrâncias curativas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Swirlix",
+      "hint": "Bolinhas brancas que parecem nuvens doces",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Slurpuff",
+      "hint": "Pokémon chef de pastelaria com olfato apurado",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Inkay",
+      "hint": "Polvinho preto com olho invertido que brilha no escuro",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Malamar",
+      "hint": "Polvo sombrio com poderes hipnóticos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Binacle",
+      "hint": "Duas conchas sobre rocha, com braços rígidos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Barbaracle",
+      "hint": "Conjunto de rochas animadas formando um corpo forte",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Skrelp",
+      "hint": "Peixe venenoso disfarçado de alga",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dragalge",
+      "hint": "Dragão marinho disfarçado de algas tóxicas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Clauncher",
+      "hint": "Lagosta azul com braço como canhão",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Clawitzer",
+      "hint": "Evolução de Clauncher com braço-canhão potente",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Helioptile",
+      "hint": "Lagarto elétrico que absorve sol com orelhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Heliolisk",
+      "hint": "Lagarto de energia solar que dispara raios",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tyrunt",
+      "hint": "Dinossauro com grande mandíbula, fósseis antigos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tyrantrum",
+      "hint": "Rei dos dinossauros com rosnado poderoso",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Amaura",
+      "hint": "Dinossauro frio com crista brilhante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Aurorus",
+      "hint": "Evolução de Amaura, com icadas que brilham no céu",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sylveon",
+      "hint": "Eevee rosa com fitas e laços encantadores",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hawlucha",
+      "hint": "Pássaro lutador estilo Lucha Libre",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dedenne",
+      "hint": "Rato elétrico pequeno com bigodes enrolados",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Carbink",
+      "hint": "Pedra-cristal que protege gemas preciosas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Goomy",
+      "hint": "Goo blobby roxo que escorrega pela grama",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Sliggoo",
+      "hint": "Evolução de Goomy com gotas de orvalho pegajoso",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Goodra",
+      "hint": "Dragão lamacento gentil com rabo pegajoso",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Klefki",
+      "hint": "Chaveiro prateado que coleta chaves",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Phantump",
+      "hint": "Fantasma de árvore com olhos de lanterninha",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Trevenant",
+      "hint": "Árvore fantasma com galhos que se movem",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pumpkaboo",
+      "hint": "Abóbora fantasmagórica com sorriso esculpido",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gourgeist",
+      "hint": "Abóbora gigante que adora travessuras",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bergmite",
+      "hint": "Bloco de gelo ambulante que parece iceberg",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Avalugg",
+      "hint": "Plataforma de gelo que anda devagar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Noibat",
+      "hint": "Morcego roxo com orelhas enormes e sonares leves",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Noivern",
+      "hint": "Morcego voador rápido com asas cortantes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Xerneas",
+      "hint": "Cervo lendário da vida com galhos luminosos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Yveltal",
+      "hint": "Ave lendária da destruição, asas sombrias",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Zygarde",
+      "hint": "Dragoniforme de deserto, protetor do equilíbrio",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Diancie",
+      "hint": "Princesa de cristal que cria gemas brilhantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hoopa",
+      "hint": "Djinn brincalhão que materializa anéis mágicos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Volcanion",
+      "hint": "Golem de vapor com canhões de magma nas costas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    }
+  ]
+}

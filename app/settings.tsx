@@ -1,22 +1,23 @@
 import React from "react";
-import {
-  View,
-  Text,
-  Switch,
-  StyleSheet,
-  Pressable,
-  ScrollView,
-} from "react-native";
+import { View, Text, Switch, StyleSheet, ScrollView } from "react-native";
 import { useSettingsStore } from "../hooks/useSettingsStore";
-import { useRouter } from "expo-router";
 import Slider from "@react-native-community/slider";
-import { Feather, Ionicons } from "@expo/vector-icons";
+import ModalView from "@/components/templates/ModalView";
+import { SectionView } from "@/components/Section";
+import { DifficultyCard } from "@/components/molecules/DifficultyCard";
+import { difficulties } from "@/components/organisms/DifficultySelector";
+
+// classificação
+// Fácil, Média, Difícil
+// Fácil: recomendado para crianças, definir idade máxima
+// Média: recomendado para o público em geral
+// Difícil: recomendado para público específico, pode contar itens direcionados a especialistas
 
 export default function SettingsScreen() {
-  const router = useRouter();
-
   const {
     gameDuration,
+    gameDifficulty,
+    setGameDifficulty,
     setGameDuration,
     soundEnabled,
     toggleSound,
@@ -28,117 +29,109 @@ export default function SettingsScreen() {
     touchEnabled,
   } = useSettingsStore((state) => state);
 
+  const difficulty = ["easy", "medium", "hard"][gameDifficulty];
+
   return (
-    <View style={styles.container}>
-      <View style={styles.titleContainer}>
-        <Pressable onPress={router.back}>
-          <Feather name="chevron-left" size={24} color="#FFF" />
-        </Pressable>
-        <Text style={styles.title}>Configurações</Text>
-      </View>
-      <View style={styles.card}>
-        <ScrollView>
-          <View style={styles.option}>
-            <Text style={styles.label}>🔊 Som</Text>
-            <Switch
-              value={soundEnabled}
-              onValueChange={toggleSound}
-              trackColor={{ true: "#f5a623", false: "#ccc" }}
-              thumbColor="#fff"
-            />
-          </View>
+    <ModalView title="Configurações">
+      <ScrollView
+        style={{ paddingHorizontal: 20, paddingBlock: 20 }}
+        showsVerticalScrollIndicator={false}
+      >
+        <View style={{ gap: 20, marginBottom: 30 }}>
+          <SectionView title="jogo">
+            <View style={styles.optionContainer}>
+              <Text style={styles.label}>⏱ Tempo de Jogo:</Text>
+              <Slider
+                style={styles.slider}
+                minimumValue={30}
+                maximumValue={300}
+                step={10}
+                value={gameDuration}
+                onValueChange={setGameDuration}
+                minimumTrackTintColor="#f5a623"
+                maximumTrackTintColor="#ddd"
+                thumbTintColor="#f5a623"
+              />
+              <Text style={styles.value}>{gameDuration} segundos</Text>
+            </View>
+            <View style={styles.optionContainer}>
+              <Text style={styles.label}>🧠 Dificuldade</Text>
+              <DifficultyCard
+                key={difficulty}
+                image={difficulties[difficulty].image}
+                title={difficulties[difficulty].title}
+                message={difficulties[difficulty].message}
+                primaryColor="#fff"
+                secondaryColor={difficulties[difficulty].secondaryColor}
+              />
+              <Slider
+                style={styles.slider}
+                minimumValue={0}
+                maximumValue={2}
+                step={1}
+                value={gameDifficulty}
+                onValueChange={setGameDifficulty}
+                minimumTrackTintColor="#f5a623"
+                maximumTrackTintColor="#ddd"
+                thumbTintColor="#f5a623"
+              />
+              <Text style={styles.value}>{difficulties[difficulty].title}</Text>
+            </View>
+          </SectionView>
 
-          <View style={styles.option}>
-            <Text style={styles.label}>📳 Vibração</Text>
-            <Switch
-              value={vibrationEnabled}
-              onValueChange={toggleVibration}
-              trackColor={{ true: "#f5a623", false: "#ccc" }}
-              thumbColor="#fff"
-            />
-          </View>
+          <SectionView title="hardware">
+            <View style={[styles.option, styles.optionContainer]}>
+              <Text style={styles.label}>🔊 Som</Text>
+              <Switch
+                value={soundEnabled}
+                onValueChange={toggleSound}
+                trackColor={{ true: "#f5a623", false: "#ccc" }}
+                thumbColor="#fff"
+              />
+            </View>
 
-          <View style={styles.option}>
-            <Text style={styles.label}>🧭 Giroscópio</Text>
-            <Switch
-              value={gyroscopeEnabled}
-              onValueChange={toggleGyroscope}
-              trackColor={{ true: "#f5a623", false: "#ccc" }}
-              thumbColor="#fff"
-            />
-          </View>
+            <View style={[styles.option, styles.optionContainer]}>
+              <Text style={styles.label}>📳 Vibração</Text>
+              <Switch
+                value={vibrationEnabled}
+                onValueChange={toggleVibration}
+                trackColor={{ true: "#f5a623", false: "#ccc" }}
+                thumbColor="#fff"
+              />
+            </View>
 
-          <View style={styles.option}>
-            <Text style={styles.label}>👆 Toque</Text>
-            <Switch
-              value={touchEnabled}
-              onValueChange={toggleTouch}
-              trackColor={{ true: "#f5a623", false: "#ccc" }}
-              thumbColor="#fff"
-            />
-          </View>
+            <View style={[styles.option, styles.optionContainer]}>
+              <Text style={styles.label}>🧭 Giroscópio</Text>
+              <Switch
+                value={gyroscopeEnabled}
+                onValueChange={toggleGyroscope}
+                trackColor={{ true: "#f5a623", false: "#ccc" }}
+                thumbColor="#fff"
+              />
+            </View>
 
-          <View style={{ marginTop: 24 }}>
-            <Text style={styles.label}>
-              ⏱ Tempo de Jogo: {gameDuration} segundos
-            </Text>
-            <Slider
-              style={styles.slider}
-              minimumValue={30}
-              maximumValue={300}
-              step={10}
-              value={gameDuration}
-              onValueChange={setGameDuration}
-              minimumTrackTintColor="#f5a623"
-              maximumTrackTintColor="#ddd"
-              thumbTintColor="#f5a623"
-            />
-          </View>
-        </ScrollView>
-      </View>
-    </View>
+            <View style={[styles.option, styles.optionContainer]}>
+              <Text style={styles.label}>👆 Toque</Text>
+              <Switch
+                value={touchEnabled}
+                onValueChange={toggleTouch}
+                trackColor={{ true: "#f5a623", false: "#ccc" }}
+                thumbColor="#fff"
+              />
+            </View>
+          </SectionView>
+        </View>
+      </ScrollView>
+    </ModalView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#d0ebff55",
-    alignItems: "center",
-    justifyContent: "center",
+  optionContainer: {
+    borderWidth: 1,
     padding: 10,
-  },
-  card: {
-    flex: 1,
-    backgroundColor: "#fff",
-    padding: 20,
-    width: "100%",
-    maxWidth: 360,
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
-    shadowOffset: { width: 0, height: 8 },
-    shadowRadius: 10,
-    elevation: 10,
-    gap: 20,
-    borderBottomLeftRadius: 10,
-    borderBottomRightRadius: 10,
-  },
-  titleContainer: {
-    width: "100%",
-    maxWidth: 360,
-    flexDirection: "row",
-    padding: 10,
-    gap: 20,
-    backgroundColor: "#3478f6",
-    borderTopEndRadius: 10,
-    borderTopStartRadius: 10,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: "bold",
-    textAlign: "center",
-    fontFamily: "Montserrat",
-    color: "#FFF",
+    borderColor: "#3478f6",
+    borderRadius: 8,
   },
   option: {
     flexDirection: "row",
@@ -149,6 +142,11 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 16,
     color: "#444",
+  },
+  value: {
+    textAlign: "right",
+    fontSize: 12,
+    color: "#777",
   },
   slider: {
     width: "100%",

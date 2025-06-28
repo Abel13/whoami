@@ -1,0 +1,555 @@
+{
+  "key": "carros",
+  "emoji": "🚗",
+  "name": "Carros",
+  "background": "#FF5733",
+  "image": "carros",
+  "items": [
+    {
+      "name": "Fusca",
+      "hint": "Modelo compacto clássico da Volkswagen, famoso mundialmente",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fiat Uno",
+      "hint": "Carro pequeno e quadrado, conhecido por sua durabilidade",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Opala",
+      "hint": "Sedã robusto que marcou gerações em diversos países",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tesla Model S",
+      "hint": "Automóvel elétrico símbolo de inovação e tecnologia",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota Corolla",
+      "hint": "Um dos automóveis mais vendidos da história",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Camaro",
+      "hint": "Esportivo de duas portas muito presente em filmes de ação",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mustang",
+      "hint": "Cupê famoso pela potência e estilo americano",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "BMW i8",
+      "hint": "Esportivo híbrido com design futurista e portas asa de gaivota",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Porsche 911",
+      "hint": "Esportivo alemão com um dos designs mais icônicos do mundo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Volkswagen Golf",
+      "hint": "Carro compacto conhecido pela performance e conforto",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Renault Kwid",
+      "hint": "Carro pequeno, econômico e ideal para o uso urbano",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lamborghini Aventador",
+      "hint": "Superesportivo italiano com portas que se abrem para cima",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ferrari F40",
+      "hint": "Ícone das pistas nos anos 80, com motor potente e aerodinâmica",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Honda Civic",
+      "hint": "Sedã japonês com fama global por confiabilidade e estilo",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Corsa",
+      "hint": "Hatch compacto bastante popular nas últimas décadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota Hilux",
+      "hint": "Caminhonete conhecida por sua resistência em todo tipo de terreno",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Land Rover Defender",
+      "hint": "SUV resistente projetado para aventuras fora de estrada",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Jeep Renegade",
+      "hint": "Veículo utilitário com visual moderno e espírito aventureiro",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Fiat Marea",
+      "hint": "Sedã veloz que gerou controvérsia entre os apaixonados por carros",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bugatti Chiron",
+      "hint": "Automóvel de luxo com velocidade impressionante e design exclusivo",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Mini Cooper",
+      "hint": "Compacto de origem britânica com estilo único e esportivo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Citroën 2CV",
+      "hint": "Carro francês antigo, símbolo de simplicidade e economia",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Peugeot 208",
+      "hint": "Hatch moderno com design europeu marcante",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Audi A3",
+      "hint": "Modelo premium compacto da marca alemã de quatro argolas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Volvo XC60",
+      "hint": "SUV escandinavo famoso pela segurança e conforto",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mercedes-Benz Classe A",
+      "hint": "Hatch sofisticado com o luxo característico da estrela",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Fiat Panda",
+      "hint": "Pequeno e versátil, ideal para ruas estreitas e centros urbanos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Alfa Romeo Giulia",
+      "hint": "Sedã italiano esportivo com design elegante",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Mazda MX-5",
+      "hint": "Conversível leve e ágil, símbolo do prazer em dirigir",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Subaru Impreza",
+      "hint": "Famoso por seu desempenho em rally e tração integral",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Hyundai Tucson",
+      "hint": "SUV médio moderno e muito presente nas estradas atuais",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Kia Sportage",
+      "hint": "SUV com estilo marcante e boa presença no mercado global",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Renault Clio",
+      "hint": "Compacto europeu muito popular nas grandes cidades",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Corvette",
+      "hint": "Esportivo americano com linhas agressivas e muita potência",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pagani Zonda",
+      "hint": "Supercarro exótico de fabricação italiana em série limitada",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Dodge Charger",
+      "hint": "Muscle car com visual agressivo e som poderoso",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Nissan GT-R",
+      "hint": "Superesportivo japonês conhecido como 'Godzilla'",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Honda Fit",
+      "hint": "Carro compacto com interior surpreendentemente espaçoso",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lexus RX",
+      "hint": "SUV de luxo com foco em conforto e tecnologia",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Tracker",
+      "hint": "SUV compacto ideal para quem busca praticidade",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pagani Huayra",
+      "hint": "Supercarro italiano artesanal com detalhes luxuosos e design exótico",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Koenigsegg Jesko",
+      "hint": "Hiperesportivo sueco que desafia os limites da velocidade",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Fiat 500",
+      "hint": "Carro urbano pequeno com estilo retrô e charmoso",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Hyundai Ioniq 5",
+      "hint": "SUV elétrico futurista com design geométrico",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Dacia Duster",
+      "hint": "SUV acessível com presença forte em vários países de língua portuguesa",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Citroën C4 Cactus",
+      "hint": "SUV compacto com design irreverente e proteções laterais",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Lancia Delta Integrale",
+      "hint": "Ícone dos ralis europeus dos anos 80 e 90",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Malibu",
+      "hint": "Sedã americano de porte médio com estilo clássico",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Mazda RX-7",
+      "hint": "Cupê japonês famoso pelo motor rotativo e pelas corridas de rua",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Suzuki Jimny",
+      "hint": "Pequeno 4x4 ideal para trilhas e aventuras fora de estrada",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Chery Tiggo 8",
+      "hint": "SUV familiar de origem asiática com espaço para 7 pessoas",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Opel Corsa",
+      "hint": "Compacto urbano europeu bastante comum nas ruas",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Volvo XC90",
+      "hint": "SUV de luxo escandinavo conhecido por segurança e conforto",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Bugatti Divo",
+      "hint": "Hiperesportivo francês feito para curvas e luxo extremo",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Rolls-Royce Phantom",
+      "hint": "Símbolo de luxo britânico com acabamento artesanal impecável",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota Land Cruiser",
+      "hint": "SUV robusto e confiável, usado em todos os cantos do mundo",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ford Explorer",
+      "hint": "SUV americano popular em viagens e aventuras em família",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Subaru Impreza WRX",
+      "hint": "Famoso nos ralis, este carro japonês é puro desempenho",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet El Camino",
+      "hint": "Metade carro, metade caminhonete, símbolo dos anos 70",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota Prius",
+      "hint": "Pioneiro dos híbridos, muito usado por quem busca economia",
+      "difficulty": "easy",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Lincoln Continental",
+      "hint": "Sedã americano clássico, símbolo de status e elegância",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Cadillac Escalade",
+      "hint": "SUV gigante americano muito usado por celebridades",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Peugeot 3008",
+      "hint": "SUV francês com design moderno e painel digital inovador",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Skoda Octavia",
+      "hint": "Sedã europeu confiável e muito vendido em diversos países",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Bentley Continental GT",
+      "hint": "Cupê de luxo britânico com motor poderoso e interior refinado",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Chevrolet Trailblazer",
+      "hint": "SUV robusto e espaçoso, ideal para família e estrada",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Porsche Taycan",
+      "hint": "Sedã elétrico esportivo com alma de corrida e design elegante",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "GMC Hummer EV",
+      "hint": "Gigante elétrico com design robusto e modo off-road extremo",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Ferrari 812 Superfast",
+      "hint": "Modelo italiano com motor V12 e nome que não esconde sua vocação",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Volkswagen Golf GTI",
+      "hint": "Hatch esportivo europeu conhecido pelo equilíbrio entre potência e conforto",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Mitsubishi Lancer Evolution",
+      "hint": "Ícone japonês do rali com tração integral e alma esportiva",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota Supra",
+      "hint": "Cupê esportivo japonês famoso entre os apaixonados por velocidade",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Renault Mégane",
+      "hint": "Modelo europeu versátil disponível em várias carrocerias",
+      "difficulty": "easy",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Lamborghini Huracán",
+      "hint": "Superesportivo italiano com motor V10 e design agressivo",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Audi TT",
+      "hint": "Cupê compacto com linhas arredondadas e motor turbo",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Jeep Wagoneer",
+      "hint": "SUV clássico americano com visual retrô e muito espaço",
+      "difficulty": "hard",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Tesla Cybertruck",
+      "hint": "Pickup elétrica futurista com design angular marcante",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Chrysler 300C",
+      "hint": "Sedã de luxo americano com presença imponente",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    }
+  ]
+}

@@ -42,4 +42,8 @@ app-example
 /android
 /analytics
 
+*.ipa
+*.apk
+*.aab
+
 .env

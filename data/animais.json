@@ -1,0 +1,1290 @@
+{
+  "key": "animais",
+  "emoji": "🐾",
+  "name": "Animais",
+  "background": "#FFB6C1",
+  "image": "animais",
+  "items": [
+    {
+      "name": "Leão",
+      "hint": "O rei da selva",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Tigre",
+      "hint": "Felino listrado e forte",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Elefante",
+      "hint": "Maior animal terrestre",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Girafa",
+      "hint": "Pescoço mais longo da savana",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Canguru",
+      "hint": "Animal que salta e tem bolsa",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 99
+    },
+    {
+      "name": "Panda",
+      "hint": "Urso branco e preto que come bambu",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Urso",
+      "hint": "Animal grande e peludo que hiberna",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Gorila",
+      "hint": "Primata gigante e forte",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Chimpanzé",
+      "hint": "Primata inteligente e brincalhão",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Orangotango",
+      "hint": "Macaco ruivo das florestas tropicais",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 99
+    },
+    {
+      "name": "Lêmure",
+      "hint": "Primata da ilha de Madagascar",
+      "difficulty": "hard",
+      "minAge": 8,
+      "maxAge": 99
+    },
+    {
+      "name": "Macaco",
+      "hint": "Animal que adora bananas",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Bicho-preguiça",
+      "hint": "Animal que se move muito devagar",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Lobo",
+      "hint": "Canino selvagem que vive em matilhas",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Raposa",
+      "hint": "Animal astuto de cauda felpuda",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Coiote",
+      "hint": "Parente do lobo encontrado nas Américas",
+      "difficulty": "hard",
+      "minAge": 8,
+      "maxAge": 99
+    },
+    {
+      "name": "Dingo",
+      "hint": "Cão selvagem da Austrália",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 99
+    },
+    {
+      "name": "Cachorro",
+      "hint": "O melhor amigo do ser humano",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Gato",
+      "hint": "Animal doméstico que adora dormir",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 99
+    },
+    {
+      "name": "Leopardo",
+      "hint": "Felino veloz com manchas",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Onça",
+      "hint": "Felino brasileiro com força e agilidade",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Puma",
+      "hint": "Também chamado de leão da montanha",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Pantera",
+      "hint": "Felino negro e misterioso",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Hiena",
+      "hint": "Animal que ri e vive em grupo",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 99
+    },
+    {
+      "name": "Lince",
+      "hint": "Felino selvagem com orelhas pontudas",
+      "difficulty": "hard",
+      "minAge": 8,
+      "maxAge": 99
+    },
+    {
+      "name": "Caracal",
+      "hint": "Felino africano com orelhas pretas alongadas",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 99
+    },
+    {
+      "name": "Águia",
+      "hint": "Voa alto e tem visão que atravessa o horizonte.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Falcão",
+      "hint": "Caçador veloz que corta os céus com precisão.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gavião",
+      "hint": "Predador que patrulha os céus e mergulha sobre suas presas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Coruja",
+      "hint": "Ave noturna que gira a cabeça",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pinguim",
+      "hint": "Ave que nada mas não voa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Avestruz",
+      "hint": "Maior ave do mundo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ema",
+      "hint": "Gigante das planícies sul-americanas, parente distante do avestruz.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cacatua",
+      "hint": "Ave branca com topete amarelo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Papagaio",
+      "hint": "Ave que imita a voz humana",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Arara",
+      "hint": "Ave colorida típica da Amazônia",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Canário",
+      "hint": "Pequena ave amarela que canta",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pardal",
+      "hint": "Pequena ave urbana",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Andorinha",
+      "hint": "Ave migratória de voo ágil",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Garça",
+      "hint": "Silenciosa pescadora de pernas longas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cegonha",
+      "hint": "Símbolo de novos começos, com voo elegante.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Flamingo",
+      "hint": "Ave rosa que fica sobre uma perna",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pato",
+      "hint": "Ave aquática que faz 'quack'",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ganso",
+      "hint": "Parecido com o pato, mas maior",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Marreco",
+      "hint": "Ave aquática menor que o ganso",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pelicano",
+      "hint": "Especialista em pesca com bolsa integrada.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Albatroz",
+      "hint": "Navegador de longas distâncias pelo oceano.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gaivota",
+      "hint": "Ave comum nas praias",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Corvo",
+      "hint": "Ave preta associada a mistérios",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gralha",
+      "hint": "Ave preta que faz barulho alto",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Urubu",
+      "hint": "Ave que se alimenta de carniça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Beija-flor",
+      "hint": "Pequena ave que paira no ar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cardeal",
+      "hint": "Ave vermelha com topete",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Jacu",
+      "hint": "Grande, discreto e difícil de ser avistado na mata.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mutum",
+      "hint": "Ave robusta, símbolo da fauna ameaçada.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Curió",
+      "hint": "Seu canto é cobiçado e sua origem é silvestre.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jacutinga",
+      "hint": "Ave rara da mata atlântica",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sabiá",
+      "hint": "Ave que canta ao amanhecer",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Tucano",
+      "hint": "Ave com grande bico colorido",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "João-de-barro",
+      "hint": "Constrói casa de barro",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bem-te-vi",
+      "hint": "Canta o próprio nome",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Condor",
+      "hint": "Habita altitudes extremas e paira nas cordilheiras.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Carcará",
+      "hint": "Observador dos campos e carnívoro oportunista.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Anu-branco",
+      "hint": "Ave que vive em grupos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Jacana",
+      "hint": "Patas longas que caminham sobre folhas flutuantes.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Garibaldi",
+      "hint": "Suas cores lembram o fogo entre os juncos.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Seriema",
+      "hint": "Ave terrestre que grita alto e pisa forte.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Aracuã",
+      "hint": "Seu canto ecoa como um lamento na floresta.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Martim-pescador",
+      "hint": "Caça peixes com mergulho rápido",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Saíra",
+      "hint": "Colorido vibrante que salta entre os galhos.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Periquito",
+      "hint": "Pequena ave colorida de estimação",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Galo",
+      "hint": "Ave que canta ao amanhecer",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Galinha",
+      "hint": "Ave comum em granjas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pavão",
+      "hint": "Ave com cauda colorida e vistosa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Codorna",
+      "hint": "Pequena ave que põe muitos ovos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Faisão",
+      "hint": "Ave ornamental de penas coloridas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Galo-da-serra",
+      "hint": "Ave exuberante das florestas montanhosas.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Uirapuru",
+      "hint": "Canta pouco, mas quando canta, encanta.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Saracura",
+      "hint": "Ave de pântano que canta alto",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Irerê",
+      "hint": "Ave aquática de voz incomum.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Maritaca",
+      "hint": "Papagaio pequeno e barulhento",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rouxinol",
+      "hint": "Ave conhecida por seu belo canto",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pomba",
+      "hint": "Ave urbana que cisca nas praças",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Rola",
+      "hint": "Parecida com a pomba, mas menor",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gavião-carijó",
+      "hint": "Espécie que pode ser confundida com outras aves de rapina.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Socó",
+      "hint": "Habita mangues e pântanos, movendo-se com cautela.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jacaré",
+      "hint": "Habitante das águas doces com sorriso ameaçador",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Crocodilo",
+      "hint": "Parente temido dos pântanos e rios tropicais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Iguana",
+      "hint": "Lagarto arborícola com espinhos nas costas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lagarto",
+      "hint": "Réptil comum que adora se aquecer ao sol",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Camaleão",
+      "hint": "Mestre da camuflagem com olhos independentes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dragão-de-komodo",
+      "hint": "Gigante das ilhas da Indonésia com língua bifurcada",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cobra",
+      "hint": "Desliza silenciosamente e pode ser venenosa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Jiboia",
+      "hint": "Enrola suas presas para vencer, sem veneno",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Piton",
+      "hint": "Constritora gigantesca dos trópicos",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Sucuri",
+      "hint": "A serpente das lendas amazônicas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cascavel",
+      "hint": "Sacode a cauda para avisar que está por perto",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Coral",
+      "hint": "Colorida e perigosa, com padrão inconfundível",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tartaruga",
+      "hint": "Carrega a casa nas costas e vive muito",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cágado",
+      "hint": "Semiaquático, tímido e de casco achatado",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jabuti",
+      "hint": "Terrestre e lento, símbolo de paciência",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lagartixa",
+      "hint": "Pequeno caçador noturno de insetos nas paredes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gecko",
+      "hint": "Escalador de superfícies, com olhos grandes e sem pálpebras",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caimã",
+      "hint": "Parecido com o jacaré, vive nas Américas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Teiú",
+      "hint": "Lagarto robusto e ágil que vive em ambientes variados",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Basilisco",
+      "hint": "Pode correr sobre a água e parece uma miniatura mitológica",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Monstro-de-gila",
+      "hint": "Lagarto venenoso do deserto com pele granulada",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Sapo",
+      "hint": "Saltador de pele rugosa, costuma coaxar nos brejos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Rã",
+      "hint": "Se parece com um sapo, salta bem alto, vive na água e fora dela",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Perereca",
+      "hint": "Gruda nos vidros com ventosas nas patas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Salamandra",
+      "hint": "Parecida com um lagarto, mas respira pela pele",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tritão",
+      "hint": "Anfíbio aquático com cauda e aparência de mini-dragão",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Axolote",
+      "hint": "Nunca cresce por completo, vive sorrindo debaixo d’água",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cecília",
+      "hint": "Anelada e sem pernas, parece uma minhoca gigante",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Tubarão",
+      "hint": "Predador dos mares, tem várias fileiras de dentes.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Raia",
+      "hint": "Tem corpo achatado e nada como se voasse no mar.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-palhaço",
+      "hint": "Peixe laranja com listras brancas, vive em anêmonas.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-leão",
+      "hint": "Peixe listrado com espinhos venenosos e nadadeiras chamativas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-lua",
+      "hint": "Muito redondo, parece metade de um disco.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-espada",
+      "hint": "Tem um longo focinho em forma de lâmina.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-serra",
+      "hint": "Tem um focinho longo com dentes como uma serra.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-boi-marinho",
+      "hint": "Mamífero marinho grande e herbívoro, lento e tranquilo.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dourado",
+      "hint": "Peixe de água doce com escamas douradas e muito veloz.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tilápia",
+      "hint": "Muito criado em tanques e comum na culinária.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Salmão",
+      "hint": "Peixe que nada contra a correnteza para se reproduzir.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bacalhau",
+      "hint": "Famoso em pratos de festas, vive em águas frias.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Atum",
+      "hint": "Peixe oceânico muito usado em sanduíches e sushis.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cavala",
+      "hint": "Peixe de alto mar, parente do atum.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sardinha",
+      "hint": "Peixe pequeno e prateado, vendido em latas.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lambari",
+      "hint": "Peixinho muito encontrado em rios, comum em pescarias.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Piracanjuba",
+      "hint": "Peixe de escamas brilhantes, típico do Brasil Central.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tambaqui",
+      "hint": "Peixe grande da Amazônia, adora frutas caídas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pirarucu",
+      "hint": "Gigante dos rios amazônicos, respira fora d'água.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bagre",
+      "hint": "Tem bigodes e vive no fundo dos rios.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Arraia",
+      "hint": "Tem cauda com ferrão e corpo em forma de disco.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Enguia",
+      "hint": "Parece uma cobra, mas vive na água e pode dar choque.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-gato",
+      "hint": "Peixe com bigodes longos e corpo escorregadio.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-anjo",
+      "hint": "Colorido e elegante, comum em aquários.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-betta",
+      "hint": "Colorido, agressivo e adorado por quem cria aquários.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-disco",
+      "hint": "Corpo arredondado e muito colorido, vive em aquários.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-papagaio",
+      "hint": "Escamas brilhantes e bico parecido com o de ave.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-balão",
+      "hint": "Incha quando se sente ameaçado.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-pedra",
+      "hint": "Mimetiza o fundo do mar e possui veneno forte.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cascudo",
+      "hint": "Peixe de aquário com corpo duro e que limpa os vidros.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cichlideo",
+      "hint": "Grupo diverso de peixes tropicais com comportamento único.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-voador",
+      "hint": "Consegue planar sobre a água com suas nadadeiras.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peixe-borboleta",
+      "hint": "Colorido como uma flor, pequeno e delicado.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cavalo-marinho",
+      "hint": "Nada em pé e o macho é quem carrega os filhotes.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Moreia",
+      "hint": "Peixe de corpo longo que se esconde em tocas no fundo do mar.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Borboleta",
+      "hint": "Inseto com asas coloridas que voa entre flores",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Abelha",
+      "hint": "Produz mel e zumbido no ar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Formiga",
+      "hint": "Trabalha em equipe e carrega folhas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Vespa",
+      "hint": "Parecida com abelha, mas mais agressiva",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mosquito",
+      "hint": "Pequeno e adora picar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mosca",
+      "hint": "Voa e pousa em tudo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Libélula",
+      "hint": "Inseto voador com asas transparentes que vive perto da água",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Joaninha",
+      "hint": "Vermelha com bolinhas pretas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Besouro",
+      "hint": "Tem carapaça dura e pode brilhar no escuro",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Centopeia",
+      "hint": "Tem muitas pernas e se move rápido",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Piolho-de-cobra",
+      "hint": "Parece uma centopeia, mas se enrola quando ameaçado",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Barata",
+      "hint": "Rápida, marrom e aparece à noite",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cupim",
+      "hint": "Constrói túneis e adora madeira",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mariposa",
+      "hint": "Parece uma borboleta noturna",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bicho-pau",
+      "hint": "Quase invisível entre galhos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Aranha",
+      "hint": "Tece teias e tem oito patas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Escorpião",
+      "hint": "Tem ferrão na cauda e pinças",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Carrapato",
+      "hint": "Pequeno parasita que gruda na pele",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caracol",
+      "hint": "Tem casca nas costas e anda devagar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lesma",
+      "hint": "Parece um caracol sem casa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Polvo",
+      "hint": "Tem oito braços e vive no fundo do mar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lula",
+      "hint": "Solta tinta para escapar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Estrela-do-mar",
+      "hint": "Tem cinco braços e vive colada nas pedras",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ouriço-do-mar",
+      "hint": "Cheio de espinhos e fica no fundo do mar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Esponja-marinha",
+      "hint": "Parece planta, mas é animal fixo no fundo do mar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Medusa",
+      "hint": "Corpo gelatinoso e tentáculos que queimam",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Anêmona-do-mar",
+      "hint": "Parece flor, mas pode capturar peixes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Coral",
+      "hint": "Constrói recifes e parece pedra colorida",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lagosta",
+      "hint": "Animal do mar com grandes garras",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caranguejo",
+      "hint": "Anda de lado e tem pinças",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Camarão",
+      "hint": "Pequeno e rosado, vive no mar ou rios",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Sirí",
+      "hint": "Parece caranguejo, mas tem carapaça mais lisa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Krill",
+      "hint": "Minúsculo e alimento de baleias",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Planária",
+      "hint": "Verme plano que se regenera",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    }
+  ]
+}

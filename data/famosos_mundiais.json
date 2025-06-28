@@ -1,0 +1,692 @@
+{
+  "key": "famosos-mundiais",
+  "emoji": "🌍",
+  "name": "Famosos Mundiais",
+  "image": "famosos_mundiais",
+  "background": "#34d214",
+  "items": [
+    {
+      "name": "Leonardo DiCaprio",
+      "hint": "Ator de Titanic e O Regresso",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tom Hanks",
+      "hint": "Protagonista de Forrest Gump",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Denzel Washington",
+      "hint": "Ator premiado de Dia de Treinamento",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Morgan Freeman",
+      "hint": "Narrador icônico e ator de Um Sonho de Liberdade",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Will Smith",
+      "hint": "O Maluco no Pedaço e filmes de ação",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "hint": "O Homem de Ferro do Universo Marvel",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chris Hemsworth",
+      "hint": "O Thor dos filmes da Marvel",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Scarlett Johansson",
+      "hint": "A Viúva Negra da Marvel",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "hint": "Protagonista de Jogos Vorazes",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Angelina Jolie",
+      "hint": "Atriz de Malévola e Sr. & Sra. Smith",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Meryl Streep",
+      "hint": "Atriz premiada de Mamma Mia",
+      "difficulty": "medium",
+      "minAge": 15,
+      "maxAge": 100
+    },
+    {
+      "name": "Johnny Depp",
+      "hint": "O Jack Sparrow de Piratas do Caribe",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Brad Pitt",
+      "hint": "Ator de Troia e Bastardos Inglórios",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Emma Stone",
+      "hint": "Atriz de La La Land e Homem-Aranha",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Natalie Portman",
+      "hint": "Padmé em Star Wars e Thor em Amor e Trovão",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Anne Hathaway",
+      "hint": "Atriz de O Diabo Veste Prada",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Keanu Reeves",
+      "hint": "Protagonista de Matrix e John Wick",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Julia Roberts",
+      "hint": "Atriz de Uma Linda Mulher",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ryan Reynolds",
+      "hint": "O Deadpool dos cinemas",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Zendaya",
+      "hint": "Atriz de Euphoria e Duna",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 30
+    },
+
+    {
+      "name": "Michael Jackson",
+      "hint": "Rei do Pop, famoso por Thriller",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Beyoncé",
+      "hint": "Queen B, sucesso com Single Ladies",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 60
+    },
+    {
+      "name": "Elvis Presley",
+      "hint": "Rei do Rock dos anos 50",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Madonna",
+      "hint": "Rainha do Pop dos anos 80",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Rihanna",
+      "hint": "Sucesso com Umbrella e Diamonds",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 50
+    },
+    {
+      "name": "Shakira",
+      "hint": "Waka Waka e dança de quadris",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 60
+    },
+    {
+      "name": "Justin Bieber",
+      "hint": "Estourou com Baby ainda adolescente",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 40
+    },
+    {
+      "name": "Adele",
+      "hint": "Baladas emocionantes como Hello",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Taylor Swift",
+      "hint": "Do country ao pop com Shake It Off",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 40
+    },
+    {
+      "name": "Lady Gaga",
+      "hint": "Estilo ousado e hits como Bad Romance",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 50
+    },
+    {
+      "name": "Bruno Mars",
+      "hint": "Just the Way You Are e Uptown Funk",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 50
+    },
+    {
+      "name": "The Weeknd",
+      "hint": "Estourou com Blinding Lights",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 40
+    },
+    {
+      "name": "Ed Sheeran",
+      "hint": "Baladas românticas como Perfect",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 50
+    },
+    {
+      "name": "Katy Perry",
+      "hint": "Firework e estilo colorido",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 50
+    },
+    {
+      "name": "Whitney Houston",
+      "hint": "Voz poderosa de I Will Always Love You",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Bob Marley",
+      "hint": "Símbolo do reggae mundial",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Freddie Mercury",
+      "hint": "Vocalista do Queen, dono de Bohemian Rhapsody",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Drake",
+      "hint": "Rapper canadense de Hotline Bling",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 40
+    },
+    {
+      "name": "Eminem",
+      "hint": "Rapper conhecido por Lose Yourself",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 50
+    },
+    {
+      "name": "Dua Lipa",
+      "hint": "Pop moderno com Levitating",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 40
+    },
+
+    {
+      "name": "Pelé",
+      "hint": "Considerado o Rei do Futebol e tricampeão mundial pelo Brasil",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "hint": "Craque português, astro do Real Madrid e Manchester United",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lionel Messi",
+      "hint": "Ganhador de várias Bolas de Ouro e campeão mundial com a Argentina",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Michael Jordan",
+      "hint": "Lenda da NBA e ídolo dos Chicago Bulls nos anos 90",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Serena Williams",
+      "hint": "Uma das maiores tenistas da história com 23 títulos de Grand Slam",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Lewis Hamilton",
+      "hint": "Heptacampeão de Fórmula 1 e estrela da Mercedes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Usain Bolt",
+      "hint": "O homem mais rápido do mundo, recordista dos 100m e 200m rasos",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Simone Biles",
+      "hint": "Ginasta americana com múltiplas medalhas olímpicas e mundiais",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Roger Federer",
+      "hint": "Tenista suíço elegante, dono de 20 títulos de Grand Slam",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Neymar",
+      "hint": "Atacante brasileiro famoso pelo Santos, Barcelona e PSG",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "LeBron James",
+      "hint": "Estrela da NBA e campeão com vários times, incluindo os Lakers",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tom Brady",
+      "hint": "Maior campeão do Super Bowl, lenda do futebol americano",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Diego Maradona",
+      "hint": "Gênio argentino do futebol e ícone da Copa de 1986",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Rafael Nadal",
+      "hint": "Especialista no saibro, campeão de Roland Garros várias vezes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Novak Djokovic",
+      "hint": "Tenista sérvio com recordes de Grand Slams e número 1 do mundo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ayrton Senna",
+      "hint": "Ídolo brasileiro da Fórmula 1, tricampeão mundial",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tiger Woods",
+      "hint": "Revolucionou o golfe e venceu múltiplos torneios importantes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ronaldinho Gaúcho",
+      "hint": "Mágico da bola com passagens pelo Barcelona e seleção brasileira",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Marta",
+      "hint": "Maior artilheira de Copas do Mundo e estrela do futebol feminino",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Kylian Mbappé",
+      "hint": "Atacante francês veloz e campeão do mundo com apenas 19 anos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Albert Einstein",
+      "hint": "Criador da teoria da relatividade, gênio da física",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Isaac Newton",
+      "hint": "Descobriu a gravidade ao ver uma maçã cair",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Marie Curie",
+      "hint": "Pioneira na pesquisa sobre radioatividade, ganhou dois Nobel",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Galileu Galilei",
+      "hint": "Pai da ciência moderna, apoiou o heliocentrismo",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Charles Darwin",
+      "hint": "Criou a teoria da evolução por seleção natural",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "hint": "Líder dos direitos civis nos EUA, famoso pelo discurso 'I Have a Dream'",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "hint": "Líder pacifista da independência da Índia",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Nelson Mandela",
+      "hint": "Lutou contra o apartheid e foi presidente da África do Sul",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Abraham Lincoln",
+      "hint": "Presidente dos EUA que aboliu a escravidão",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Winston Churchill",
+      "hint": "Primeiro-ministro britânico durante a Segunda Guerra Mundial",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Barack Obama",
+      "hint": "Primeiro presidente negro dos Estados Unidos",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "George Washington",
+      "hint": "Primeiro presidente dos EUA e líder da independência",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cleópatra",
+      "hint": "Rainha do Egito conhecida por sua inteligência e beleza",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Napoleão Bonaparte",
+      "hint": "Imperador francês famoso por suas conquistas militares",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Rainha Elizabeth II",
+      "hint": "Monarca britânica com o reinado mais longo da história do Reino Unido",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Joana d'Arc",
+      "hint": "Heroína francesa da Guerra dos Cem Anos, canonizada como santa",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "hint": "Gênio renascentista que pintou a Mona Lisa",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Sócrates",
+      "hint": "Filósofo grego que usava perguntas para ensinar",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Platão",
+      "hint": "Discípulo de Sócrates e autor de obras filosóficas famosas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Alexandre, o Grande",
+      "hint": "Conquistador macedônio que formou um dos maiores impérios da história",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Kim Kardashian",
+      "hint": "Influencer e empresária famosa por reality show",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Kylie Jenner",
+      "hint": "Empresária de cosméticos e irmã de Kim Kardashian",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Charli D'Amelio",
+      "hint": "Famosa por danças no TikTok",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Khaby Lame",
+      "hint": "Celebridade do TikTok conhecido por seu humor sem falar nada",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "MrBeast",
+      "hint": "Youtuber conhecido por vídeos com desafios e doações",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Logan Paul",
+      "hint": "Influencer, lutador e criador de conteúdo polêmico",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Jake Paul",
+      "hint": "Youtuber e boxeador famoso por desafios e lutas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "PewDiePie",
+      "hint": "Youtuber sueco conhecido por vídeos de games e humor",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Selena Gomez",
+      "hint": "Cantora e atriz, ex-estrela da Disney",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Zendaya",
+      "hint": "Atriz e cantora famosa por séries e filmes da Marvel",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Millie Bobby Brown",
+      "hint": "Atriz de Stranger Things",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dwayne Johnson",
+      "hint": "Ator e ex-lutador conhecido como 'The Rock'",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Billie Eilish",
+      "hint": "Cantora pop com estilo alternativo e voz marcante",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Doja Cat",
+      "hint": "Cantora e rapper com hits virais",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bad Bunny",
+      "hint": "Cantor porto-riquenho de reggaeton e trap latino",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "hint": "Cantora e atriz pop americana, ex-Disney",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "James Charles",
+      "hint": "Influencer de maquiagem e beleza",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    }
+  ]
+}

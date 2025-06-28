@@ -1,0 +1,576 @@
+{
+  "key": "frutas",
+  "emoji": "🍎",
+  "name": "Frutas",
+  "background": "#6B5B95",
+  "image": "frutas",
+  "items": [
+    {
+      "name": "Banana",
+      "hint": "Fruta amarela, doce e muito comum no café da manhã.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Maçã",
+      "hint": "Fruta crocante, pode ser vermelha, verde ou amarela.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Laranja",
+      "hint": "Fruta cítrica e suculenta, famosa pelo seu sumo.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Uva",
+      "hint": "Frutas pequenas que podem ser verdes, roxas ou vermelhas, usadas para fazer vinho.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Pera",
+      "hint": "Fruta em forma de gota, com casca fina e polpa suave.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Morango",
+      "hint": "Frutinha vermelha, pequena e com sementes na casca.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Mamão",
+      "hint": "Fruta alaranjada por dentro, com sementes pretas no meio.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Abacaxi",
+      "hint": "Fruta tropical com casca áspera e coroa de folhas.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Melancia",
+      "hint": "Fruta grande, verde por fora e vermelha por dentro, cheia de sementes.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Melão",
+      "hint": "Fruta redonda ou oval, com casca amarelada e polpa clara e doce.",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Manga",
+      "hint": "Fruta tropical, amarela por dentro e muito suculenta.",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Maracujá",
+      "hint": "Fruta usada para suco, tem polpa amarela e sabor azedinho.",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Goiaba",
+      "hint": "Fruta que pode ser rosa ou branca por dentro, cheia de sementinhas.",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Caju",
+      "hint": "Fruta com castanha em cima, usada para suco.",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Acerola",
+      "hint": "Fruta pequena e vermelha, muito rica em vitamina C.",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pitanga",
+      "hint": "Fruta pequena e vermelha com gomos, de sabor marcante.",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Graviola",
+      "hint": "Fruta grande com casca verde e espinhosa, de polpa branca.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Jabuticaba",
+      "hint": "Fruta redonda e roxa que cresce direto no tronco da árvore.",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Cupuaçu",
+      "hint": "Fruta amazônica com polpa usada em doces e sucos.",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 100
+    },
+    {
+      "name": "Carambola",
+      "hint": "Fruta em formato de estrela quando cortada.",
+      "difficulty": "easy",
+      "minAge": 7,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Cereja",
+      "hint": "Fruta pequena, vermelha e muito usada em bolos ou como decoração.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Framboesa",
+      "hint": "Fruta pequena, vermelha e levemente ácida, comum em sobremesas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mirtilo",
+      "hint": "Frutinha azul escura, também chamada de blueberry.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Amora",
+      "hint": "Fruta escura que cresce em arbustos, usada em geleias.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Groselha",
+      "hint": "Fruta pequena e ácida, muitas vezes usada em xaropes.",
+      "difficulty": "medium",
+      "minAge": 9,
+      "maxAge": 100
+    },
+    {
+      "name": "Physalis",
+      "hint": "Fruta amarela envolta por folhas, com sabor agridoce.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cranberry",
+      "hint": "Fruta vermelha azedinha, popular em sucos e produtos industrializados.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bacupari",
+      "hint": "Fruta amarela, pouco conhecida, encontrada em regiões tropicais.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Limão",
+      "hint": "Fruta cítrica, verde ou amarela, muito usada em sucos e temperos.",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Lima",
+      "hint": "Fruta cítrica parecida com o limão, mas com sabor mais suave.",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Tangerina",
+      "hint": "Fruta cítrica, fácil de descascar e muito doce.",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Mexerica",
+      "hint": "Variedade da tangerina, com cheiro forte e casca fácil de remover.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bergamota",
+      "hint": "Fruta cítrica parecida com a tangerina, muito popular no sul.",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Toranja",
+      "hint": "Fruta cítrica grande e rosada, com sabor amargo e ácido.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ponkan",
+      "hint": "Tipo doce de tangerina, grande e com casca solta.",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Kumquat",
+      "hint": "Fruta cítrica pequena e oval, pode ser comida com casca.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Figo",
+      "hint": "Fruta doce com interior rosado e muitas sementes pequenas.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Damasco",
+      "hint": "Fruta pequena e alaranjada, muitas vezes consumida seca.",
+      "difficulty": "medium",
+      "minAge": 9,
+      "maxAge": 100
+    },
+    {
+      "name": "Caqui",
+      "hint": "Fruta macia, doce e de cor alaranjada, muito apreciada madura.",
+      "difficulty": "easy",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Nêspera",
+      "hint": "Fruta pequena e amarelada, também chamada de ameixa-amarela.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ameixa",
+      "hint": "Fruta de casca roxa e polpa doce ou ácida, usada fresca ou seca.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Kiwi",
+      "hint": "Fruta com casca marrom e polpa verde cheia de sementes.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Romã",
+      "hint": "Fruta cheia de sementes vermelhas suculentas, símbolo de fartura.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tamarindo",
+      "hint": "Fruta tropical com polpa agridoce usada em sucos e molhos.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Nectarina",
+      "hint": "Fruta parecida com o pêssego, mas com casca lisa.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Coco",
+      "hint": "Fruto tropical com casca dura, polpa branca e água refrescante.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Jaca",
+      "hint": "Fruta grande com casca espinhosa e polpa doce e fibrosa.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Abacate",
+      "hint": "Fruta cremosa, usada tanto em receitas doces quanto salgadas.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pitaia",
+      "hint": "Também conhecida como fruta-do-dragão, com aparência exótica.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mangostão",
+      "hint": "Fruta tropical de casca roxa e polpa branca e doce.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pêssego",
+      "hint": "Fruta aveludada por fora, suculenta por dentro e muito perfumada.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Rambutan",
+      "hint": "Fruta de casca peluda e polpa branca, doce e suculenta.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lichia",
+      "hint": "Fruta de casca vermelha e polpa translúcida, doce e refrescante.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sapoti",
+      "hint": "Fruta pequena, marrom por fora e doce por dentro, com textura macia.",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jenipapo",
+      "hint": "Fruta aromática usada em doces e sucos, de sabor forte.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Cambuci",
+      "hint": "Fruta azedinha em forma de disco, usada em sucos e geleias.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pequi",
+      "hint": "Fruta com cheiro forte, muito usada em pratos típicos com arroz.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Umbu",
+      "hint": "Fruta pequena, de sabor agridoce e muito refrescante.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Seriguela",
+      "hint": "Fruta pequena, suculenta e com sabor marcante.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ingá",
+      "hint": "Fruta de vagem com polpa branca e adocicada ao redor das sementes.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Araçá",
+      "hint": "Fruta nativa, parecida com a goiaba, de polpa doce ou azeda.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Murici",
+      "hint": "Fruta pequena e amarela, com aroma forte e sabor único.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Buriti",
+      "hint": "Fruta de palmeira com casca avermelhada e polpa rica em nutrientes.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cambucá",
+      "hint": "Fruta redonda e amarelada, doce e pouco conhecida fora das regiões tropicais.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Fruta-do-conde",
+      "hint": "Fruta de casca escamosa e polpa doce, também conhecida como atemoia.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mamoncillo",
+      "hint": "Fruta pequena e verde por fora, com polpa laranja e sabor agridoce.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Chirimoya",
+      "hint": "Fruta tropical com polpa branca cremosa e sabor doce, parecida com sorvete natural.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Akebi",
+      "hint": "Fruta roxa com aparência exótica, comum em algumas regiões da Ásia.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Marula",
+      "hint": "Fruta suculenta conhecida por ser usada em bebidas cremosas e fermentadas.",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Noni",
+      "hint": "Fruta de cheiro forte, usada em sucos e conhecida por seus possíveis benefícios à saúde.",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Longan",
+      "hint": "Fruta pequena e doce, parecida com a lichia, muito popular na Ásia.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mangaba",
+      "hint": "Fruta arredondada com casca manchada e polpa doce e levemente ácida.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Abiu",
+      "hint": "Fruta amarela com polpa translúcida, doce e gelatinosa, comum em áreas tropicais.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pitomba",
+      "hint": "Fruta pequena de casca dura, com polpa agridoce e bastante suculenta.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Siriguela",
+      "hint": "Fruta pequena e amarela com sabor adocicado, muito consumida no calor.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Uvaia",
+      "hint": "Fruta de aroma marcante e sabor ácido, usada em sucos e doces.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Araticum",
+      "hint": "Fruta tropical de polpa doce e aroma forte, parecida com a graviola.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bacuri",
+      "hint": "Fruta de casca grossa e polpa branca, muito usada em sobremesas e doces.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Grumixama",
+      "hint": "Fruta pequena e roxa, com sabor doce semelhante ao da cereja.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Açaí",
+      "hint": "Fruta roxa famosa por seu uso em tigelas e bebidas energéticas.",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

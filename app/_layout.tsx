@@ -7,18 +7,31 @@ import "react-native-reanimated";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { init } from "@amplitude/analytics-react-native";
+import { vexo } from "vexo-analytics";
+import Aptabase from "@aptabase/react-native";
+import { useAmplitude } from "@/hooks/useAmplitude";
+import { useVexo } from "@/hooks/useVexo";
+import { useAptabase } from "@/hooks/useAptabase";
+import { StatusBar } from "react-native";
 
 SplashScreen.preventAutoHideAsync();
-init(process.env.EXPO_PUBLIC_AMPLITUDE_API_KEY || "");
+init(process.env.EXPO_PUBLIC_AMPLITUDE_API_KEY!);
+vexo(process.env.EXPO_PUBLIC_VEXO_API_KEY!);
+
+Aptabase.init(process.env.EXPO_PUBLIC_APTABASE_API_KEY!);
 
 export default function RootLayout() {
+  const { appOpen: appOpenAmplitude } = useAmplitude();
+  const { appOpen: appOpenVexo } = useVexo();
+  const { appOpen: appOpenAptabase } = useAptabase();
+
   const [loaded] = useFonts({
     SpaceMono: require("../assets/fonts/Montserrat.ttf"),
   });
 
   async function changeScreenOrientation() {
     await ScreenOrientation.lockAsync(
-      ScreenOrientation.OrientationLock.LANDSCAPE_RIGHT
+      ScreenOrientation.OrientationLock.LANDSCAPE
     );
   }
 
@@ -29,6 +42,9 @@ export default function RootLayout() {
   }, [loaded]);
 
   useEffect(() => {
+    appOpenAmplitude();
+    appOpenVexo();
+    appOpenAptabase();
     changeScreenOrientation();
   }, []);
 
@@ -43,8 +59,7 @@ export default function RootLayout() {
           headerShown: false,
           navigationBarHidden: true,
           autoHideHomeIndicator: true,
-          statusBarHidden: true,
-          orientation: "landscape_right",
+          orientation: "landscape",
         }}
       >
         <Stack.Screen name="index" />
@@ -70,8 +85,16 @@ export default function RootLayout() {
             presentation: "transparentModal",
           }}
         />
+        <Stack.Screen
+          name="about"
+          options={{
+            animation: "slide_from_bottom",
+            presentation: "transparentModal",
+          }}
+        />
         <Stack.Screen name="+not-found" />
       </Stack>
+      <StatusBar hidden />
     </GestureHandlerRootView>
   );
 }

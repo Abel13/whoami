@@ -1,0 +1,597 @@
+{
+  "key": "filmes",
+  "emoji": "🎥",
+  "name": "Filmes",
+  "background": "#87CEEB",
+  "image": "filmes",
+  "items": [
+    {
+      "name": "Titanic",
+      "hint": "História de amor em um navio que afundou",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "O Rei Leão",
+      "hint": "Filme de animação com um leão chamado Simba",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Jurassic Park",
+      "hint": "Dinossauros voltam à vida em um parque temático",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Harry Potter",
+      "hint": "Jovem bruxo em uma escola de magia",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Matrix",
+      "hint": "Mundo virtual controlado por máquinas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Vingadores",
+      "hint": "Grupo de heróis que salvam o mundo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Avatar",
+      "hint": "Planeta azul com seres altos e azuis",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Frozen",
+      "hint": "Princesa com poderes de gelo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Shrek",
+      "hint": "Ogro verde que vive em um pântano",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Toy Story",
+      "hint": "Brinquedos ganham vida quando ninguém está olhando",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Forrest Gump",
+      "hint": "Homem simples vive momentos históricos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Star Wars",
+      "hint": "Saga de batalhas espaciais e sabres de luz",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Homem-Aranha",
+      "hint": "Um jovem ganha poderes aracnídeos e se torna um herói.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "O Senhor dos Anéis",
+      "hint": "Uma jornada para destruir um anel poderoso",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pantera Negra",
+      "hint": "Herói africano que protege Wakanda",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "O Poderoso Chefão",
+      "hint": "Saga de uma família de máfia nos Estados Unidos.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Homem de Ferro",
+      "hint": "Gênio bilionário com armadura tecnológica",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Divertida Mente",
+      "hint": "As emoções dentro da cabeça de uma menina",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "A Bela e a Fera",
+      "hint": "História de amor com uma criatura encantada",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Minions",
+      "hint": "Criaturas amarelas que adoram um vilão",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "A Origem",
+      "hint": "Um ladrão que invade sonhos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Clube da Luta",
+      "hint": "Primeira regra: você não fala sobre isso",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Coringa",
+      "hint": "Um comediante perturbado em Gotham",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Hobbit",
+      "hint": "Um hobbit em uma jornada inesperada",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pulp Fiction",
+      "hint": "Histórias entrelaçadas com violência e humor negro",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Encanto",
+      "hint": "Uma família mágica colombiana e uma casa encantada que perde seu poder.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Moana",
+      "hint": "Garota que cruza o oceano para salvar sua ilha",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ratatouille",
+      "hint": "Rato que sonha em ser chef em Paris",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "A Viagem de Chihiro",
+      "hint": "Uma menina presa em um mundo mágico japonês de espíritos.",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "WALL-E",
+      "hint": "Robô solitário que limpa a Terra abandonada",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "O Grande Truque",
+      "hint": "Rivalidade mortal entre dois mágicos em busca do segredo definitivo.",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Rede Social",
+      "hint": "A criação de uma famosa plataforma de internet e seus desdobramentos legais.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Bastardos Inglórios",
+      "hint": "Soldados judeus caçam nazistas na Segunda Guerra Mundial.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Fantástica Fábrica de Chocolate",
+      "hint": "Um menino ganha um bilhete dourado para visitar uma fábrica de doces mágica.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Um Sonho de Liberdade",
+      "hint": "Um homem é condenado injustamente e encontra esperança na prisão.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "A Lista de Schindler",
+      "hint": "Um empresário salva judeus durante o Holocausto.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Parasita",
+      "hint": "Uma família pobre se infiltra na vida de uma família rica.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Vida é Bela",
+      "hint": "Um pai usa a imaginação para proteger seu filho em um campo de concentração.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Interestelar",
+      "hint": "Viagem no tempo e espaço para salvar a humanidade.",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "A Chegada",
+      "hint": "Linguista tenta se comunicar com alienígenas para evitar uma guerra.",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Blade Runner",
+      "hint": "Um caçador de replicantes em um futuro distópico.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Labirinto do Fauno",
+      "hint": "Uma menina encontra um mundo de fantasia em meio à Guerra Civil Espanhola.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Cidade de Deus",
+      "hint": "A vida no crime e a fotografia nas favelas do Rio de Janeiro.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Tropa de Elite",
+      "hint": "A rotina de um capitão do BOPE no Rio de Janeiro.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Central do Brasil",
+      "hint": "Uma professora escreve cartas e embarca em uma jornada com um menino.",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bacurau",
+      "hint": "Uma comunidade no sertão se defende de invasores misteriosos.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Que Horas Ela Volta?",
+      "hint": "Uma empregada doméstica tem sua rotina alterada pela filha distante.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Auto da Compadecida",
+      "hint": "As aventuras de João Grilo e Chicó no sertão nordestino.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lisbela e o Prisioneiro",
+      "hint": "Uma mulher se apaixona por um forasteiro em uma cidade do interior.",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "E.T. - O Extraterrestre",
+      "hint": "Um menino faz amizade com um ser de outro planeta.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "De Volta Para o Futuro",
+      "hint": "Um adolescente viaja no tempo em um carro especial.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Indiana Jones",
+      "hint": "Um arqueólogo aventureiro busca artefatos lendários.",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caça-Fantasmas",
+      "hint": "Cientistas abrem uma empresa para capturar entidades sobrenaturais.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Esqueceram de Mim",
+      "hint": "Um menino é deixado para trás pela família no Natal e defende sua casa.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "O Exterminador do Futuro",
+      "hint": "Ciborgues do futuro e viagens no tempo.",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Clube dos Cinco",
+      "hint": "Cinco adolescentes de diferentes grupos sociais presos em detenção.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Sociedade dos Poetas Mortos",
+      "hint": "Um professor inspira seus alunos a viver a vida intensamente.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Grease",
+      "hint": "Romance de verão entre um bad boy e uma garota recatada.",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dirty Dancing",
+      "hint": "Uma jovem se apaixona por seu instrutor de dança em um resort de verão.",
+      "difficulty": "easy",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "A Noviça Rebelde",
+      "hint": "Uma jovem se torna governanta de uma família e lhes ensina a alegria da música.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mamma Mia!",
+      "hint": "Uma noiva tenta descobrir qual de seus três possíveis pais a levará ao altar.",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "O Fabuloso Destino de Amélie Poulain",
+      "hint": "Uma jovem peculiar busca a felicidade em Paris.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Amores Perros",
+      "hint": "Três histórias se entrelaçam após um acidente de carro no México.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Meu Amigo Totoro",
+      "hint": "Duas irmãs se mudam para o campo e encontram criaturas mágicas da floresta.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ponyo",
+      "hint": "Um peixinho dourado que deseja se tornar humano.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Como Treinar o Seu Dragão",
+      "hint": "Um jovem viking forma uma amizade improvável com um dragão.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Kung Fu Panda",
+      "hint": "Um panda desajeitado é escolhido para se tornar um mestre de artes marciais.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Procurando Nemo",
+      "hint": "Um peixe-palhaço viaja pelo oceano para encontrar seu filho.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "UP - Altas Aventuras",
+      "hint": "Um idoso amarra balões em sua casa para realizar um sonho.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Zootopia",
+      "hint": "Uma coelha policial e uma raposa trapaceira unem forças em uma cidade de animais.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Coco",
+      "hint": "Um menino viaja para a Terra dos Mortos para descobrir sua herança musical.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Duna",
+      "hint": "Um jovem de uma família nobre se envolve em uma guerra intergaláctica por um recurso valioso.",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "O Iluminado",
+      "hint": "Uma família passa o inverno em um hotel isolado com consequências aterrorizantes.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Laranja Mecânica",
+      "hint": "Um jovem líder de gangue passa por uma terapia de aversão extrema.",
+      "difficulty": "hard",
+      "minAge": 18,
+      "maxAge": 100
+    },
+    {
+      "name": "Seven",
+      "hint": "Dois detetives caçam um serial killer que usa os sete pecados capitais.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Silêncio dos Inocentes",
+      "hint": "Uma agente do FBI busca a ajuda de um assassino em série para pegar outro.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "O Resgate do Soldado Ryan",
+      "hint": "Um grupo de soldados busca um paraquedista em meio à Segunda Guerra Mundial.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Gladiador",
+      "hint": "Um general romano é traído e busca vingança como gladiador.",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Beleza Americana",
+      "hint": "Um homem de meia-idade entra em crise e se apaixona pela amiga da filha.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "A Baleia",
+      "hint": "Um professor recluso tenta se reconectar com sua filha adolescente.",
+      "difficulty": "hard",
+      "minAge": 16,
+      "maxAge": 100
+    },
+    {
+      "name": "Gato de Botas",
+      "hint": "Um felino espadachim parte em uma aventura para encontrar um feijão mágico.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Soul",
+      "hint": "Um músico de jazz em crise busca seu propósito após um acidente.",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Luca",
+      "hint": "Um monstro marinho descobre o mundo humano em uma vila italiana.",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Raya e o Último Dragão",
+      "hint": "Uma guerreira busca o último dragão para unir seu povo dividido.",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    }
+  ]
+}

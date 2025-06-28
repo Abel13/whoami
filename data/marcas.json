@@ -1,0 +1,436 @@
+{
+  "key": "marcas",
+  "emoji": "🛍️",
+  "name": "Marcas",
+  "background": "#FF8C00",
+  "image": "marcas",
+  "items": [
+    {
+      "name": "McDonald's",
+      "hint": "Rede de fast food com arcos dourados",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Apple",
+      "hint": "Marca da maçã que fabrica celulares e computadores",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Nike",
+      "hint": "Marca esportiva com um símbolo de 'tic'",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Coca-Cola",
+      "hint": "Refrigerante mais famoso do mundo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Disney",
+      "hint": "Reino da magia com Mickey e princesas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Samsung",
+      "hint": "Gigante sul-coreana dos eletrônicos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Google",
+      "hint": "Ferramenta mais usada para procurar na internet",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Amazon",
+      "hint": "Maior loja virtual do mundo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Adidas",
+      "hint": "Marca esportiva com três listras",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lego",
+      "hint": "Blocos de montar coloridos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "YouTube",
+      "hint": "Plataforma vermelha de vídeos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pepsi",
+      "hint": "Rival azul da Coca-Cola",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Microsoft",
+      "hint": "Criadora do Windows",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "PlayStation",
+      "hint": "Console com controle azul e botões de símbolos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Facebook",
+      "hint": "Rede social azul para adultos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Starbucks",
+      "hint": "Cafés com logotipo verde de uma sereia",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tesla",
+      "hint": "Marca de carros elétricos do Elon Musk",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Netflix",
+      "hint": "Plataforma vermelha para assistir séries e filmes",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Instagram",
+      "hint": "Rede social de fotos e stories",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sony",
+      "hint": "Fabricante de eletrônicos e consoles como o PlayStation",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Zara",
+      "hint": "Marca espanhola de moda rápida",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "H&M",
+      "hint": "Marca sueca de roupas acessíveis",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Gucci",
+      "hint": "Marca de luxo italiana com Gs entrelaçados",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Puma",
+      "hint": "Marca esportiva com felino pulando",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Nestlé",
+      "hint": "Multinacional de alimentos e chocolates",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "KFC",
+      "hint": "Frango frito com receita secreta do coronel",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "TikTok",
+      "hint": "Aplicativo de vídeos curtos e danças",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Nintendo",
+      "hint": "Empresa de jogos famosa pelo Mario",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Uber",
+      "hint": "App para chamar carros pelo celular",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "IKEA",
+      "hint": "Loja sueca de móveis que você monta em casa",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "L'Oréal",
+      "hint": "Marca francesa de cosméticos e beleza",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Barbie",
+      "hint": "Boneca fashion que já foi astronauta e princesa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hot Wheels",
+      "hint": "Carrinhos de corrida colecionáveis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Danone",
+      "hint": "Marca famosa de iogurtes e alimentos infantis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Kinder",
+      "hint": "Chocolate que vem com brinquedo surpresa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Play-Doh",
+      "hint": "Massinha de modelar com várias cores",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lacoste",
+      "hint": "Marca com um crocodilo no logotipo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bic",
+      "hint": "Marca clássica de canetas e isqueiros",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Heinz",
+      "hint": "Marca conhecida pelo ketchup e molhos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ben & Jerry's",
+      "hint": "Sorvetes famosos com sabores excêntricos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Nokia",
+      "hint": "Já foi a gigante dos celulares antes dos smartphones",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Rolex",
+      "hint": "Relógios de luxo muito valiosos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Chanel",
+      "hint": "Marca de alta-costura e perfumes elegantes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Dior",
+      "hint": "Marca francesa de luxo com perfumes icônicos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Prada",
+      "hint": "Marca italiana de bolsas e roupas sofisticadas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Balenciaga",
+      "hint": "Marca de moda conhecida por peças ousadas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Dell",
+      "hint": "Fabricante americana de computadores",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lenovo",
+      "hint": "Empresa chinesa famosa por seus notebooks",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Asus",
+      "hint": "Fabricante de placas-mãe e notebooks",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Razer",
+      "hint": "Marca gamer com logotipo de três cobras verdes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "GoPro",
+      "hint": "Câmeras compactas para aventuras extremas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Red Bull",
+      "hint": "Bebida energética com asas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Spotify",
+      "hint": "Aplicativo de música com playlists infinitas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "WhatsApp",
+      "hint": "Aplicativo verde usado para conversar com todos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Twitch",
+      "hint": "Plataforma roxa para transmissões de jogos ao vivo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Airbnb",
+      "hint": "Site para reservar casas e apartamentos para viajar",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Visa",
+      "hint": "Uma das maiores bandeiras de cartão de crédito do mundo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mastercard",
+      "hint": "Cartão de crédito com dois círculos coloridos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Shell",
+      "hint": "Posto de combustível com logo de concha amarela",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Toyota",
+      "hint": "Montadora japonesa de carros confiáveis",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ferrari",
+      "hint": "Carros vermelhos de luxo com cavalo no símbolo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

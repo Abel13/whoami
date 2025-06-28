@@ -1,0 +1,744 @@
+{
+  "key": "flores",
+  "emoji": "🌸",
+  "name": "Flores",
+  "background": "#FFB6C1",
+  "image": "flores",
+  "items": [
+    {
+      "name": "Rosa",
+      "hint": "Símbolo clássico do amor e muito presente em buquês",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Tulipa",
+      "hint": "Flor elegante, muito associada à Holanda",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Girassol",
+      "hint": "Grande e amarela, sempre virada para o sol",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lírio",
+      "hint": "Flor delicada, muitas vezes branca e perfumada",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Orquídea",
+      "hint": "Flor exótica com muitas variedades, muito usada em decoração",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Crisântemo",
+      "hint": "Flor de muitas pétalas, símbolo de respeito e saudade",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jasmim",
+      "hint": "Flor pequena e branca, muito perfumada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Lavanda",
+      "hint": "Flor roxa com aroma calmante muito usado em óleos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hortênsia",
+      "hint": "Flor arredondada, com cores que variam entre rosa, azul e lilás",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Camélia",
+      "hint": "Flor ornamental muito admirada no Japão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dália",
+      "hint": "Flor vibrante com pétalas em formato de espiral",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Amarílis",
+      "hint": "Flor alta e vistosa que floresce no Natal em algumas regiões",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Azaleia",
+      "hint": "Flor de arbusto que colore os jardins no outono e inverno",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cravo",
+      "hint": "Flor tradicional em celebrações e com aroma marcante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Peônia",
+      "hint": "Flor cheia de pétalas, símbolo de prosperidade",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Gérbera",
+      "hint": "Flor com aparência de margarida, mas maior e colorida",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Begônia",
+      "hint": "Flor ornamental que prefere sombra e umidade",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Petúnia",
+      "hint": "Flor comum em jardineiras e vasos pendentes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Violeta",
+      "hint": "Pequena, roxa ou azul, muito cultivada dentro de casa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Margarida",
+      "hint": "Flor branca com centro amarelo, símbolo da simplicidade",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hibisco",
+      "hint": "Flor tropical com pétalas grandes e vibrantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Costus",
+      "hint": "Flor exótica com formato espiral em tons vivos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Helicônia",
+      "hint": "Flor colorida e exótica parecida com bico de papagaio",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bromélia",
+      "hint": "Flor tropical muito usada em jardins e vasos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Alpinia",
+      "hint": "Flor vistosa usada em jardins tropicais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ave-do-Paraíso",
+      "hint": "Flor com forma de pássaro colorido",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Antúrio",
+      "hint": "Flor de folhas brilhantes em forma de coração",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bananeira Ornamental",
+      "hint": "Planta tropical com folhas grandes e decorativas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Calathea",
+      "hint": "Planta decorativa com folhas estampadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Maranta",
+      "hint": "Folhagem tropical com desenhos nas folhas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Costela-de-Adão",
+      "hint": "Planta famosa por suas folhas com furos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ixora",
+      "hint": "Flor de jardim com pequenas flores agrupadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jasmim-Manga",
+      "hint": "Flor perfumada comum em paisagens tropicais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Canna",
+      "hint": "Flor tropical com folhas largas e flores vibrantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caesalpinia",
+      "hint": "Flor ornamental com cores fortes e galhos finos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dente-de-Leão",
+      "hint": "Flor amarela que vira sopro com sementes voadoras",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Papoula",
+      "hint": "Flor colorida com pétalas delicadas e centros escuros",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Campânula",
+      "hint": "Flor em forma de sino que aparece em jardins",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Miosótis",
+      "hint": "Pequena flor azul conhecida como 'não-me-esqueças'",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dedaleira",
+      "hint": "Flor em forma de dedal usada para ornamentação",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Centáurea",
+      "hint": "Flor silvestre com tons de azul ou lilás",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Vinca",
+      "hint": "Flor pequena com pétalas em forma de hélice",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Verônica",
+      "hint": "Flor delicada de tons roxos ou azuis",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Margaridinha",
+      "hint": "Versão menor da margarida, muito fofa e popular",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Anêmona",
+      "hint": "Flor colorida com centro escuro e pétalas suaves",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Malva",
+      "hint": "Flor ornamental com pétalas roxas ou cor-de-rosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Trevo Florido",
+      "hint": "Trevo que produz pequenas flores brancas ou roxas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gerânio",
+      "hint": "Flor de vaso comum, com pétalas vivas e coloridas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Agerato",
+      "hint": "Flor com aparência felpuda em tons azulados",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cosmos",
+      "hint": "Flor simples e graciosa em tons vibrantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Camomila",
+      "hint": "Flor usada para fazer chá calmante",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Calêndula",
+      "hint": "Flor alaranjada usada em pomadas e chás",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Equinácea",
+      "hint": "Flor roxa que ajuda a fortalecer o sistema imunológico",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Alecrim",
+      "hint": "Erva aromática usada para tempero e memória",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Erva-doce",
+      "hint": "Usada para chá digestivo com sabor adocicado",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lavanda",
+      "hint": "Flor lilás com perfume relaxante",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Hortelã",
+      "hint": "Erva refrescante muito usada em chás e sobremesas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Capim-Limão",
+      "hint": "Erva usada para fazer chá com aroma de limão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Salvia",
+      "hint": "Erva medicinal com propriedades anti-inflamatórias",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tília",
+      "hint": "Flor usada em chás calmantes e para insônia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Passiflora",
+      "hint": "Planta do maracujá com efeito calmante",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Malva Cheirosa",
+      "hint": "Flor aromática usada em infusões para garganta",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mil-Folhas",
+      "hint": "Erva com folhas finas usada para combater cólicas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Arruda",
+      "hint": "Planta com cheiro forte usada para proteção espiritual",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Guaco",
+      "hint": "Planta usada para tratar tosse e bronquite",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Lótus",
+      "hint": "Flor aquática símbolo de pureza espiritual",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Rafflesia Arnoldii",
+      "hint": "Maior flor do mundo, tem cheiro desagradável",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-Cadáver",
+      "hint": "Flor rara que exala odor de carne podre",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Cera",
+      "hint": "Flor com pétalas que parecem feitas de cera",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-do-Medo",
+      "hint": "Flor com aparência exótica e nome assustador",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Rosa Negra de Halfeti",
+      "hint": "Rara rosa escura cultivada em uma vila da Turquia",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Orquídea-Fantasma",
+      "hint": "Flor branca que parece flutuar no ar",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Orquídea-Sapatinho",
+      "hint": "Flor com formato que lembra um sapatinho",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Protea-Rei",
+      "hint": "Flor sul-africana com aparência majestosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jade-Vermelha",
+      "hint": "Flor rara com coloração vermelho-intensa",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Magnólia",
+      "hint": "Flor perfumada de árvores antigas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Trombeta-de-Anjo",
+      "hint": "Flor pendente com formato de sino e efeito sedativo",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Cipó-de-São-João",
+      "hint": "Flor alaranjada que cobre muros no inverno",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Cactus",
+      "hint": "Flor que nasce em cactos e dura pouco tempo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Maio",
+      "hint": "Flor típica de maio que brota em folhas suculentas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vitória-Régia",
+      "hint": "Folha gigante da Amazônia que também dá uma linda flor",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Nenúfar",
+      "hint": "Flor aquática que flutua em lagos tranquilos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lótus",
+      "hint": "Flor sagrada que nasce em águas lamacentas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Iris-d’água",
+      "hint": "Flor vibrante que cresce perto de margens úmidas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Alface-d’água",
+      "hint": "Parece uma alface, mas flutua na água e também floresce",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sagittaria",
+      "hint": "Flor aquática com folhas em forma de flecha",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Pontederia",
+      "hint": "Flor azul que cresce em lagoas e brejos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Samambaia-d’água",
+      "hint": "Parece uma samambaia, mas vive boiando nos lagos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Aguapé",
+      "hint": "Flor roxa que cresce em rios e flutua nas águas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Lótus-Branca",
+      "hint": "Versão branca da famosa flor sagrada da água",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Impatiens",
+      "hint": "Flor colorida popular em jardins e floreiras",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Zínia",
+      "hint": "Flor resistente, muito usada em canteiros coloridos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Calibrachoa",
+      "hint": "Pequenas flores pendentes, parecidas com petúnias",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Kalanchoe",
+      "hint": "Flor miúda e durável, comum em vasos decorativos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Bougainvillea",
+      "hint": "Trepadeira cheia de flores coloridas, vista em muros e cercas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Alyssum",
+      "hint": "Flor delicada e aromática usada em bordas de jardim",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Lobélia",
+      "hint": "Flor azul vibrante usada em vasos e jardineiras",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Viola",
+      "hint": "Parecida com a violeta, com cores variadas e vibrantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Flor-de-Mel",
+      "hint": "Flor pequena e perfumada muito usada em jardins",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Snapdragon",
+      "hint": "Flor em forma de boca que se abre, muito divertida",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Coleus",
+      "hint": "Folhagem colorida que enfeita canteiros e vasos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Perpétua",
+      "hint": "Flor seca e durável usada em arranjos permanentes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ciclame",
+      "hint": "Flor ornamental com pétalas viradas para cima",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Gladiolo",
+      "hint": "Flor alta e elegante usada em arranjos florais",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Nigella",
+      "hint": "Flor delicada com folhas finas e sementes aromáticas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    }
+  ]
+}

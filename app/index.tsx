@@ -12,14 +12,18 @@ import {
 import { categories, CategoryOptions } from "../hooks/useCategoryOptions";
 import { MenuSlideIn } from "@/components/MenuSlideIn";
 import { Image } from "expo-image";
-import { useAmplitude } from "@/hooks/useAmplitude";
+import { useSettingsStore } from "@/hooks/useSettingsStore";
+import { DifficultySelector } from "@/components/organisms/DifficultySelector";
 
 export default function HomeScreen() {
   const { height } = Dimensions.get("window");
-  const { gameStarted } = useAmplitude();
+  const { gameDifficulty, setGameDifficulty } = useSettingsStore(
+    (store) => store
+  );
+
   const groupItems = (data) => {
     const grouped: CategoryOptions[][] = [];
-    for (let i = 0; i < data.length; i += 3) {
+    for (let i = 0; i < data?.length; i += 3) {
       grouped.push(data.slice(i, i + 3));
     }
     return grouped;
@@ -47,9 +51,8 @@ export default function HomeScreen() {
                 ]}
                 onPress={() => {
                   if (subItem.items.length > 0) {
-                    gameStarted(subItem.key);
                     router.navigate({
-                      pathname: "game",
+                      pathname: "/game",
                       params: { category: subItem.key },
                     });
                   }
@@ -61,7 +64,7 @@ export default function HomeScreen() {
                   </View>
                 )}
                 <Image
-                  source={subItem.image}
+                  source={{ uri: subItem.image }}
                   style={{ width: 70, height: 70 }}
                 />
                 <Text style={styles.buttonText}>{subItem.name}</Text>
@@ -74,6 +77,12 @@ export default function HomeScreen() {
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.flatListContent}
       />
+      <DifficultySelector
+        visible={gameDifficulty === null}
+        onSelect={(index) => {
+          setGameDifficulty(index);
+        }}
+      />
     </View>
   );
 }
@@ -81,6 +90,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#324",
   },
   flatListContent: {
     alignItems: "center",

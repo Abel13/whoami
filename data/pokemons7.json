@@ -1,0 +1,625 @@
+{
+  "key": "pokemons7",
+  "emoji": "🌺",
+  "name": "Pokémons 7ª geração (Alola)",
+  "background": "#FFB6C1",
+  "image": "pokemons7",
+  "items": [
+    {
+      "name": "Rowlet",
+      "hint": "Coruja iniciante de folhas e voo silencioso",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Dartrix",
+      "hint": "Coruja estilosa que arremessa penas afiadas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Decidueye",
+      "hint": "Coruja arqueira silenciosa com capuz de folhas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Litten",
+      "hint": "Gatinho de fogo preto e vermelho",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Torracat",
+      "hint": "Gato flamejante com sino de fogo no pescoço",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Incineroar",
+      "hint": "Gato lutador de wrestling com chamas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Popplio",
+      "hint": "Foca brincalhona que faz bolhas como truques",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Brionne",
+      "hint": "Foca elegante dançarina de bolhas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Primarina",
+      "hint": "Sereia cantora de trovões e luzes d’água",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pikipek",
+      "hint": "Pica-pau pequeno que bica troncos com ritmo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Trumbeak",
+      "hint": "Pássaro com bico sonoro, líder de ritmo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Toucannon",
+      "hint": "Tucano poderoso com bico que causa explosões",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Yungoos",
+      "hint": "Roedor atento que ronda vilarejos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gumshoos",
+      "hint": "Guardião com arrasto macio e olhar sério",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Grubbin",
+      "hint": "Larva elétrica que vive em troncos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Charjabug",
+      "hint": "Bug com recarga elétrica em forma de casca",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Vikavolt",
+      "hint": "Inseto voador elétrico com asas cortantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Crabrawler",
+      "hint": "Caranguejo lutador que dá soco com garra",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Crabominable",
+      "hint": "Caranguejo de montanha com punhos de gelo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Oricorio",
+      "hint": "Pássaro que troca de estilo com bebidas locais",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cutiefly",
+      "hint": "Inseto minúsculo e fofo que adora flores",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ribombee",
+      "hint": "Fada voadora que espalha pó de mel",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rockruff",
+      "hint": "Filhote de cão rochoso que late com bravura",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lycanroc",
+      "hint": "Cão-lobo de pedra com olhar feroz",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wishiwashi",
+      "hint": "Peixe que se une em cardume para virar poderoso",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mareanie",
+      "hint": "Estrela-do-mar venenosa com espinhos por todo corpo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Toxapex",
+      "hint": "Estrela-do-mar blindada de toxinas venenosas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Mudbray",
+      "hint": "Burro marrom que corre e carrega peso na lama",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mudsdale",
+      "hint": "Burro gigante e forte que estala cascos robustos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dewpider",
+      "hint": "Aranhinha aquática que vive em gotas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Araquanid",
+      "hint": "Aranha aquática gigante que esguicha água",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fomantis",
+      "hint": "Pequena planta que imita mov. de samurai",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lurantis",
+      "hint": "Flor guerreira colorida com lâminas afiadas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Morelull",
+      "hint": "Cogumelo minúsculo com luzes espalhadas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Shiinotic",
+      "hint": "Cogumelo brilhante que espalha esporos luminescentes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Salandit",
+      "hint": "Lagartixa venenosa com pele escorregadia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Salazzle",
+      "hint": "Lagarta venenosa sedutora e ardente",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Stufful",
+      "hint": "Ursinho fofo com olhar manso e força escondida",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bewear",
+      "hint": "Ursão musculoso que abraça com perigo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bounsweet",
+      "hint": "Fruta-pikeno vermelho que adora doces",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Steenee",
+      "hint": "Fruta alegre com folhinha na cabeça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tsareena",
+      "hint": "Rainha das frutas com chute real",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Comfey",
+      "hint": "Guirlanda viva de flores que abraça suavemente",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Oranguru",
+      "hint": "Macaco sábio que ensina com poder psíquico",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Passimian",
+      "hint": "Macaco jogador que lança pedras como times",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Wimpod",
+      "hint": "Inseto marinho que foge na primeira ameaça",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Golisopod",
+      "hint": "Inseto blindado de lâminas afiadas e postura firme",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sandygast",
+      "hint": "Esqueleto de areia que carrega um balde",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Palossand",
+      "hint": "Castelo de areia amaldiçoado que assusta na praia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pyukumuku",
+      "hint": "Estrela-do-mar que recusa qualquer coisa que entra nela",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Type: Null",
+      "hint": "Construção artificial com máscara misteriosa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Silvally",
+      "hint": "Criatura criada como tipo-lenda, usa máscara e mudanças de forma",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Minior",
+      "hint": "Asteroide brilhante que estilhaça para proteger núcleo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Komala",
+      "hint": "Coala que parece dormir o tempo todo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Turtonator",
+      "hint": "Tartaruga explosiva com casco de pólvora",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Togedemaru",
+      "hint": "Urso-porco elétrico todo enrolado",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mimikyu",
+      "hint": "Fantasma disfarçado de Pikachu para fazer amigos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bruxish",
+      "hint": "Peixe colorido com dentes afiados e olhar psicótico",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Drampa",
+      "hint": "Dragão calmo e bondoso que protege crianças",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dhelmise",
+      "hint": "Âncora viva com algas sombrias envolventes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Jangmo-o",
+      "hint": "Pequeno dragão escamoso com determinação feroz",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Hakamo-o",
+      "hint": "Dragão com escamas de samurai e golpes poderosos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Kommo-o",
+      "hint": "Dragão samurai com escamas metálicas flexíveis",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tapu Koko",
+      "hint": "Guardião elétrico da ilha com aura brilhante",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tapu Lele",
+      "hint": "Guardião PSÍQUICO com asas florais suaves",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tapu Bulu",
+      "hint": "Guardião grama com chifres poderosos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tapu Fini",
+      "hint": "Guardião água/fantasma com névoa mística",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cosmog",
+      "hint": "Pequeno ser gaseoso vindo do espaço",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cosmoem",
+      "hint": "Bolha cósmica densa que guarda energia estelar",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Solgaleo",
+      "hint": "Leão solar lendário que brilha no horizonte",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lunala",
+      "hint": "Morcego lunar lendário que abre asas de estrela",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Nihilego",
+      "hint": "Ultracriatura de aparência gelatinhosa",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Buzzwole",
+      "hint": "Inseto ultraforte com corpo musculoso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pheromosa",
+      "hint": "Inseto elegante e veloz com pernas longas",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Xurkitree",
+      "hint": "Torres elétricas ambulantes do ultraverso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Celesteela",
+      "hint": "Nave espacial com braços metálicos flutuantes",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Kartana",
+      "hint": "Folha cortante de papel afiado como lâmina",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Guzzlord",
+      "hint": "Monstro negro comedor do ultraverso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Necrozma",
+      "hint": "Cristal sombrio que absorve a luz",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Magearna",
+      "hint": "Autômato de metal com coração mecânico",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Marshadow",
+      "hint": "Sombra viva disfarçada em corpo lutador",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Poipole",
+      "hint": "Pequeno ultrabicho roxo que fascina com agilidade",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Naganadel",
+      "hint": "Dragão venenoso voador vindo do ultraverso",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Stakataka",
+      "hint": "Parede viva formada por blocos empilhados",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Blacephalon",
+      "hint": "Palhaço explosivo do ultraverso com cabeça que estoura",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Zeraora",
+      "hint": "Fera elétrica veloz com garras afiadas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Meltan",
+      "hint": "Corpo de metal líquido com porca na cabeça",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Melmetal",
+      "hint": "Gigante metálico criado da fusão de Meltans",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

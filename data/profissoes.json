@@ -1,0 +1,1115 @@
+{
+  "key": "profissoes",
+  "emoji": "💼",
+  "name": "Profissões",
+  "background": "#FF4500",
+  "image": "profissoes",
+  "items": [
+    {
+      "name": "Professor",
+      "hint": "Ensina em escolas e universidades",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Médico",
+      "hint": "Cuida da saúde das pessoas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Engenheiro",
+      "hint": "Cria pontes, prédios ou sistemas complexos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cientista",
+      "hint": "Estuda fenômenos e faz descobertas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Piloto",
+      "hint": "Conduz aviões pelo céu",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Programador",
+      "hint": "Cria softwares e aplicativos usando código",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Psicólogo",
+      "hint": "Ajuda as pessoas a entenderem seus sentimentos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Enfermeiro",
+      "hint": "Cuida dos pacientes em hospitais e clínicas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Dentista",
+      "hint": "Cuida da saúde dos dentes",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fisioterapeuta",
+      "hint": "Ajuda pessoas a recuperar movimentos do corpo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Nutricionista",
+      "hint": "Orienta sobre alimentação saudável",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Farmacêutico",
+      "hint": "Trabalha com medicamentos e fórmulas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Oftalmologista",
+      "hint": "Especialista na saúde dos olhos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Pediatra",
+      "hint": "Cuida da saúde de crianças e bebês",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Técnico de Enfermagem",
+      "hint": "Auxilia enfermeiros e médicos no cuidado aos pacientes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Terapeuta Ocupacional",
+      "hint": "Ajuda pessoas a recuperarem autonomia em suas atividades",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Cardiologista",
+      "hint": "Especialista em doenças do coração",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ortopedista",
+      "hint": "Cuida dos ossos e músculos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Dermatologista",
+      "hint": "Cuida da pele, unhas e cabelo",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Geriatra",
+      "hint": "Especialista na saúde dos idosos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ginecologista",
+      "hint": "Cuida da saúde íntima das mulheres",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Obstetra",
+      "hint": "Especialista em gravidez e parto",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Anestesista",
+      "hint": "Responsável por aplicar anestesia em cirurgias",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Psiquiatra",
+      "hint": "Trata distúrbios mentais com medicamentos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Endocrinologista",
+      "hint": "Trata problemas hormonais e metabólicos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Urologista",
+      "hint": "Especialista em rins e sistema urinário",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Cirurgião",
+      "hint": "Realiza operações médicas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Fonoaudiólogo",
+      "hint": "Trabalha com fala, voz e audição",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Podólogo",
+      "hint": "Especialista no cuidado dos pés",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Assistente Social",
+      "hint": "Ajuda pessoas a lidar com questões sociais e familiares",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Massoterapeuta",
+      "hint": "Alivia dores e tensões com massagens",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Quiropraxista",
+      "hint": "Realinha a coluna e o corpo com as mãos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Homeopata",
+      "hint": "Trata com medicamentos naturais em doses pequenas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Acupunturista",
+      "hint": "Usa agulhas para tratar dores e energias do corpo",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Artista Plástico",
+      "hint": "Cria obras como quadros, esculturas e instalações",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Designer Gráfico",
+      "hint": "Cria logotipos, cartazes e peças visuais",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Ilustrador",
+      "hint": "Desenha imagens para livros, revistas ou internet",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Fotógrafo",
+      "hint": "Capta momentos com uma câmera",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cinegrafista",
+      "hint": "Filma vídeos para cinema, TV ou internet",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Diretor de Arte",
+      "hint": "Coordena a parte visual de filmes, revistas ou anúncios",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Animador 2D",
+      "hint": "Cria animações desenhadas quadro a quadro",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Animador 3D",
+      "hint": "Dá vida a personagens digitais tridimensionais",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Editor de Vídeo",
+      "hint": "Monta cenas e cortes em vídeos e filmes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Diretor de Fotografia",
+      "hint": "Define iluminação e câmeras em uma produção",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Roteirista",
+      "hint": "Cria os diálogos e cenas de filmes e séries",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Designer de Moda",
+      "hint": "Cria roupas e coleções para o mundo fashion",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Designer de Interiores",
+      "hint": "Organiza e decora ambientes internos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Escultor",
+      "hint": "Modela obras com pedra, madeira ou argila",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Designer Industrial",
+      "hint": "Cria produtos como móveis, embalagens e eletrônicos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Curador de Arte",
+      "hint": "Seleciona e organiza exposições em museus e galerias",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Biólogo",
+      "hint": "Estuda os seres vivos e seus ecossistemas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Químico",
+      "hint": "Analisa substâncias e reações em laboratório",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Físico",
+      "hint": "Investiga as leis do universo e do movimento",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Matemático",
+      "hint": "Trabalha com números, fórmulas e teorias lógicas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Geógrafo",
+      "hint": "Estuda o espaço geográfico e suas transformações",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Arqueólogo",
+      "hint": "Investiga civilizações antigas por escavações",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Historiador",
+      "hint": "Analisa eventos do passado e suas causas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Antropólogo",
+      "hint": "Estuda culturas humanas e seus comportamentos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Sociólogo",
+      "hint": "Examina o funcionamento da sociedade",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Cientista Político",
+      "hint": "Estuda governos, eleições e sistemas políticos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Astrônomo",
+      "hint": "Observa estrelas, planetas e galáxias",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Geólogo",
+      "hint": "Investiga rochas, terremotos e formações da Terra",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Meteorologista",
+      "hint": "Faz previsões sobre o tempo e o clima",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Oceanógrafo",
+      "hint": "Estuda os mares, correntes e vida marinha",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Ecologista",
+      "hint": "Defende o equilíbrio entre humanos e natureza",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pesquisador",
+      "hint": "Busca novas descobertas científicas ou acadêmicas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Bioquímico",
+      "hint": "Estuda as substâncias químicas dos seres vivos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Geneticista",
+      "hint": "Analisa os genes e a hereditariedade dos organismos",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Engenheiro Nuclear",
+      "hint": "Trabalha com energia atômica e reatores",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Engenheiro Ambiental",
+      "hint": "Cria soluções sustentáveis para proteger o planeta",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Engenheiro Civil",
+      "hint": "Planeja e supervisiona grandes obras e construções",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Arquiteto",
+      "hint": "Cria projetos de casas, prédios e espaços urbanos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Pedreiro",
+      "hint": "Constrói paredes e estruturas com tijolos e cimento",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mestre de Obras",
+      "hint": "Coordena o time e garante que tudo siga o projeto da construção",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Carpinteiro",
+      "hint": "Trabalha com madeira em estruturas e acabamentos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Eletricista",
+      "hint": "Instala e cuida da fiação em casas e prédios",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Encanador",
+      "hint": "Resolve problemas de água, canos e esgoto",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pintor de Obras",
+      "hint": "Deixa as paredes e estruturas com boa aparência e cor",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Marceneiro",
+      "hint": "Faz móveis e objetos com madeira sob medida",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Serralheiro",
+      "hint": "Trabalha com metais em portões, grades e estruturas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Operador de Máquinas Pesadas",
+      "hint": "Usa tratores, escavadeiras e outros veículos em obras",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Técnico em Construção Civil",
+      "hint": "Auxilia engenheiros e arquitetos na execução das obras",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Topógrafo",
+      "hint": "Mede terrenos para projetos de construção e engenharia",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Soldador",
+      "hint": "Une metais com calor para formar estruturas resistentes",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Técnico em Edificações",
+      "hint": "Fiscaliza e executa obras conforme projetos e normas técnicas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Vendedor",
+      "hint": "Ajuda clientes a escolher e comprar produtos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Gerente de Loja",
+      "hint": "Cuida da equipe e do bom funcionamento de uma loja",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Representante Comercial",
+      "hint": "Visita empresas para oferecer produtos e fechar negócios",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Caixa",
+      "hint": "Recebe pagamentos e finaliza as compras dos clientes",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Estoquista",
+      "hint": "Organiza os produtos que ficam no estoque da loja",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Assistente de Vendas",
+      "hint": "Ajuda vendedores no atendimento e no suporte ao cliente",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Comprador",
+      "hint": "Responsável por escolher e adquirir produtos para revenda",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Supervisor de Vendas",
+      "hint": "Orienta os vendedores para bater metas e atender bem",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Diretor Comercial",
+      "hint": "Define as estratégias de vendas e lidera grandes equipes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Analista de E-commerce",
+      "hint": "Cuida de lojas virtuais, vendas online e marketing digital",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Corretor de Imóveis",
+      "hint": "Ajuda clientes a comprar, vender ou alugar casas e apartamentos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Corretor de Seguros",
+      "hint": "Vende seguros de carro, vida, saúde e outros",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Atendente de Call Center",
+      "hint": "Atende ligações para resolver problemas ou oferecer serviços",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Promotor de Vendas",
+      "hint": "Divulga produtos em lojas e eventos para atrair compradores",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Publicitário",
+      "hint": "Cria campanhas criativas para promover marcas e produtos",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Garçom",
+      "hint": "Leva comida e bebida até as mesas em restaurantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cozinheiro",
+      "hint": "Prepara as refeições em restaurantes ou casas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Chef de Cozinha",
+      "hint": "Comanda a equipe e cria pratos em restaurantes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Recepcionista",
+      "hint": "Recebe visitantes e atende telefonemas em empresas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Camareira",
+      "hint": "Limpa e organiza os quartos de hotéis",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Motorista",
+      "hint": "Conduz carros, ônibus ou caminhões",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Motoboy",
+      "hint": "Faz entregas rápidas usando uma moto",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Zelador",
+      "hint": "Cuida da manutenção e da segurança de prédios",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Faxineiro",
+      "hint": "Mantém os ambientes limpos e organizados",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Barman",
+      "hint": "Prepara e serve bebidas em bares e festas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Jardineiro",
+      "hint": "Cuida de plantas, gramas e flores em jardins",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Piscineiro",
+      "hint": "Limpa e trata a água de piscinas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Manicure",
+      "hint": "Cuida das unhas das mãos e dos pés",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cabeleireiro",
+      "hint": "Corta e arruma os cabelos das pessoas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Maquiador",
+      "hint": "Realça a beleza com produtos de maquiagem",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Esteticista",
+      "hint": "Cuida da pele e da aparência usando tratamentos especiais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cuidador de Idosos",
+      "hint": "Ajuda pessoas idosas com tarefas do dia a dia",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Babá",
+      "hint": "Cuida de crianças enquanto os pais estão ausentes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Segurança",
+      "hint": "Protege pessoas e locais contra ameaças",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Porteiro",
+      "hint": "Controla a entrada e saída de pessoas em prédios",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Advogado",
+      "hint": "Defende os direitos das pessoas na Justiça",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Juiz",
+      "hint": "Toma decisões em processos e dá sentenças",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Promotor de Justiça",
+      "hint": "Representa o Estado e acusa quem comete crimes",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Defensor Público",
+      "hint": "Ajuda quem não pode pagar um advogado",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Escrivão",
+      "hint": "Organiza e registra os documentos da polícia ou Justiça",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Policial",
+      "hint": "Trabalha para manter a segurança nas ruas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Delegado",
+      "hint": "Comanda investigações e delegacias",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Investigador",
+      "hint": "Busca pistas para resolver crimes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Agrônomo",
+      "hint": "Cuida da produção de alimentos e do solo nas fazendas",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Veterinário",
+      "hint": "Trata da saúde de animais",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Zootecnista",
+      "hint": "Trabalha com a criação e nutrição de animais de fazenda",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Técnico Agrícola",
+      "hint": "Ajuda no plantio, colheita e cuidados com o campo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pecuarista",
+      "hint": "Cria gado e outros animais para produção",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Produtor Rural",
+      "hint": "Responsável por plantações e criação de animais no campo",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Engenheiro Florestal",
+      "hint": "Trabalha com o cuidado e preservação das florestas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Apicultor",
+      "hint": "Cria abelhas e coleta mel",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Silvicultor",
+      "hint": "Cuida do cultivo e manejo de árvores para reflorestamento",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Operador de Máquinas Agrícolas",
+      "hint": "Usa tratores e colheitadeiras para trabalhar no campo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Astronauta",
+      "hint": "Profissional que viaja ao espaço e estuda o universo",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Militar",
+      "hint": "Trabalha nas forças armadas defendendo o país",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pastor",
+      "hint": "Líder religioso que guia os fiéis em igrejas evangélicas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Padre",
+      "hint": "Figura religiosa que celebra missas e orienta católicos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Monge",
+      "hint": "Pessoa que vive em oração e meditação, afastado da vida comum",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Escritor",
+      "hint": "Cria livros, histórias e textos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Poeta",
+      "hint": "Escreve versos e rimas com sentimentos e reflexões",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Jornalista",
+      "hint": "Investiga e compartilha notícias com o público",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Redator",
+      "hint": "Produz textos para anúncios, sites ou publicações",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Tradutor",
+      "hint": "Converte textos de um idioma para outro",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Editor",
+      "hint": "Revisa e prepara textos ou vídeos para publicação",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Revisor",
+      "hint": "Confere erros e melhora textos antes de serem publicados",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Locutor",
+      "hint": "Faz narrações para rádio, TV e eventos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Apresentador de TV",
+      "hint": "Conduz programas de televisão e entrevistas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "YouTuber",
+      "hint": "Cria vídeos para uma plataforma de vídeos famosa",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Streamer",
+      "hint": "Transmite jogos ou conteúdos ao vivo na internet",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Influenciador Digital",
+      "hint": "Usa redes sociais para criar conteúdo e influenciar pessoas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Coach",
+      "hint": "Ajuda pessoas a alcançarem metas pessoais ou profissionais",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Consultor de Imagem",
+      "hint": "Orienta sobre estilo e aparência pessoal",
+      "difficulty": "medium",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Personal Trainer",
+      "hint": "Profissional que orienta treinos e exercícios físicos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}

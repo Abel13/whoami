@@ -1,0 +1,1500 @@
+{
+  "key": "objetos",
+  "emoji": "🎒",
+  "name": "Objetos do Dia a Dia",
+  "background": "#FFD700",
+  "image": "objetos",
+  "items": [
+    {
+      "name": "Escova de Dentes",
+      "hint": "Usada todas as manhãs e noites para manter os dentes limpos",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave",
+      "hint": "Serve para abrir portas, gavetas e cadeados",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Copo",
+      "hint": "Usado para beber água, suco ou refrigerante",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Mochila",
+      "hint": "Carrega livros, roupas ou objetos do dia a dia",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Relógio",
+      "hint": "Mostra as horas e ajuda a não se atrasar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Celular",
+      "hint": "Dispositivo usado para fazer ligações, mandar mensagens e acessar a internet",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Carteira",
+      "hint": "Objeto usado para guardar dinheiro e documentos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Óculos",
+      "hint": "Usado para enxergar melhor ou proteger os olhos do sol",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bolsa",
+      "hint": "Usada para carregar objetos pessoais no dia a dia",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Fone de Ouvido",
+      "hint": "Usado para ouvir música ou atender chamadas com privacidade",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Carregador",
+      "hint": "Serve para recarregar a bateria de aparelhos eletrônicos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Guarda-chuva",
+      "hint": "Protege da chuva quando está aberto",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Caneta",
+      "hint": "Usada para escrever com tinta",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Lápis",
+      "hint": "Objeto comum em salas de aula para escrever ou desenhar",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Borracha",
+      "hint": "Apaga o que foi escrito a lápis",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Caderno",
+      "hint": "Contém folhas para escrever ou desenhar",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Livro",
+      "hint": "Contém histórias ou informações e é usado para leitura",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Revista",
+      "hint": "Publicação periódica com textos e imagens sobre vários temas",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Jornal",
+      "hint": "Traz notícias do dia em papel ou online",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bloco de Notas",
+      "hint": "Conjunto de folhas para anotar lembretes ou ideias",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Agenda",
+      "hint": "Usada para organizar compromissos e tarefas diárias",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cartão de Crédito",
+      "hint": "Pequeno e plástico, usado para pagar sem dinheiro físico",
+      "difficulty": "easy",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Documento de Identidade",
+      "hint": "Serve para comprovar quem você é",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Passaporte",
+      "hint": "Documento necessário para viajar para outros países",
+      "difficulty": "medium",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Máscara",
+      "hint": "Usada para proteger o rosto contra vírus e poluição",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Roupa",
+      "hint": "Vestem e protegem o corpo no dia a dia",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Panela",
+      "hint": "Usada para cozinhar alimentos no fogão",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Frigideira",
+      "hint": "Usada para fritar alimentos como ovos e carnes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Faca",
+      "hint": "Utensílio cortante usado na cozinha",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Garfo",
+      "hint": "Usado para espetar e comer alimentos",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Colher",
+      "hint": "Usada para comer líquidos ou mexer alimentos",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Prato",
+      "hint": "Superfície onde servimos alimentos",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Copo",
+      "hint": "Recipiente usado para beber líquidos",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Tigela",
+      "hint": "Recipiente fundo usado para líquidos ou saladas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pote de Vidro",
+      "hint": "Usado para armazenar alimentos, muitas vezes com tampa",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tábua de Corte",
+      "hint": "Superfície usada para cortar alimentos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Espremedor de Alho",
+      "hint": "Usado para moer dentes de alho sem precisar picar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ralador",
+      "hint": "Serve para transformar alimentos em tiras finas ou farelos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Abridor de Garrafa",
+      "hint": "Utilizado para remover tampas metálicas de garrafas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Saca-rolhas",
+      "hint": "Usado para remover rolhas de garrafas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Escumadeira",
+      "hint": "Usada para retirar alimentos de líquidos quentes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Espátula",
+      "hint": "Usada para virar ou mexer alimentos em panelas e frigideiras",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Concha",
+      "hint": "Utensílio com forma arredondada usado para servir líquidos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Coador",
+      "hint": "Usado para filtrar líquidos como café ou sucos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chaleira",
+      "hint": "Usada para esquentar água, geralmente para chá",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cafeteira",
+      "hint": "Prepara a bebida feita a partir de grãos torrados",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Liquidificador",
+      "hint": "Usado para bater e misturar ingredientes líquidos e sólidos",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Batedeira",
+      "hint": "Mistura e bate massas e ingredientes automaticamente",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Panela de Pressão",
+      "hint": "Cozinha os alimentos mais rápido, com tampa selada",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Aspirador de Pó",
+      "hint": "Limpa o chão e tapetes com sucção",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ferro de Passar",
+      "hint": "Serve para alisar roupas com calor",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Ventilador",
+      "hint": "Produz vento para refrescar o ambiente",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Martelo",
+      "hint": "Ferramenta usada para bater pregos ou quebrar coisas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave de Fenda",
+      "hint": "Ferramenta que gira parafusos com fenda",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Alicate",
+      "hint": "Serve para cortar, segurar ou torcer fios",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Serrote",
+      "hint": "Ferramenta de corte usada em madeira",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Furadeira",
+      "hint": "Usada para fazer buracos em paredes e madeira",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Parafusadeira",
+      "hint": "Ferramenta elétrica que aperta parafusos com rapidez",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Trena",
+      "hint": "Fita que mede comprimentos e distâncias",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Nível",
+      "hint": "Indica se uma superfície está reta e nivelada",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Broca",
+      "hint": "Peça que perfura ao ser acoplada à furadeira",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Plaina",
+      "hint": "Serve para alisar e nivelar madeira",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Esquadro",
+      "hint": "Garante ângulos retos em construções e medições",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Marreta",
+      "hint": "Martelo grande e pesado usado em demolições",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave Inglesa",
+      "hint": "Chave ajustável para diferentes tamanhos de porcas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave Allen",
+      "hint": "Ferramenta em forma de L usada em parafusos especiais",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pé de Cabra",
+      "hint": "Alavanca usada para abrir ou desmontar estruturas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Serra",
+      "hint": "Ferramenta que corta madeira, metal ou plástico",
+      "difficulty": "easy",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cortador de Grama",
+      "hint": "Máquina usada para aparar gramados",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Tesoura de Poda",
+      "hint": "Corta galhos e folhas de plantas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Rolo de Pintura",
+      "hint": "Serve para aplicar tinta em paredes de forma uniforme",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pincel",
+      "hint": "Utensílio para pintar superfícies menores ou detalhes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Colher de Pedreiro",
+      "hint": "Usada para aplicar e espalhar cimento ou argamassa",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Espátula de Massa",
+      "hint": "Serve para aplicar massa corrida em paredes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Corta-vergalhão",
+      "hint": "Ferramenta que corta barras de aço grossas",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Computador",
+      "hint": "Usado para estudar, trabalhar ou acessar a internet",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Notebook",
+      "hint": "Versão portátil de um computador",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tablet",
+      "hint": "Dispositivo com tela sensível ao toque, menor que um notebook",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Monitor",
+      "hint": "Tela que mostra imagens do computador",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mouse",
+      "hint": "Controla o ponteiro na tela do computador",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Teclado",
+      "hint": "Usado para digitar no computador",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Impressora",
+      "hint": "Usada para imprimir documentos e imagens",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Scanner",
+      "hint": "Digitaliza documentos e imagens para o computador",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Câmera Digital",
+      "hint": "Captura fotos e vídeos em alta qualidade",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Drone",
+      "hint": "Aparelho voador controlado remotamente",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Smartwatch",
+      "hint": "Relógio que se conecta ao celular",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Caixa de Som",
+      "hint": "Reproduz músicas e sons com mais volume",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Controle Remoto",
+      "hint": "Serve para mudar o canal da TV à distância",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Televisão",
+      "hint": "Aparelho para assistir filmes e programas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Console de Videogame",
+      "hint": "Equipamento usado para jogar jogos eletrônicos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Roteador",
+      "hint": "Distribui sinal de internet para vários aparelhos",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Modem",
+      "hint": "Conecta a internet à sua casa ou empresa",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Power Bank",
+      "hint": "Carrega o celular quando não há tomada por perto",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pen Drive",
+      "hint": "Dispositivo pequeno para guardar arquivos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "HD Externo",
+      "hint": "Armazena grandes quantidades de arquivos fora do computador",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Calculadora",
+      "hint": "Usada para fazer contas matemáticas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Projetor",
+      "hint": "Projeta imagens ou vídeos em uma parede ou tela",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Microfone",
+      "hint": "Capta a voz para gravações ou transmissões",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Webcam",
+      "hint": "Câmera usada em videochamadas e gravações",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Leitor de Cartão",
+      "hint": "Lê dados de cartões de memória ou bancários",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Bola",
+      "hint": "Objeto redondo usado em muitos esportes e brincadeiras",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Boneca",
+      "hint": "Brinquedo que representa uma pessoa, comum em brincadeiras de faz de conta",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Carrinho de Brinquedo",
+      "hint": "Miniatura de veículo usada por crianças",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Cubo Mágico",
+      "hint": "Brinquedo de lógica com cores que giram em todas as direções",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Urso de Pelúcia",
+      "hint": "Brinquedo macio em forma de animal, muito querido por crianças",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Quebra-cabeça",
+      "hint": "Jogo de montar imagens usando peças recortadas",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Jogo de Tabuleiro",
+      "hint": "Brincadeira com peças e dados sobre uma superfície ilustrada",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Videogame",
+      "hint": "Aparelho usado para jogar jogos eletrônicos na TV ou monitor",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Baralho",
+      "hint": "Conjunto de cartas usado em diversos jogos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Dominó",
+      "hint": "Peças com pontos pretos usadas em jogos de estratégia",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Pião",
+      "hint": "Brinquedo que gira sobre a ponta com impulso",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Slime",
+      "hint": "Massa pegajosa e maleável usada para brincar e apertar",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Brinquedo de Construção",
+      "hint": "Peças que se encaixam para montar estruturas e formas",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Patinete",
+      "hint": "Brinquedo de rodas para andar empurrando com o pé",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bicicleta",
+      "hint": "Veículo de duas rodas movido por pedais",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Skate",
+      "hint": "Prancha com rodas usada para manobras e locomoção",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Patins",
+      "hint": "Botas com rodas para deslizar sobre superfícies lisas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Boliche",
+      "hint": "Jogo onde se derrubam pinos com uma bola",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Flauta de Plástico",
+      "hint": "Instrumento musical infantil com som doce",
+      "difficulty": "medium",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Balão",
+      "hint": "Objeto leve e colorido cheio de ar ou gás, usado em festas",
+      "difficulty": "easy",
+      "minAge": 3,
+      "maxAge": 100
+    },
+    {
+      "name": "Brinquedo de Praia",
+      "hint": "Baldinhos, pás e moldes usados para brincar na areia",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Boneco de Ação",
+      "hint": "Boneco que representa heróis, personagens ou soldados",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Yo-Yo",
+      "hint": "Brinquedo com fio que sobe e desce girando",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Jogo de Dardos",
+      "hint": "Brincadeira onde se lança pontas em um alvo redondo",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Kit de Mágica",
+      "hint": "Conjunto de objetos para fazer truques e ilusionismo",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Violão",
+      "hint": "Instrumento de cordas muito usado em músicas acústicas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Guitarra",
+      "hint": "Versão elétrica do violão, comum no rock",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Baixo",
+      "hint": "Tem cordas grossas e faz sons graves em bandas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Piano",
+      "hint": "Tem teclas brancas e pretas, usado em músicas clássicas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Teclado Musical",
+      "hint": "Versão eletrônica do piano, com vários sons diferentes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bateria",
+      "hint": "Conjunto de tambores e pratos tocados com baquetas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Flauta",
+      "hint": "Instrumento de sopro fino e comprido, com sons suaves",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Violino",
+      "hint": "Instrumento de cordas tocado com arco, muito usado em orquestras",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Saxofone",
+      "hint": "Instrumento de sopro dourado, muito presente no jazz",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Clarinete",
+      "hint": "Instrumento preto e longo de sopro, com som suave",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Trompete",
+      "hint": "Instrumento de sopro metálico com som forte e agudo",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Trombone",
+      "hint": "Tem um tubo que desliza para fazer os sons",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Ukulele",
+      "hint": "Pequeno instrumento havaiano parecido com violão",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tambor",
+      "hint": "Tocado com as mãos ou baquetas, faz sons graves",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pandeiro",
+      "hint": "Instrumento de percussão com platinelas, usado no samba",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cavaquinho",
+      "hint": "Instrumento pequeno com cordas, típico do samba e do choro",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Harmônica",
+      "hint": "Instrumento pequeno de sopro, também chamado de gaita",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bandolim",
+      "hint": "Instrumento de cordas com formato arredondado e som delicado",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Oboé",
+      "hint": "Instrumento de sopro clássico com palheta dupla",
+      "difficulty": "hard",
+      "minAge": 12,
+      "maxAge": 100
+    },
+    {
+      "name": "Banjo",
+      "hint": "Instrumento com corpo redondo e som metálico, típico do bluegrass",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Grampeador",
+      "hint": "Usado para prender folhas de papel com pequenos grampos de metal",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Furador de Papel",
+      "hint": "Faz dois furinhos em folhas para colocá-las em pastas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Clipes",
+      "hint": "Pequenos arames dobrados para juntar papéis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Marcador de Texto",
+      "hint": "Caneta colorida usada para destacar palavras importantes",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lápis de Cor",
+      "hint": "Muito usado por crianças para desenhar e colorir",
+      "difficulty": "easy",
+      "minAge": 4,
+      "maxAge": 100
+    },
+    {
+      "name": "Tesoura",
+      "hint": "Serve para cortar papel, tecido ou outros materiais",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Régua",
+      "hint": "Serve para medir e desenhar linhas retas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Apontador",
+      "hint": "Deixa a ponta do lápis afiada para escrever ou desenhar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pasta de Documentos",
+      "hint": "Guarda folhas e papéis importantes organizados",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Calculadora",
+      "hint": "Ajuda a fazer contas sem usar lápis e papel",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Post-it",
+      "hint": "Papel colorido com cola fraca para recados e lembretes",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Carimbo",
+      "hint": "Deixa uma marca de tinta com uma palavra ou imagem",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Envelope",
+      "hint": "Embalagem de papel usada para enviar cartas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Fita Adesiva",
+      "hint": "Transparente ou colorida, usada para colar coisas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Fita Corretiva",
+      "hint": "Tira o erro do papel sem deixar tudo sujo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bloco Adesivo",
+      "hint": "Conjunto de folhas que grudam levemente, ideal para recados",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Caneta Marcadora",
+      "hint": "Caneta com tinta forte usada para escrever em superfícies como quadro branco ou caixas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Bicicleta",
+      "hint": "Veículo de duas rodas movido a pedais",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Skate",
+      "hint": "Prancha com rodinhas usada para manobras",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Patinete",
+      "hint": "Tem duas rodas e é empurrado com os pés",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Capacete",
+      "hint": "Protege a cabeça em atividades como andar de bicicleta",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Luva de Ciclista",
+      "hint": "Protege as mãos e dá firmeza ao guidão",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Corrente de Bicicleta",
+      "hint": "Liga os pedais à roda e faz a bicicleta andar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Lanterna para Bicicleta",
+      "hint": "Ajuda a enxergar e ser visto no escuro",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cadeado de Bicicleta",
+      "hint": "Serve para prender a bicicleta em locais públicos",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Buzina",
+      "hint": "Faz barulho para alertar outras pessoas na rua",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pneu de Reposição",
+      "hint": "Substitui o pneu velho ou furado da bicicleta ou carro",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Chave de Roda",
+      "hint": "Ferramenta usada para trocar o pneu do carro",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Triângulo de Sinalização",
+      "hint": "Usado para sinalizar o carro parado na estrada",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Macaco Hidráulico",
+      "hint": "Levanta o carro para trocar o pneu",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    },
+    {
+      "name": "Extintor de Incêndio",
+      "hint": "Serve para apagar pequenos focos de fogo",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Porta-malas",
+      "hint": "Parte do carro onde guardamos bagagens",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Vaso de Planta",
+      "hint": "Recipiente que sustenta plantas em ambientes internos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Quadro",
+      "hint": "Objeto pendurado na parede com pintura ou imagem",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Espelho",
+      "hint": "Reflete a imagem de quem está na frente",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cortina",
+      "hint": "Fica na janela ou porta para bloquear luz ou dar privacidade",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Tapete",
+      "hint": "Fica no chão e deixa a casa mais confortável e bonita",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Relógio de Parede",
+      "hint": "Fica pendurado e mostra as horas para todos verem",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Porta-Retrato",
+      "hint": "Guarda fotos especiais e fica sobre móveis",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Abajur",
+      "hint": "Luminária pequena que fica ao lado da cama ou no escritório",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Velas",
+      "hint": "Usadas para enfeitar e perfumar ambientes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Almofadas",
+      "hint": "Ficam no sofá ou cama e servem para apoiar ou enfeitar",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Estatueta",
+      "hint": "Pequena escultura usada para decorar ambientes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Cesto de Roupas",
+      "hint": "Usado para guardar roupas sujas antes da lavagem",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Mala",
+      "hint": "Usada para levar roupas e objetos em viagens",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bota",
+      "hint": "Calçado resistente, usado em trilhas ou dias frios",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Barraca",
+      "hint": "Abrigo montável usado para dormir em acampamentos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Balança",
+      "hint": "Serve para medir o peso de pessoas ou objetos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Caixa de Ferramentas",
+      "hint": "Usada para guardar e organizar ferramentas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Mochila",
+      "hint": "Usada para carregar objetos pessoais ou escolares",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Lanterna",
+      "hint": "Ilumina ambientes escuros com uma luz portátil",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bússola",
+      "hint": "Mostra a direção usando o campo magnético da Terra",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Saco de Dormir",
+      "hint": "Usado para dormir protegido e aquecido ao acampar",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Garrafa",
+      "hint": "Usada para armazenar e beber líquidos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Cantil",
+      "hint": "Recipiente usado para carregar água em trilhas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Binóculos",
+      "hint": "Usado para enxergar coisas distantes com clareza",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Chaveiro",
+      "hint": "Acessório para segurar e identificar chaves",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Toalha",
+      "hint": "Usada para se secar após o banho ou praia",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Estojo",
+      "hint": "Guarda lápis, canetas e outros materiais escolares",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Bandeira",
+      "hint": "Representa países ou grupos e tremula ao vento",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Sino",
+      "hint": "Emite som quando balançado, usado em cerimônias",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Cinto",
+      "hint": "Acessório usado para segurar calças na cintura",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pente",
+      "hint": "Usado para arrumar e desembaraçar os cabelos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Fio Dental",
+      "hint": "Limpador que alcança entre os dentes",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Saboneteira",
+      "hint": "Recipiente para guardar sabonete no banheiro",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Copo",
+      "hint": "Usado para beber água, suco ou outras bebidas",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Guarda-joias",
+      "hint": "Caixa usada para guardar anéis, colares e brincos",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Abridor de Cartas",
+      "hint": "Acessório que corta envelopes de forma elegante",
+      "difficulty": "hard",
+      "minAge": 14,
+      "maxAge": 100
+    }
+  ]
+}

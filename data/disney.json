@@ -1,0 +1,436 @@
+{
+  "key": "disney",
+  "emoji": "🏰",
+  "name": "Disney",
+  "background": "#FF69B4",
+  "image": "disney",
+  "items": [
+    {
+      "name": "Mickey Mouse",
+      "hint": "O camundongo mais famoso do mundo, símbolo da Disney",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Minnie Mouse",
+      "hint": "Namorada do rato mais famoso do mundo",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Pato Donald",
+      "hint": "Pato rabugento com um marinheiro como roupa",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Pateta",
+      "hint": "Amigo desajeitado com risada inconfundível",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Pluto",
+      "hint": "Cão amarelo fiel ao seu dono camundongo",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Tio Patinhas",
+      "hint": "Milionário pão-duro que adora nadar em moedas",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Zé Carioca",
+      "hint": "Papagaio malandro e carismático do Brasil",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Clarabela",
+      "hint": "Vaca elegante que vive nos desenhos do Mickey",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Horácio",
+      "hint": "Cavalo divertido e falante dos curtas do Mickey",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "João Bafo-de-Onça",
+      "hint": "O vilão grandalhão e encrenqueiro que vive atrapalhando o Mickey",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Professor Pardal",
+      "hint": "Inventor genial e excêntrico do universo do Tio Patinhas",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Branca de Neve",
+      "hint": "A princesa que mordeu uma maçã envenenada",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Cinderela",
+      "hint": "Perdeu um sapatinho de cristal no baile",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Aurora",
+      "hint": "Adormeceu após picar o dedo em uma roca",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Ariel",
+      "hint": "Princesa do mar que troca a voz por pernas",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Bela",
+      "hint": "Gosta de livros e vive uma história com uma fera",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Jasmine",
+      "hint": "Princesa de um reino árabe que voa em tapetes mágicos",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Pocahontas",
+      "hint": "Filha de um chefe indígena que ama a natureza",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Mulan",
+      "hint": "Se disfarçou de homem para lutar pelo pai",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tiana",
+      "hint": "Trabalhadora que vira sapo por causa de um beijo",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Rapunzel",
+      "hint": "Tem um cabelo mágico e muito, muito longo",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Anna",
+      "hint": "A irmã corajosa de uma princesa com poderes de gelo",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Elsa",
+      "hint": "Consegue congelar tudo ao seu redor",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Moana",
+      "hint": "Navegadora destemida escolhida pelo oceano",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Merida",
+      "hint": "Arqueira ruiva que desafia tradições",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Simba",
+      "hint": "O jovem leão que se torna rei",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Nala",
+      "hint": "Melhor amiga e futura rainha ao lado de Simba",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Mufasa",
+      "hint": "Pai de Simba, o rei sábio que aparece entre as nuvens",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Scar",
+      "hint": "Leão com cicatriz que deseja tomar o trono",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Timon",
+      "hint": "Suricata engraçado que vive com um javali",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Pumba",
+      "hint": "Javali com coração enorme e mau hálito",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Zazu",
+      "hint": "Pássaro mordomo que cuida da família real",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Rafiki",
+      "hint": "Babuíno sábio que mostra o caminho com frutas e bastão",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sarabi",
+      "hint": "Mãe de Simba e rainha da savana",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Kovu",
+      "hint": "Filhote treinado para vingar Scar, mas se apaixona por Kiara",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Simba",
+      "hint": "O jovem leão que se torna rei",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Nala",
+      "hint": "Melhor amiga e futura rainha ao lado de Simba",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Mufasa",
+      "hint": "Pai de Simba, o rei sábio que aparece entre as nuvens",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Scar",
+      "hint": "Leão com cicatriz que deseja tomar o trono",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Timon",
+      "hint": "Suricata engraçado que vive com um javali",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Pumba",
+      "hint": "Javali com coração enorme e mau hálito",
+      "difficulty": "easy",
+      "minAge": 5,
+      "maxAge": 100
+    },
+    {
+      "name": "Zazu",
+      "hint": "Pássaro mordomo que cuida da família real",
+      "difficulty": "medium",
+      "minAge": 7,
+      "maxAge": 100
+    },
+    {
+      "name": "Rafiki",
+      "hint": "Babuíno sábio que mostra o caminho com frutas e bastão",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Sarabi",
+      "hint": "Mãe de Simba e rainha da savana",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Kovu",
+      "hint": "Filhote treinado para vingar Scar, mas se apaixona por Kiara",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Maurice",
+      "hint": "Inventor excêntrico e pai amoroso que se perde na floresta",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Fifi",
+      "hint": "Empregada transformada em espanador com um charme irresistível",
+      "difficulty": "hard",
+      "minAge": 9,
+      "maxAge": 100
+    },
+    {
+      "name": "Monsieur D'Arque",
+      "hint": "Dono do asilo, manipulado por quem quer se livrar de um rival",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Sultão",
+      "hint": "Pai da princesa e governante simpático e distraído",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Iago",
+      "hint": "Papagaio sarcástico e barulhento, companheiro do vilão",
+      "difficulty": "medium",
+      "minAge": 9,
+      "maxAge": 100
+    },
+    {
+      "name": "Rajah",
+      "hint": "Tigre protetor e leal da princesa",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Hans",
+      "hint": "Príncipe com intenções nem tão nobres assim",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Oaken",
+      "hint": "Dono simpático de uma loja nas montanhas geladas",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Pabbie",
+      "hint": "O ancião dos trolls mágicos que ajuda com sabedoria",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+
+    {
+      "name": "Te Fiti",
+      "hint": "Deusa da criação que vira uma ilha exuberante",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tamatoa",
+      "hint": "Caranguejo gigante que vive em Lalotai, o mundo dos monstros",
+      "difficulty": "hard",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Hei Hei",
+      "hint": "Galo atrapalhado que embarca na jornada de Moana",
+      "difficulty": "easy",
+      "minAge": 6,
+      "maxAge": 100
+    },
+    {
+      "name": "Gramma Tala",
+      "hint": "Avó excêntrica e espiritual que guia Moana",
+      "difficulty": "medium",
+      "minAge": 8,
+      "maxAge": 100
+    },
+    {
+      "name": "Tui",
+      "hint": "Pai protetor e chefe da ilha de Motunui",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    },
+    {
+      "name": "Sina",
+      "hint": "Mãe de Moana que a apoia discretamente",
+      "difficulty": "medium",
+      "minAge": 10,
+      "maxAge": 100
+    }
+  ]
+}
