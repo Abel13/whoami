@@ -1,7 +1,7 @@
 export default {
   name: "Quem sou eu?",
   slug: "whoami",
-  version: "1.0.5",
+  version: "1.0.6",
   orientation: "landscape",
   icon: "./assets/images/icon.png",
   scheme: "whoami",
