@@ -20,7 +20,7 @@ export default {
       usesNonExemptEncryption: false,
     },
     infoPlist: {
-      ITSAppUsesNonExemptEncryption: true,
+      ITSAppUsesNonExemptEncryption: false,
       UIViewControllerBasedStatusBarAppearance: "NO",
       UIBackgroundModes: [],
       NSMicrophoneUsageDescription:
